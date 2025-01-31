@@ -1,4 +1,4 @@
-# web-wars
+# WebWars
 ## Team - Geeky Nomads
 ### Member List-
 * Shivam Kumar - Leader
