@@ -7,8 +7,8 @@ const Hero = () => {
   return (
     <div className='py-16 bg-cover bg-center bg-no-repeat' style={{ backgroundImage: "url('/logos/galgotias.png')" }}> 
     <motion.div 
-      initial={{ opacity: 0, x: 50 }} 
-      whileInView={{ opacity: 1, x: 0 }} 
+      initial={{ opacity: 0, y:-50 }} 
+      whileInView={{ opacity: 1, y: 0 }} 
       transition={{ duration: 0.5 }} 
       viewport={{ once: true }}
       className='h-auto mx-auto border-box flex flex-col lg:flex-row gap-10 lg:gap-0'>
@@ -32,8 +32,8 @@ const Hero = () => {
       </div>
     </motion.div>
     <motion.div 
-      initial={{ opacity: 0, x: -50 }} 
-      whileInView={{ opacity: 1, x: 0 }} 
+      initial={{ opacity: 0, y: 50 }} 
+      whileInView={{ opacity: 1, y: 0 }} 
       transition={{ duration: 0.5, delay: 0.2 }} 
       viewport={{ once: true }}
       className='h-auto mx-auto border-box mt-14 lg:mt-40 flex flex-col-reverse lg:flex-row gap-7 sm:gap-8 lg:gap-0'>

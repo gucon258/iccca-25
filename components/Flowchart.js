@@ -1,38 +1,62 @@
 'use client'
-import React, { useState } from 'react';
-import { categories } from '@/utils/slideArray';  // Importing categories from the external file
-import {motion} from 'framer-motion';
-import { ChevronDown } from 'lucide-react';
 
-const Flowchart = () => {
+import { useState } from "react";
+import { motion } from "framer-motion";
+import { ChevronDown, Component } from "lucide-react";
+import { categories } from "@/utils/slideArray"; // Import categories data
+import { chairs } from "@/utils/slideArray";
+
+export default function ConferenceDetails() {
   const [openCategory, setOpenCategory] = useState(null);
+  const [openChair, setOpenChair] = useState(null);
 
   const toggleCategory = (index) => {
     setOpenCategory(openCategory === index ? null : index);
   };
 
+  const toggleChair = (index) => {
+    setOpenChair(openChair === index ? null : index);
+  };
+
   return (
-    <motion.div 
-    initial={{ opacity: 0, y: 50 }} 
-    whileInView={{ opacity: 1, y: 0 }} 
-    transition={{ duration: 0.5 }} 
-    viewport={{ once: true }}
-     className="p-8 bg-white ">
-      <h1 className="text-3xl font-bold text-center mb-8">Conference Topics & Key Highlights</h1>
-      <div className="flex flex-col lg:flex-row gap-8">
-        
-        {/* Flowchart Section */}
-        <div className="flex-1 bg-white rounded-lg shadow-md p-4">
-          <h2 className="text-2xl font-semibold mb-4">Conference Topics Flowchart</h2>
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+      viewport={{ once: true }}
+      className="p-2 md:p-8 bg-white md:px-16"
+    >
+      {/* <h1 className="text-3xl font-bold text-center mb-8">Conference Topics & Key Highlights</h1> */}
+      <h1 className="relative w-fit tracking-tight text-balance py-2 font-bold !leading-tight text-gray-900 text-2xl md:text-6xl lg:text-7xl">
+  Conference Topics & 
+  <span
+    className="px-2 inline-block"
+    style={{
+      background: "linear-gradient(to right, #BE2727, #F96604)",
+      WebkitBackgroundClip: "text",
+      WebkitTextFillColor: "transparent",
+    }}
+  >
+    Key Highlights
+  </span>
+</h1>
+
+<div className="rounded-lg">
+
+      {/* Wrapper for side-by-side layout on desktop */}
+      <div className="flex flex-col md:flex-row gap-8">
+        {/* Conference Topics */}
+        <div className="flex-1 bg-white rounded-lg shadow-md md:p-4">
+      <h2 className="text-xl lg:text-2xl font-bold text-[#BE2727] mb-4 ">Conference Topics Flowchart</h2>
           <div className="space-y-4">
             {categories.map((category, index) => (
-              <div key={index} className="bg-gray-50 rounded-lg shadow">
+              <div key={index} className="bg-gray-50 rounded-lg shadow hover:scale-[1.02] transition-all">
                 <button
-                  className="w-full flex justify-between items-center p-4 text-lg font-medium text-left text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full flex justify-between items-center md:p-4 text-lg font-medium text-left text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 "
                   onClick={() => toggleCategory(index)}
                 >
-                  <span>{category.title}</span>
-                  <span>{openCategory === index ? '-' : <ChevronDown />}</span>
+                  <div className="p-4 md:p-0 flex items-center justify-center gap-2"><Component color="#BE2727" className="hidden md:block" /> {category.title}</div>
+                  <span>{openCategory === index ? '-' : <ChevronDown color="#BE2727" />}</span>
                 </button>
                 {openCategory === index && (
                   <div className="p-4 border-t border-gray-200">
@@ -48,7 +72,7 @@ const Flowchart = () => {
           </div>
         </div>
 
-        {/* Key Highlights Section */}
+        {/* Key Highlights */}
         <div className="flex-1 bg-white rounded-lg shadow-md p-4">
           <h2 className="text-2xl font-semibold mb-4">Key Highlights</h2>
           <ul className="space-y-4">
@@ -73,8 +97,7 @@ const Flowchart = () => {
           </ul>
         </div>
       </div>
+    </div>
     </motion.div>
   );
-};
-
-export default Flowchart;
+}
