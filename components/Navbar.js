@@ -11,7 +11,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gradient-to-r from-[#A43AA3] to-[#EE8A37] sticky top-0 z-50 w-full px-4 py-3 md:flex md:items-center md:justify-around">
+    <nav className="bg-gradient-to-r from-[#BE2727] to-[#F96604] sticky top-0 z-50 w-full px-4 py-3 md:flex md:items-center md:justify-around">
       {/* Logo Section */}
       <div className="flex justify-between items-center">
         <Image src={iccsailogo} alt="ICCSAI Logo" width={110} height={55}/>
