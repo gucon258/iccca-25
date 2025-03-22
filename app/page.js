@@ -14,8 +14,8 @@ import ScrollingLogos from "@/components/ScrollingLogos";
 export default function Home() {
   return (
     <>
-    <MaxWidthWrapper>
-    <Navbar/> 
+    
+    
     <Slider/>
     <Timeline/>
     <Banner/>
@@ -24,8 +24,8 @@ export default function Home() {
     <PersonSlider/>
     <Flowchart/>
     <ScrollingLogos/>
-    <Footer/>
-    </MaxWidthWrapper>
+    
+    
 
     </>
   );
