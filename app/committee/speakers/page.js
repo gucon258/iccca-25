@@ -1,55 +1,52 @@
+import React from "react";
 import { cards } from "@/utils/slideArray";
 
+const speakers = [
+  "Prof.(Dr.) S.N. Singh",
+  "Dr. Yogesh S. Chauhan",
+  "Prof. J. Ramkumar",
+  "Prof.(Dr.) Akshay Rathore",
+  "Dr. Hironori Washizaki",
+  "Prof. Sivaneasan Bala Krishnan",
+  "Dr. Liudong Xing",
+  "Dr. Harivardhagini Subhadra",
+  "Dr. Ahmed A. Elngar",
+  "Prof. Ts. Dr. Murali Raman",
+  "Dr. Rajeev Srivastava",
+  "Dr. Asheesh Kumar Singh"
+];
 
-export default function TeamPage() {
-    const roles = {
-      "Chief Patron": ["Shri Suneel Galgotia"],
-      "Patrons": [
-        "Dr Dhruv Galgotia",
-        "Prof.(Dr.) S.N. Singh",
-        "Prof.(Dr.) M.K. Babu Kayala",
-        "Ms. Aradhana Galgotia",
-      ],
-    };
-  
-  
-    return (
-      <div className="bg-gray-100 min-h-screen py-10 px-4">
-        <h1 className="text-center text-gray-900 text-4xl font-bold mb-8">Our Team</h1>
-        {Object.entries(roles).map(([role, names]) => (
-          <div key={role} className="mb-8">
-            <h2 className="text-2xl text-gray-800 font-bold text-center mb-4">{role}</h2>
-            <div className="flex flex-wrap justify-center gap-6">
-              {names.map((name) => {
-                const chair = cards.find((chair) => chair.name === name);
-                return (
-                  chair && (
-                    <div
-                      key={name}
-                      className="bg-gradient-to-b from-red-600 to-orange-500 text-white shadow-lg rounded-xl p-4 w-72 text-center transform transition duration-300 hover:scale-105"
-                    >
-                      {chair.imgSrc ? (
-                        <img
-                          src={chair.imgSrc}
-                          alt={name}
-                          className="w-32 h-32 mx-auto rounded-full border-4 border-white shadow-md"
-                        />
-                      ) : (
-                        <div className="w-32 h-32 mx-auto rounded-full border-4 border-white shadow-md bg-gray-300 flex items-center justify-center text-2xl font-bold">
-                          {name.charAt(0)}
-                        </div>
-                      )}
-                      <h2 className="text-xl font-bold mt-4">{name}</h2>
-                      <p className="font-medium">{chair.position}</p>
-                      <p className="text-sm">{chair.organization}</p>
-                    </div>
-                  )
-                );
-              })}
+
+export default function KeynoteSpeakers() {
+  return (
+    <div className="py-6">
+      <h2 className="text-center text-3xl font-bold">Keynote Speakers</h2>
+      <p className="text-center text-gray-600 mb-6">
+        International Conference on Computing, Systems, and AI
+      </p>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
+        {speakers.map((speakerName, index) => {
+          const speakerDetails = cards.find((card) => card.name === speakerName);
+          if (!speakerDetails) return null;
+          return (
+            <div
+              key={index}
+              className="bg-white rounded-xl p-6 text-center shadow-lg border-2 border-red-500"
+            >
+              <img
+                className="w-32 h-32 mx-auto rounded-full border-4 border-orange-400 "
+                src={speakerDetails.imgSrc || "/reshot-icon-user-ZXFJAEQURK.svg"}
+                alt={speakerDetails.name}
+              />
+              <h3 className="text-xl font-semibold text-red-600 mt-4">
+                {speakerDetails.name}
+              </h3>
+              <p className="text-gray-700 mt-2 font-medium">{speakerDetails.position}</p>
+              <p className="text-gray-500 text-sm">{speakerDetails.organization}</p>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
-    );
-  }
-  
+    </div>
+  );
+}
