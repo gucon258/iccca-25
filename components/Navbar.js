@@ -158,17 +158,17 @@ const Navbar = () => {
 
               {/* Dropdown Menu */}
               <div
-                className={`absolute left-0 mt-2 w-48 bg-gray-800 text-white rounded-md shadow-lg transition-all duration-200 ease-in-out ${
+                className={`absolute left-0 mt-2 w-48 bg-gray-200 text-black rounded-md shadow-lg transition-all duration-200 ease-in-out ${
                   isDropdownOpen
                     ? "opacity-100 visible translate-y-0"
                     : "opacity-0 invisible -translate-y-2"
                 }`}
               >
                 <Link href="/committee/members">
-                  <div className="px-4 py-2 hover:bg-gray-700 rounded-t-md">Members</div>
+                  <div className="px-4 py-2 hover:bg-gray-300 rounded-t-md">Members</div>
                 </Link>
                 <Link href="/committee/speakers">
-                  <div className="px-4 py-2 hover:bg-gray-700 rounded-b-md">Speakers</div>
+                  <div className="px-4 py-2 hover:bg-gray-300 rounded-b-md">Speakers</div>
                 </Link>
               </div>
             </li>
