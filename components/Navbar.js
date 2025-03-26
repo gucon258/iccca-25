@@ -42,7 +42,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo Section */}
         <div className="flex items-center">
-        <Link href="/#"><Image src={iccsailogo} alt="ICCSAI Logo" width={110} height={55}/></Link>
+        <Link href="/#"><Image src={iccsailogo} alt="ICCSAI Logo" width={225} height={55}/></Link>
         </div>
 
         {/* Hamburger Icon for Mobile */}
@@ -116,6 +116,11 @@ const Navbar = () => {
                     ICCSAI-2023
                   </li>
                 </Link>
+                <Link href="/forAuthors">
+              <li className="text-white hover:text-gray-200 transition-colors duration-200">
+                For Authors
+              </li>
+            </Link>
               </ul>
 
               {/* Submit Button in Mobile Menu */}
@@ -184,6 +189,11 @@ const Navbar = () => {
             >
               <li className="text-white hover:text-gray-200 transition-colors duration-200">
                 ICCSAI-2023
+              </li>
+            </Link>
+            <Link href="/forAuthors">
+              <li className="text-white hover:text-gray-200 transition-colors duration-200">
+                For Authors
               </li>
             </Link>
           </ul>
