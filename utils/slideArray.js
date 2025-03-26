@@ -130,6 +130,10 @@ export const chairs = [
     "chairpersons": []
   },
   {
+    "title": "Emerging Electrical and Electronic Technologies for Innovations, and Energy and Environmental Sustainability",
+    "chairpersons": []
+  },
+  {
     "title": "Immersive Futures: Merging Realities with Intelligent Systems",
     "chairpersons": [
       "Dr. Bhanu Sharma, Chitkara University, Punjab, India",
@@ -330,7 +334,7 @@ export const cards = [
     name: "Dr. V. Khemchandani",
     position: "Dean, SCAT",
     organization: "Galgotias University, India",
-    imgSrc: "/ImportantPersons/Vinod_KU.jpg",
+    imgSrc: "/ImportantPersons/khemchandani.webp",
   },
   {
     name: "Dr. Anurag Singh",

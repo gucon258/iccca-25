@@ -41,7 +41,7 @@ export default function ChairsFlowchart() {
           className="text-2xl font-bold text-[#024CAD] text-left focus:outline-none focus:ring-2 focus:ring-blue-500"
           onClick={toggleFlowchart}
         >
-          Chairs Flowchart
+          Conference Tracks
         </button>
         <button
           className="p-2 text-gray-700 focus:outline-none  rounded-full"
