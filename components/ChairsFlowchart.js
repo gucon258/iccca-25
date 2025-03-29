@@ -52,6 +52,13 @@ export default function ChairsFlowchart() {
       </div>
 
       {isFlowchartOpen && (
+        <>
+        <button
+          className="text-2xl font-bold text-red-600 text-left focus:outline-none focus:ring-2 focus:ring-blue-500"
+          onClick={toggleFlowchart}
+        >
+          Main Track: ICCSAI2025
+        </button>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {chairs.map((category, index) => (
             <div key={index} className="bg-gray-50 rounded-lg shadow">
@@ -78,6 +85,7 @@ export default function ChairsFlowchart() {
             </div>
           ))}
         </div>
+        </>
       )}
     </motion.div>
   );
