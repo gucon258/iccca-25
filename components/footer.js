@@ -16,7 +16,7 @@ const Footer = () => {
             </p>
             </div>
           </div>
-          <div><img  src="/logos/gufooter.png" alt="gu logo" className='h-1/2 md:h-fullw-full'/></div>
+          <div><img  src="https://res.cloudinary.com/dgna3swph/image/upload/v1738944245/ieee-logo_ow9dwc.png" alt="gu logo" className='h-1/2 md:h-fullw-full'/></div>
         </div>
         <div className='flex gap-20 p-5 w-full  md:w-1/3'>
         <div className="w-full"> {/* Middle Column */}

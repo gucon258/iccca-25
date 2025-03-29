@@ -10,6 +10,7 @@ import PersonSlider from "@/components/PersonSlider";
 import ChairsFlowchart from "@/components/ChairsFlowchart";
 import Footer from "@/components/footer";
 import ScrollingLogos from "@/components/ScrollingLogos";
+import TouristAttractions from "@/components/TouristAttractions";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
     <PersonSlider/>
     <Flowchart/>
     <ScrollingLogos/>
+    <TouristAttractions/>
     
     
 
