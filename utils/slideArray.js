@@ -259,13 +259,13 @@ export const cards = [
     imgSrc: "/ImportantPersons/snsingh.png",
   },
   {
-    name: "Dr Dhruv Galgotia",
+    name: "Dr. Dhruv Galgotia",
     position: "CEO",
     organization: "Galgotia University India",
     imgSrc: "/ImportantPersons/dhruvSir 2.png", // Replace with actual image paths
   },
   {
-    name: "Prof.(Dr.) M.K. Babu Kayala",
+    name: "Prof.(Dr.) K.M. Babu",
     position: "VC",
     organization: "Galgotias University, India",
     imgSrc: "/ImportantPersons/mkbabu.png",
@@ -278,20 +278,20 @@ export const cards = [
   },
 {
     name: "Dr. Yogesh S. Chauhan",
-    position: "Professor",
-    organization: "Indian Institute of Technology Kanpur",
+    position: "Professor, Chair",
+    organization: "Indian Institute of Technology Kanpur, IEEE UP Section",
     imgSrc: "/ImportantPersons/yogesh.png",
   },
   {
     name: "Prof.(Dr.) Avadhesh Kumar",
-    position: "Pro-VC",
-    organization: "Galgotias University, India",
+    position: "Pro-VC, Vice Chair",
+    organization: "Galgotias University, IEEE UP Section",
     imgSrc: "/ImportantPersons/avadhesh.png",
   },
   {
     name: "Dr. Aanjey M. Tripathi",
     position: "Professor",
-    organization: "Galgotias University,India",
+    organization: "Galgotias University, India",
     imgSrc: "/ImportantPersons/aanjeymanitripathi.jpg",
   },
   {
@@ -412,11 +412,15 @@ export const cards = [
     organization: "Galgotias University, India"
   },
   {
-    name: "Dr. Sachi Mall",
+    name: "Dr. Shachi Mall",
     organization: "Galgotias University, India"
   },
   {
     name: "Dr. Ajeet Singh",
+    organization: "Galgotias University, India"
+  },
+  {
+    name: "Dr. Aditya Nath Bhatt",
     organization: "Galgotias University, India"
   },
   {
@@ -448,11 +452,19 @@ export const cards = [
     organization: "Galgotias University, India"
   },
   {
+    name: "Prof. Manish Kumar",
+    organization: "Galgotias University, India"
+  },
+  {
     name: "Mr. Pankaj Lamba",
     organization: "Galgotias University, India"
   },
   {
     name: "Prof. AR Pandey",
+    organization: "Galgotias University, India"
+  },
+  {
+    name: "Ms. Trapti Shrivastava",
     organization: "Galgotias University, India"
   },
   {
@@ -698,6 +710,12 @@ export const cards = [
     position: "Sharda University",
     organization: "Greater Noida, India"
   },
+  {
+    name: "Chin Kuan Ho",
+    position: "Vice Chanceller",
+    organization: "APU",
+    imgSrc: "/ImportantPersons/chin.jpeg"
+  },
   
   {
     name: "Dr. Savita Yadav",
@@ -743,6 +761,47 @@ export const cards = [
   {
     name: "Prof. R.P. Yadav",
     organization: "Galgotias University, Greater Noida, India"
+  },
+  {
+    name: "Prof. (Dr.) S Srinivasan",
+    organization: "Galgotias University, Greater Noida, India"
+  },
+  {
+    name: "Dr. V.D.S. Baghela",
+    organization: "Galgotias University, Greater Noida, India"
+  },
+  {
+    name: "Ayush Raj",
+    position: "Student",
+    organization:"Galgotias College of Engineering and Technology"
+  },
+  {
+    name: "Gaurang Pant",
+    position: "Student",
+    organization:"Galgotias University"
+  },
+  {
+    name: "Shivam Kumar",
+    position: "Student",
+    organization:"Galgotias University"
+  },{
+    name: "Hemendra Harsh",
+    position: "Student"
+  },
+  {
+    name: "Dr. P.S. Yadav",
+    position:"Board Hub Technical Education"
+  },{
+    name:"Dr. Shailesh Kumar",
+    organization:"MMMUT, Gorakhpur"
+  },
+  {
+    name:"Dr. Swapnita Srivastava",
+    organization:"MMMUT, Gorakhpur"
+  },
+  {
+    name:"Dr. Vipul Narayan",
+    organization:"MMMUT, Gorakhpur"
   },
   {
     name: "Dr. Arvind Kumar",
@@ -801,7 +860,6 @@ export const cards = [
   
   {
     name: "Prof. SPS Chauhan",
-    organization: "Sharda University, Greater Noida, India"
   },
   
   {
@@ -866,6 +924,45 @@ export const cards = [
     position: "Dean (Planning)",
     organization: "IIT Kanpur, India",
     imgSrc: "/ImportantPersons/ramkumar.jpg",
+  }
+  ,{
+    name: "Dr. S.N.Singh"
+  }
+  ,{
+    name: "Dr. Hironori Washizaki"
+  }
+  ,{
+    name: "Dr.Akshay Kumar Rathore"
+  }
+  ,{
+    name: "Dr. Sivaneasan Bala Krishnan"
+  }
+  ,{
+    name: "Dr. Rajeev Srivastava"
+  }
+  ,{
+    name: "Dr. Anil Kumar Tripathi"
+  }
+  ,{
+    name: "Prof. Asheesh Kumar"
+  }
+  ,{
+    name: "Dr. Mohammad Rihan"
+  }
+  ,{
+    name: "Dr. Rajeev Kumar Singh"
+  }
+  ,{
+    name: "Dr. Prabhakar Tiwari"
+  }
+  ,{
+    name: "Dr. Harivardhagini Subhadra"
+  }
+  ,{
+    name: "Dr. Rakesh Kumar"
+  }
+  ,{
+    name: "Dr. Varun Kakar"
   }
 ];
 
