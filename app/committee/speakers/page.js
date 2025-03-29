@@ -5,15 +5,23 @@ const speakers = [
   "Prof.(Dr.) S.N. Singh",
   "Dr. Yogesh S. Chauhan",
   "Prof. J. Ramkumar",
-  "Prof.(Dr.) Akshay Rathore",
+  "Prof.(Dr.) Akshay Rathore","Chin Kuan Ho",
   "Dr. Hironori Washizaki",
   "Prof. Sivaneasan Bala Krishnan",
-  "Dr. Liudong Xing",
   "Dr. Harivardhagini Subhadra",
-  "Dr. Ahmed A. Elngar",
-  "Prof. Ts. Dr. Murali Raman",
   "Dr. Rajeev Srivastava",
-  "Dr. Asheesh Kumar Singh"
+  "Dr. Asheesh Kumar Singh",
+  "Dr. S.N.Singh",
+"Dr. Hironori Washizaki",
+"Dr.Akshay Kumar Rathore",
+"Dr. Sivaneasan Bala Krishnan",
+"Dr. Anil Kumar Tripathi",
+"Prof. Asheesh Kumar",
+"Dr. Mohammad Rihan",
+"Dr. Rajeev Kumar Singh",
+"Dr. Prabhakar Tiwari",
+"Dr. Rakesh Kumar",
+"Dr. Varun Kakar"
 ];
 
 

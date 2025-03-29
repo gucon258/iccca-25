@@ -92,7 +92,7 @@ const Navbar = () => {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.3 }}
-              className="lg:hidden fixed left-0 top-[60px] w-full h-screen bg-gradient-to-r from-[#BE2727] to-[#F96604] overflow-y-auto" // Changed from md:hidden to lg:hidden
+              className="lg:hidden fixed left-0 top-[60px] w-full  bg-gradient-to-r from-[#BE2727] to-[#F96604] overflow-y-auto" // Changed from md:hidden to lg:hidden
             >
               <ul className="flex flex-col gap-6 font-semibold text-center p-8">
                 <li>
@@ -122,7 +122,7 @@ const Navbar = () => {
                         initial={{ opacity: 0, height: 0 }}
                         animate={{ opacity: 1, height: 'auto' }}
                         exit={{ opacity: 0, height: 0 }}
-                        transition={{ duration: 0.3 }}
+                        transition={{ duration: 0.6 }}
                         className="w-full bg-gray-800 text-white rounded-md shadow-lg mt-2 overflow-hidden"
                       >
                         <Link href="/committee/members" onClick={closeMenu}>
@@ -199,7 +199,7 @@ const Navbar = () => {
 
               {/* Dropdown Menu */}
               <div
-                className={`absolute left-0 mt-2 w-48 bg-gray-200 text-black rounded-md shadow-lg transition-all duration-200  ease-in-out ${
+                className={`absolute top-4 -left-1 mt-2 w-48 bg-gray-200 text-black rounded-md shadow-lg transition-all duration-800  ease-in-out ${
                   isDropdownOpen
                     ? "opacity-100 visible translate-y-0"
                     : "opacity-0 invisible -translate-y-2 pointer-events-none"

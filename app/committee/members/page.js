@@ -5,9 +5,9 @@ export default function TeamPage() {
   const roles = {
     "Chief Patron": ["Shri Suneel Galgotia"],
     "Patrons": [
-      "Dr Dhruv Galgotia",
+      "Dr. Dhruv Galgotia",
       "Prof.(Dr.) S.N. Singh",
-      "Prof.(Dr.) M.K. Babu Kayala",
+      "Prof.(Dr.) K.M. Babu",
       "Ms. Aradhana Galgotia",
     ],
     "Conference General Chair": [
@@ -27,12 +27,12 @@ export default function TeamPage() {
     "Conference Technical Chair": [
       "Dr. Suneeta Yadav",
       "Dr. V. Khemchandani",
-      "Dr. Anurag Singh",
-      "Dr. Arvind Panwar"
+      "Prof. Manish Kumar"
     ],
     "Publication Chairs": [
       "Prof. Shrddha Sagar",
-      "Prof. Ashok K. Yadav"
+     "Dr. Aditya Nath Bhatt",
+     "Prof. (Dr.) S Srinivasan"
     ],
     "Conference Organizing Co-Chairs": [
       "Prof. Meenakshi Awasthi",
@@ -41,7 +41,7 @@ export default function TeamPage() {
     ],
     "Conference Technical Co-Chairs": [
       "Prof. Ravi Sharma",
-      "Prof. Tarun Kumar",
+      "Ms. Trapti Shrivastava",
       "Dr. Manish Kumar",
       "Dr. Sonu Jha",
       "Dr. Sunil Kumar"
@@ -57,14 +57,15 @@ export default function TeamPage() {
       "Prof. N. Partheeban"
     ],
     "Publication Co-Chairs": [
-      "Dr. Sachi Mall",
+      "Dr. Shachi Mall",
       "Dr. Ajeet Singh"
     ],
     "Publicity Chairs": [
       "Prof. Ravi Sharma"
     ],
     "Sponsorship & Industry Chairs": [
-      "Prof. Vipul Narayan Srivastava"
+      "Prof. Vipul Narayan Srivastava",
+      "Dr. V.D.S. Baghela"
     ],
     "Event Organising Chair": [
       "Dr. Pragya Tewari",
@@ -72,13 +73,17 @@ export default function TeamPage() {
       "Dr. Pooja Singh"
     ],
     "Finance Chairs": [
-      "Prof. E. Rajesh"
+      "Prof. Ashok K. Yadav"
     ],
     "Transport Chairs": [
       "Prof. T. Ganesh Kumar"
     ],
     "Website & Graphics Chairs": [
-      "Mr. Pankaj Lamba"
+      "Mr. Pankaj Lamba",
+      "Ayush Raj",
+      "Gaurang Pant",
+      "Hemendra Harsh",
+      "Shivam Kumar"
     ],
     "Media Chairs": [
       "Prof. AR Pandey"
@@ -111,7 +116,9 @@ export default function TeamPage() {
       "Prof. Utkal Mehta",
       "Dr. Shafiq Ul Rehman",
       "Prof. Mohammad Rashid Hussain",
-      "Prof. Deepak L. Waikar"
+      "Prof. Deepak L. Waikar",
+      "Prof. E. Rajesh",
+      "Prof.(Dr.) Akshay Rathore"
     ],
     "National Advisory Committee": [
       "Prof. Adarsh Anand",
@@ -133,14 +140,12 @@ export default function TeamPage() {
       "Dr. Vimal Kumar Singh Yadav",
       "Prof. Karuna Kadian",
       "Dr. Satish Chandra",
-      "Prof. Anil Kumar Sagar",
       "Dr. Savita Yadav",
       "Prof. Anurag Diwedi",
-      "Prof. Deependra Rastogi",
       "Prof. N. Gayathri",
       "Prof. S. Rakesh Kumar",
       "Prof. Anoop Kumar Patel",
-      "Prof. R.P. Yadav"
+      "Dr. P.S. Yadav"
     ],
     "Technical Program Committee": [
       "Dr. Arvind Kumar",
@@ -155,7 +160,10 @@ export default function TeamPage() {
     "Prof. Alok Katiyar",
     "Prof. Dilip Yadav",
     "Prof. SPS Chauhan",
-    "Prof. Vandana Sharma"
+    "Prof. Vandana Sharma",
+    "Dr. Shailesh Kumar",
+    "Dr. Swapnita Srivastava",
+    "Dr. Vipul Narayan"
     ]
   };
 

@@ -14,7 +14,7 @@ const PersonSlider = () => {
   return (
     <div className="overflow-hidden bg-gray-100 py-6">
       <h1 className="relative text-center tracking-tight text-balance pb-6 font-bold !leading-tight text-gray-900 text-lg md:text-xl lg:text-2xl">
-  Commitee Members
+  Committee Members
 </h1>
       <div className="flex w-max animate-scroll space-x-16" style={{
     animation: 'scroll 60s linear infinite',
