@@ -1,0 +1,290 @@
+const scheduleData4 =[
+  { 
+    "session": "Technical Session-9", 
+    "id": 97, 
+    "title": "SecureVote: Enhancing Electoral Integrity Using AI&DS Blockchain-Based E-Voting", 
+    "presenter": "Rhythm Garg", 
+    "track": "Track-4: Innovative and Disruptive Technologies",
+    "room": "AI&DS Block-105" 
+  },
+  { 
+    "session": "Technical Session-9", 
+    "id": 437, 
+    "title": "Pattern Matching of Gene Sequencing using LCS and String-Matching Algorithms", 
+    "presenter": "Shachi Mall", 
+    "track": "Track-5: Recent Trends and Innovations in Generative AI",
+    "room": "AI&DS Block-105" 
+  },
+  { 
+    "session": "Technical Session-9", 
+    "id": 510, 
+    "title": "Innovative approaches of Data Extraction and Bulk messaging on WhatsApp using RPA", 
+    "presenter": "Parth Pachauri", 
+    "track": "Track-5: Recent Trends and Innovations in Generative AI",
+    "room": "AI&DS Block-105" 
+  },
+  { 
+    "session": "Technical Session-9", 
+    "id": 561, 
+    "title": "Basics: A Lightweight Interpreted Language for Streamlined Mobile Development", 
+    "presenter": "Dhruv", 
+    "track": "Track-4: Innovative and Disruptive Technologies",
+    "room": "AI&DS Block-105" 
+  },
+  { 
+    "session": "Technical Session-9", 
+    "id": 1052, 
+    "title": "Smart Hostel Booking System for Efficient Room Allocation and Management", 
+    "presenter": "Siddharth Kumar Yadav", 
+    "track": "Track-4: Innovative and Disruptive Technologies",
+    "room": "AI&DS Block-105" 
+  },
+  { 
+    "session": "Technical Session-9", 
+    "id": 1122, 
+    "title": "Lung Cancer Detection with Privacy Preservation Using Federated Learning", 
+    "presenter": "Jyoti Kumari", 
+    "track": "Track-4: Innovative and Disruptive Technologies",
+    "room": "AI&DS Block-105" 
+  },
+  { 
+    "session": "Technical Session-9", 
+    "id": 1507, 
+    "title": "SOLAR WIRELESS ELECTRIC VEHICLE CHARGING SYSTEM", 
+    "presenter": "Pratibha Jha", 
+    "track": "Track-4: Innovative and Disruptive Technologies",
+    "room": "AI&DS Block-105" 
+  },
+  { 
+    "session": "Technical Session-9", 
+    "id": 2217, 
+    "title": "AI ENHANCED DEPRESSION DETECTION USING CHATBOT AND FACIAL DATA ANALYSIS", 
+    "presenter": "Rashi Sharma", 
+    "track": "Track-3: Artificial Intelligence and Soft Computing in Power, Energy, Communication, and Security Systems",
+    "room": "AI&DS Block-105" 
+  },
+  { 
+    "session": "Technical Session-9", 
+    "id": 1707, 
+    "title": "AI based Automatic Solar Irrigation System", 
+    "presenter": "Mayank Pratap Singh", 
+    "track": "Track-S: Recent Trends and Innovations in Generative AI",
+    "room": "AI&DS Block-105" 
+  },
+  { 
+    "session": "Technical Session-9", 
+    "id": 2042, 
+    "title": "Comparing Generative AI on Employee Motivation and Job Satisfaction in Pre-opening vs. Established Hotels", 
+    "presenter": "Rohit Jaswal", 
+    "track": "Track-S: Recent Trends and Innovations in Generative AI",
+    "room": "AI&DS Block-105" 
+  },
+  { 
+    "session": "Technical Session-10", 
+    "id": 188, 
+    "title": "Enhancing Autism Diagnosis Using Federated Learning and Multimodal Data Fusion", 
+    "presenter": "Maia Saraswat", 
+    "track": "Track-&: Federated Learning for Predictive Healthcare Paradigm",
+    "room": "AI&DS Block-305" 
+  },
+  { 
+    "session": "Technical Session-10", 
+    "id": 225, 
+    "title": "Optimized Text Summarization using BART", 
+    "presenter": "Kanika Sharma", 
+    "track": "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
+    "room": "AI&DS Block-305" 
+  },
+  { 
+    "session": "Technical Session-10", 
+    "id": 412, 
+    "title": "Fintech Dynamics: Bibliometric Perspectives on Collaboration and Trends in the Digital Economy", 
+    "presenter": "Nivedita Srivastava", 
+    "track": "Track-&: Emerging Trends with Generative AI, Multimodal Federated Intelligence, and XAI transforming the next generation connected technologies",
+    "room": "AI&DS Block-305" 
+  },
+  { 
+    "session": "Technical Session-10", 
+    "id": 436, 
+    "title": "Optimizing Building Energy Efficiency with Kolmogorov-Arnold Network (KAN) backed Regression", 
+    "presenter": "Barun Kanoo", 
+    "track": "Track-&: Emerging Trends with Generative AI, Multimodal Federated Intelligence, and XAI transforming the next generation connected technologies",
+    "room": "AI&DS Block-305" 
+  },
+  { 
+    "session": "Technical Session-10", 
+    "id": 1215, 
+    "title": "An Examination of Brain Tumor Using the ABC and ANN Algorithms", 
+    "presenter": "Amar Singh", 
+    "track": "Track-&: Federated Learning for Predictive Healthcare Paradigm",
+    "room": "AI&DS Block-305" 
+  },
+  { 
+    "session": "Technical Session-10", 
+    "id": 1634, 
+    "title": "An Explainable AI-Centric Approach for Healthcare: A Review", 
+    "presenter": "Sumit Sharma", 
+    "track": "Track-&: Emerging Trends with Generative AI, Multimodal Federated Intelligence, and XAI transforming the next generation connected technologies",
+    "room": "AI&DS Block-305" 
+  },
+  { 
+    "session": "Technical Session-10", 
+    "id": 2118, 
+    "title": "A Lightweight Deep Learning based Image Captioning Model for Hindi Caption Generation", 
+    "presenter": "Vishal Jayaswal", 
+    "track": "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
+    "room": "AI&DS Block-305" 
+  },
+  { 
+    "session": "Technical Session-10", 
+    "id": 2153, 
+    "title": "Integrating Explainability in AI for Retinal Imaging: Enhancing Diabetic Retinopathy Diagnosis Accuracy", 
+    "presenter": "Sumit Sharma", 
+    "track": "Track-&: Emerging Trends with Generative AI, Multimodal Federated Intelligence, and XAI transforming the next generation connected technologies",
+    "room": "AI&DS Block-305" 
+  },
+  { 
+    "session": "Technical Session-10", 
+    "id": 283, 
+    "title": "Potato Disease Detection by using Deep Learning", 
+    "presenter": "Anshika Agarwal", 
+    "track": "Track-9: Machine Learning and Deep Learning; Methods, Designs, Implementations, Techniques and Applications",
+    "room": "AI&DS Block-305" 
+  },
+  { 
+    "session": "Technical Session-10", 
+    "id": 704, 
+    "title": "Emotion Mining: A Framework for Depression Detection", 
+    "presenter": "Shruti Bharadwaj", 
+    "track": "Track-9: Machine Learning and Deep Learning; Methods, Designs, Implementations, Techniques and Applications",
+    "room": "AI&DS Block-305" 
+  },
+  { 
+    "session": "Technical Session-11", 
+    "id": 776, 
+    "title": "Effective Scheduling Satisfying User Constraints Using Genetic Algorithm", 
+    "presenter": "Tamru Joshi", 
+    "track": "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
+    "room": "AI&DS Block-317" 
+  },
+  { 
+    "session": "Technical Session-11", 
+    "id": 821, 
+    "title": "MLN.D.S - Minimal Instance Neural Data System", 
+    "presenter": "Tanay Yadav", 
+    "track": "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
+    "room": "AI&DS Block-317" 
+  },
+  { 
+    "session": "Technical Session-11", 
+    "id": 872, 
+    "title": "Skin Sense AI: Detecting Cancerous Skin Diseases using CNN for multiclass classification", 
+    "presenter": "Ganga Sharma", 
+    "track": "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
+    "room": "AI&DS Block-317" 
+  },
+  { 
+    "session": "Technical Session-11", 
+    "id": 877, 
+    "title": "Multi-Class Medicinal Plant Leaf Classification Recognition and Recommendation System Using DNN", 
+    "presenter": "Abhimanyu Singh", 
+    "track": "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
+    "room": "AI&DS Block-317" 
+  },
+  { 
+    "session": "Technical Session-11", 
+    "id": 1061, 
+    "title": "Customer Behaviour Prediction for E-Commerce Sites using Web Mining and Machine Learning", 
+    "presenter": "Dev Rathour", 
+    "track": "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
+    "room": "AI&DS Block-317" 
+  },
+  { 
+    "session": "Technical Session-11", 
+    "id": 1278, 
+    "title": "J48-SimpleCart-REPTree: An improved ensemble ML approach for heart disease prediction", 
+    "presenter": "Shweta Pandey", 
+    "track": "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
+    "room": "AI&DS Block-317" 
+  },
+  { 
+    "session": "Technical Session-11", 
+    "id": 1282, 
+    "title": "Stock Price Prediction using LSTM-based DL model and its comparison with ML algorithms", 
+    "presenter": "Devesh Pandey", 
+    "track": "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
+    "room": "AI&DS Block-317" 
+  },
+  { 
+    "session": "Technical Session-11", 
+    "id": 1285, 
+    "title": "LSTM-RNN: An ensemble machine learning approach for crop prediction based on soil and weather properties", 
+    "presenter": "Aryan Prasad", 
+    "track": "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
+    "room": "AI&DS Block-317" 
+  },
+  { 
+    "session": "Technical Session-11", 
+    "id": 1286, 
+    "title": "Heart Disease Prediction using CNN: Performance Comparison and Analysis", 
+    "presenter": "Aryan Tripathi", 
+    "track": "Track-8: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
+    "room": "AI&DS Block-317" 
+  },
+  { 
+    "session": "Technical Session-11", 
+    "id": 1758, 
+    "title": "The Role of Deep Learning Approaches in the Classification of Diabetic Retinopathy", 
+    "presenter": "Kun Meenakshi", 
+    "track": "Track-8: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
+    "room": "AI&DS Block-317" 
+  },
+  { 
+    "session": "Technical Session-12", 
+    "id": 137, 
+    "title": "A Prescriptive Deep Leaning-based Architecture for Deepfake Detection", 
+    "presenter": "Aditya Dev Mishra", 
+    "track": "Main Track: ICCSA12025",
+    "room": "AI&DS Block-405" 
+  },
+  { 
+    "session": "Technical Session-12", 
+    "id": 435, 
+    "title": "HealthChain: Empowering Patient-Controlled Data Sharing through AI&DS Blockchain", 
+    "presenter": "Dr. Amrendra Singh Yadav", 
+    "track": "Main Track: ICCSA12025",
+    "room": "AI&DS Block-405" 
+  },
+  { 
+    "session": "Technical Session-12", 
+    "id": 1878, 
+    "title": "Optimizing Diabetes Prediction with Multi-Layer Perceptron: A Comprehensive Analysis on the Pima Indians Dataset", 
+    "presenter": "Monaisha", 
+    "track": "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
+    "room": "AI&DS Block-405" 
+  },
+  { 
+    "session": "Technical Session-12", 
+    "id": 2203, 
+    "title": "Adaptive OCR-Driven Image Encoders for Enhanced Text-Based Captioning: Achieving High-Precision Descriptions in Text-Rich Visual Contexts", 
+    "presenter": "Anant Tyagi", 
+    "track": "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
+    "room": "AI&DS Block-405" 
+  },
+  { 
+    "session": "Technical Session-12", 
+    "id": 2232, 
+    "title": "Analysis of Artificial Intelligence on Environmental Sustainability", 
+    "presenter": "Kuldeep Singh Kaowan", 
+    "track": "Track 14: Revolutionizing Industries: Deep Learning, LLMs, and Federated Learning in Healthcare, Agriculture, Intelligent Systems, and Beyond",
+    "room": "AI&DS Block-405" 
+  },
+  { 
+    "session": "Technical Session-12", 
+    "id": 2233, 
+    "title": "Analysis of Artificial Intelligence on Economical Sustainability", 
+    "presenter": "Nitin Kumar Gaur", 
+    "track": "Track 14: Revolutionizing Industries: Deep Learning, LLMs, and Federated Learning in Healthcare, Agriculture, Intelligent Systems, and Beyond",
+    "room": "AI&DS Block-405" 
+  }
+]
