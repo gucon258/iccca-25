@@ -19,7 +19,7 @@ const PersonSlider = () => {
       <div className="flex w-max animate-scroll space-x-16" style={{
     animation: 'scroll 60s linear infinite',
   }}>
-        {cards.concat(cards).slice(0,15).map((card, index) => (
+        {cards.concat(cards).slice(0,18).map((card, index) => (
           <div
             key={index}
             className="flex items-center justify-between w-[300px] h-[150px] p-4 bg-[#BE2727] shadow-md relative"

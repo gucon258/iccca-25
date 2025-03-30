@@ -254,7 +254,7 @@ export const cards = [
     imgSrc: "/ImportantPersons/suneelSir.png",
   },
   {
-    name: "Prof.(Dr.) S.N. Singh",
+    name: "Dr. S.N.Singh",
     position: "Director",
     organization: "IIITM",
     imgSrc: "/ImportantPersons/snsingh.png",
@@ -338,6 +338,24 @@ export const cards = [
     imgSrc: "/ImportantPersons/khemchandani.webp",
   },
   {
+    name: "Prof. Shraddha Sagar",
+    position: "Professor",
+    organization: "Galgotias University, India",
+    imgSrc: "/ImportantPersons/shraddha.jpg",
+  },
+  {
+    name: "Dr. Arpesh Singh",
+    position: "Professor",
+    organization: "Galgotias University, India",
+    imgSrc: "/ImportantPersons/arpesh.jpg",
+  },
+  {
+    name: "Prof. Ashok K. Yadav",
+    position: "Professor",
+    organization: "Galgotias University, India",
+    imgSrc: "/ImportantPersons/ashok.jpg",
+  },
+  {
     name: "Dr. Anurag Singh",
     position: "Associate Professor",
     organization: "NIT Delhi",
@@ -348,14 +366,7 @@ export const cards = [
     position: "Professor",
     organization: "Galgotias University, India"
   },
-  {
-    name: "Prof. Shrddha Sagar",
-    organization: "Galgotias University, India"
-  },
-  {
-    name: "Prof. Ashok K. Yadav",
-    organization: "Galgotias University, India"
-  },
+  
   {
     name: "Prof. Meenakshi Awasthi",
     organization: "Galgotias University, India"
@@ -466,7 +477,8 @@ export const cards = [
   },
   {
     name: "Ms. Trapti Shrivastava",
-    organization: "Galgotias University, India"
+    organization: "Galgotias University, India",
+    imgSrc: "/ImportantPersons/trapti.jpg",
   },
   {
     name: "Prof. (Dr.) Rajiv Mishra",
@@ -874,7 +886,7 @@ export const cards = [
     organization: ""
   },
   {
-    name: "Prof.(Dr.) Akshay Rathore",
+    name: "Dr.Akshay Kumar Rathore",
     position: "Professor",
     organization: " Singapore Institute of Technology, Singapore",
     imgSrc: "/ImportantPersons/akshayrathore.png",
@@ -886,7 +898,7 @@ export const cards = [
     imgSrc: "/ImportantPersons/hironori.png",
   },
   {
-    name: "Prof. Sivaneasan Bala Krishnan",
+    name: "Dr. Sivaneasan Bala Krishnan",
     position: "Associate Professor",
     organization: "Singapore Institute of Technology, SIngapore",
     imgSrc: "/ImportantPersons/sivaneasan.jpg",
@@ -915,7 +927,7 @@ export const cards = [
     imgSrc: "/ImportantPersons/ahmedelngar.png",
   },
   {
-    name: "Dr. Asheesh Kumar Singh",
+    name: "Prof. Asheesh Kumar",
     position: "Professor",
     organization: "MNNIT Allahabad, India",
     imgSrc: "/ImportantPersons/asheeshsingh.jpg",
@@ -927,43 +939,37 @@ export const cards = [
     imgSrc: "/ImportantPersons/ramkumar.jpg",
   }
   ,{
-    name: "Dr. S.N.Singh"
-  }
-  ,{
     name: "Dr. Hironori Washizaki"
-  }
-  ,{
-    name: "Dr.Akshay Kumar Rathore"
-  }
-  ,{
-    name: "Dr. Sivaneasan Bala Krishnan"
   }
   ,{
     name: "Dr. Rajeev Srivastava"
   }
   ,{
-    name: "Dr. Anil Kumar Tripathi"
+    name: "Dr. Anil Kumar Tripathi",
+    imgSrc: "/ImportantPersons/anilkumartripathi.jpeg",
   }
   ,{
-    name: "Prof. Asheesh Kumar"
+    name: "Dr. Mohammad Rihan",
+    imgSrc: "/ImportantPersons/mohammadrihan.jpg",
   }
   ,{
-    name: "Dr. Mohammad Rihan"
+    name: "Dr. Rajeev Kumar Singh",
+    imgSrc: "/ImportantPersons/rajeevkumarsingh.webp",
   }
   ,{
-    name: "Dr. Rajeev Kumar Singh"
-  }
-  ,{
-    name: "Dr. Prabhakar Tiwari"
+    name: "Dr. Prabhakar Tiwari",
+    imgSrc: "/ImportantPersons/prabhakartiwari.jpeg",
   }
   ,{
     name: "Dr. Harivardhagini Subhadra"
   }
   ,{
-    name: "Dr. Rakesh Kumar"
+    name: "Dr. Rakesh Kumar",
+    imgSrc: "/ImportantPersons/rakeshkumar.jpg",
   }
   ,{
-    name: "Dr. Varun Kakar"
+    name: "Dr. Varun Kakar",
+    imgSrc: "/ImportantPersons/varunkakar.jpg",
   }
 ];
 

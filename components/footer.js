@@ -16,7 +16,15 @@ const Footer = () => {
             </p>
             </div>
           </div>
-          <div><img  src="https://res.cloudinary.com/dgna3swph/image/upload/v1738944245/ieee-logo_ow9dwc.png" alt="gu logo" className='h-1/2 md:h-fullw-full'/></div>
+          <div>
+            <a href="https://www.galgotiasieee.org/events/event-1">
+              <img 
+                src="https://res.cloudinary.com/dgna3swph/image/upload/v1743326940/Young_minds_lv7cc3.png" 
+                alt="Young Minds logo" 
+                className='h-1/2 md:h-full w-full'
+              />
+            </a>
+          </div>
         </div>
         <div className='flex gap-20 p-5 w-full  md:w-1/3'>
         <div className="w-full"> {/* Middle Column */}

@@ -20,7 +20,24 @@ const attractions = [
     description: "A 73-meter tall minaret which is a UNESCO World Heritage Site in Delhi.",
     image: "https://images.unsplash.com/photo-1587474260584-136574528ed5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
     mapUrl: "https://goo.gl/maps/India+Gate"
+  },{
+    name: "Rishikesh",
+    description: "A spiritual city known as the 'Yoga Capital of the World', located in the foothills of the Himalayas along the Ganges River.",
+    image: "/places/rishi.jpg",
+    mapUrl: "https://goo.gl/maps/Rishikesh"
   },
+  {
+    name: "Haridwar",
+    description: "One of the seven holiest places in Hinduism, famous for the Ganga Aarti at Har Ki Pauri ghat where devotees float diyas on the Ganges.",
+    image: "/places/haridwar.jpg",
+    mapUrl: "https://goo.gl/maps/Haridwar"
+  },
+  {
+    name: "Taj Mahal",
+    description: "An iconic ivory-white marble mausoleum in Agra, built by Mughal emperor Shah Jahan in memory of his wife Mumtaz Mahal.",
+    image: "https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    mapUrl: "https://goo.gl/maps/TajMahal"
+  }
 
 ];
 

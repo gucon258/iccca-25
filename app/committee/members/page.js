@@ -30,7 +30,7 @@ export default function TeamPage() {
       "Prof. Manish Kumar"
     ],
     "Publication Chairs": [
-      "Prof. Shrddha Sagar",
+      "Prof. Shraddha Sagar",
      "Dr. Aditya Nath Bhatt",
      "Prof. (Dr.) S Srinivasan"
     ],
