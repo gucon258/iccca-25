@@ -790,7 +790,7 @@ export const cards = [
   },
   {
     name: "Gaurang Pant",
-    position: "Student",
+    position: "Chair IEEE CS GU",
     organization:"Galgotias University"
   },
   {
