@@ -80,8 +80,8 @@ export default function TeamPage() {
     ],
     "Website & Graphics Chairs": [
       "Mr. Pankaj Lamba",
-      "Ayush Raj",
       "Gaurang Pant",
+      "Ayush Raj",
       "Hemendra Harsh",
       "Shivam Kumar"
     ],
