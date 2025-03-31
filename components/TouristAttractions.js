@@ -49,7 +49,7 @@ const TouristAttractions = () => {
   };
 
   return (
-    <div className="min-h-screen p-6 text-gray-900">
+    <div className="min-h-screen text-gray-900">
       <div className="w-full md:max-w-[90%] mx-auto bg-white rounded-2xl p-8 shadow-lg">
         <h1 className="text-4xl font-bold text-center text-red-700">Tourist Attractions</h1>
         <p className="text-lg text-gray-600 text-center mt-4">
