@@ -954,7 +954,7 @@ export const cards = [
   }
   ,{
     name: "Dr. Rajeev Kumar Singh",
-    imgSrc: "/ImportantPersons/rajeevkumarsingh.webp",
+    imgSrc: "/ImportantPersons/rajeev.jpg",
   }
   ,{
     name: "Dr. Prabhakar Tiwari",
