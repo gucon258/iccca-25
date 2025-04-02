@@ -171,10 +171,14 @@ const Navbar = () => {
                         className="w-full bg-gray-800 text-white rounded-md shadow-lg mt-2 overflow-hidden"
                       >
                         <Link href="/schedule/online" onClick={closeMenu}>
-                          <div className="px-4 py-3 hover:bg-gray-700">Online</div>
+                          <div className="px-4 py-3 hover:bg-gray-700">TS-Online
+                          </div>
                         </Link>
                         <Link href="/schedule/offline" onClick={closeMenu}>
-                          <div className="px-4 py-3 hover:bg-gray-700">Offline</div>
+                          <div className="px-4 py-3 hover:bg-gray-700">TS-Offline</div>
+                        </Link>
+                        <Link href="/schedule/keynote" onClick={closeMenu}>
+                          <div className="px-4 py-3 hover:bg-gray-700">Keynote</div>
                         </Link>
                       </motion.div>
                     )}
@@ -271,10 +275,13 @@ const Navbar = () => {
                 }`}
               >
                 <Link href="/schedule/offline">
-                  <div className="px-4 py-2 hover:bg-gray-300 rounded-t-md">Offline</div>
+                  <div className="px-4 py-2 hover:bg-gray-300 rounded-t-md">TS-Offline</div>
                 </Link>
                 <Link href="/schedule/online">
-                  <div className="px-4 py-2 hover:bg-gray-300 rounded-b-md">Online</div>
+                  <div className="px-4 py-2 hover:bg-gray-300 rounded-b-md">TS-Online</div>
+                </Link>
+                <Link href="/schedule/keynote">
+                  <div className="px-4 py-2 hover:bg-gray-300 rounded-b-md">Keynote</div>
                 </Link>
               </div>
             </li>
