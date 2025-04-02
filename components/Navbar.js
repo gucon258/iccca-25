@@ -152,7 +152,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link href="/forAuthors" onClick={closeMenu}>
-                    <span className="text-white text-lg hover:text-gray-200 transition-colors duration-200">For Authors</span>
+                    <span className="text-white text-lg hover:text-gray-200 transition-colors duration-200">Schedule</span>
                   </Link>
                 </li>
               </ul>
@@ -229,7 +229,7 @@ const Navbar = () => {
             </Link>
             <Link href="/forAuthors">
               <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap">
-                For Authors
+                Schedule
               </li>
             </Link>
           </ul>
