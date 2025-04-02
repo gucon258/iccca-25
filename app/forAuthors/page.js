@@ -1244,7 +1244,7 @@ const Schedule = () => {
       </div>
       <div className="container mx-auto p-6 overflow-x-auto">
         <h1 className="text-2xl font-bold text-center mb-4">Technical Paper Presentation Schedule SLOT-2</h1>
-        <h2 className="text-lg text-center mb-6"> Day-1(9:30 AM- 12.30 PM), 04 April 2025 (Slot 1)</h2>
+        <h2 className="text-lg text-center mb-6"> Day-1(1 PM- 4.00 PM), 04 April 2025</h2>
         <table className="w-full border-collapse border border-gray-300">
           <thead>
             <tr className="bg-red-600 text-white">
