@@ -276,7 +276,6 @@ const scheduleData2 = [
   { session: "Technical Session-27", id: 824, title: "Employing Artificial Intelligence and Machine Learning to Create Adaptive Models for Improved Predictive Accuracy in Dynamical Real-World Applications", presenter: "", track: "Track-8: Emerging Trends with Generative AI, Multimodal Federated Intelligence, and XAI transforming the next generation connected technologies" },
   { session: "Technical Session-27", id: 1624, title: "Water Quality Prediction: Machine Learning Approaches for Sustainable Resource Management", presenter: "", track: "Track-1: Emerging Trends and Applications in Machine Learning and Deep Learning" }
 ];
-];
 
 const scheduleData3 = [{
   session: "Technical Session-1",
@@ -1223,7 +1222,7 @@ const Schedule = () => {
               <th className="border p-2">Technical Session</th>
               <th className="border p-2">Paper ID</th>
               <th className="border p-2">Paper Title</th>
-              <th className="border p-2">Presenter</th>
+             
               <th className="border p-2">Track Name</th>
             </tr>
           </thead>
@@ -1236,7 +1235,7 @@ const Schedule = () => {
                 <td className="border p-2 text-center">{item.session}</td>
                 <td className="border p-2 text-center">{item.id}</td>
                 <td className="border p-2">{item.title}</td>
-                <td className="border p-1">{item.presenter}</td>
+               
                 <td className="border p-2">{item.track}</td>
               </tr>
             ))}
@@ -1252,7 +1251,7 @@ const Schedule = () => {
               <th className="border p-2">Technical Session</th>
               <th className="border p-2">Paper ID</th>
               <th className="border p-2">Paper Title</th>
-              <th className="border p-2">Presenter</th>
+            
               <th className="border p-2">Track Name</th>
             </tr>
           </thead>
@@ -1265,7 +1264,7 @@ const Schedule = () => {
                 <td className="border p-2 text-center">{item.session}</td>
                 <td className="border p-2 text-center">{item.id}</td>
                 <td className="border p-2">{item.title}</td>
-                <td className="border p-1">{item.presenter}</td>
+               
                 <td className="border p-2">{item.track}</td>
               </tr>
             ))}
