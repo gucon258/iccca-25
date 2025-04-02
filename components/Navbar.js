@@ -10,7 +10,9 @@ import iccsailogo from "@/assets/logo/iccsailogo.png";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isDropdownOpen1, setIsDropdownOpen1] = useState(false);
   const dropdownRef = useRef(null);
+  const dropdownRef1 = useRef(null);
   const mobileNavRef = useRef(null);
 
   // Close dropdown when clicking outside
@@ -150,10 +152,33 @@ const Navbar = () => {
                     <span className="text-white text-lg hover:text-gray-200 transition-colors duration-200">ICCSAI-2023</span>
                   </Link>
                 </li>
-                <li>
-                  <Link href="/forAuthors" onClick={closeMenu}>
-                    <span className="text-white text-lg hover:text-gray-200 transition-colors duration-200">Schedule</span>
-                  </Link>
+                <li className="relative">
+                  <div
+                    className="text-white text-lg hover:text-gray-200 flex items-center justify-center gap-1 cursor-pointer transition-colors duration-200"
+                    onClick={() => setIsDropdownOpen1(!isDropdownOpen1)}
+                  >
+                    Schedule <ChevronDown size={16} className={`transition-transform duration-300 ${isDropdownOpen1 ? 'rotate-180' : ''} `}/>
+                  </div>
+
+                  {/* Dropdown Menu */}
+                  <AnimatePresence>
+                    {isDropdownOpen1 && (
+                      <motion.div
+                        initial={{ opacity: 0, height: 0 }}
+                        animate={{ opacity: 1, height: 'auto' }}
+                        exit={{ opacity: 0, height: 0 }}
+                        transition={{ duration: 0.6 }}
+                        className="w-full bg-gray-800 text-white rounded-md shadow-lg mt-2 overflow-hidden"
+                      >
+                        <Link href="/schedule/online" onClick={closeMenu}>
+                          <div className="px-4 py-3 hover:bg-gray-700">Online</div>
+                        </Link>
+                        <Link href="/schedule/offline" onClick={closeMenu}>
+                          <div className="px-4 py-3 hover:bg-gray-700">Offline</div>
+                        </Link>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
                 </li>
               </ul>
 
@@ -227,11 +252,32 @@ const Navbar = () => {
                 ICCSAI-2023
               </li>
             </Link>
-            <Link href="/forAuthors">
-              <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap">
-                Schedule
-              </li>
-            </Link>
+            <li
+              className="relative"
+              onMouseEnter={() => setIsDropdownOpen1(true)}
+              onMouseLeave={() => setIsDropdownOpen1(false)}
+              ref={dropdownRef1}
+            >
+              <span className="text-white hover:text-gray-200 flex items-center gap-1 cursor-pointer transition-colors duration-200 whitespace-nowrap">
+                Schedule <ChevronDown size={16} className={`transition-transform duration-300 ${isDropdownOpen1 ? 'rotate-180' : ''}`} />
+              </span>
+
+              {/* Dropdown Menu */}
+              <div
+                className={`absolute top-4 -left-1 mt-2 w-48 bg-gray-200 text-black rounded-md shadow-lg transition-all duration-800  ease-in-out ${
+                  isDropdownOpen1
+                    ? "opacity-100 visible translate-y-0"
+                    : "opacity-0 invisible -translate-y-2 pointer-events-none"
+                }`}
+              >
+                <Link href="/schedule/offline">
+                  <div className="px-4 py-2 hover:bg-gray-300 rounded-t-md">Offline</div>
+                </Link>
+                <Link href="/schedule/online">
+                  <div className="px-4 py-2 hover:bg-gray-300 rounded-b-md">Online</div>
+                </Link>
+              </div>
+            </li>
           </ul>
         </div>
 
