@@ -247,7 +247,7 @@ const Navbar = () => {
                 <Link href="/forAuthors/page">
                   <div className="px-4 py-2 hover:bg-gray-300 rounded-b-md">Offline</div>
                 </Link>
-            </li>
+
 
           </ul>
         </div>
