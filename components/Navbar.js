@@ -223,15 +223,33 @@ const Navbar = () => {
               href="https://ieeexplore.ieee.org/xpl/conhome/10420826/proceeding"
               target="_blank"
             >
-              <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap">
-                ICCSAI-2023
-              </li>
-            </Link>
-            <Link href="/forAuthors">
-              <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap">
-                For Authors
-              </li>
-            </Link>
+              <li
+              className="relative"
+              onMouseEnter={() => setIsDropdownOpen(true)}
+              onMouseLeave={() => setIsDropdownOpen(false)}
+              ref={dropdownRef}
+            >
+              <span className="text-white hover:text-gray-200 flex items-center gap-1 cursor-pointer transition-colors duration-200 whitespace-nowrap">
+                For Authors <ChevronDown size={16} className={`transition-transform duration-300 ${isDropdownOpen ? 'rotate-180' : ''}`} />
+              </span>
+
+              {/* Dropdown Menu */}
+              <div
+                className={`absolute top-4 -left-1 mt-2 w-48 bg-gray-200 text-black rounded-md shadow-lg transition-all duration-800  ease-in-out ${
+                  isDropdownOpen
+                    ? "opacity-100 visible translate-y-0"
+                    : "opacity-0 invisible -translate-y-2 pointer-events-none"
+                }`}
+              >
+                <Link href="/forAuthors/page">
+                  <div className="px-4 py-2 hover:bg-gray-300 rounded-t-md">Online</div>
+                </Link>
+                <Link href="/forAuthors/page">
+                  <div className="px-4 py-2 hover:bg-gray-300 rounded-b-md">Offline</div>
+                </Link>
+              </div>
+            </li>
+
           </ul>
         </div>
 
