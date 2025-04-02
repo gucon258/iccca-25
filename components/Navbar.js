@@ -174,115 +174,82 @@ const Navbar = () => {
           )}
         </AnimatePresence>
 
-        {/* Navbar Links for Desktop */}
-<div className="hidden lg:flex lg:items-center lg:gap-6">
-  <ul className="flex flex-row gap-4 lg:gap-6 font-semibold text-left">
-
-    <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap">
-      <Link href="/#">Home</Link>
-    </li>
-
-    <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap">
-      <Link href="/registration">Registration</Link>
-    </li>
-
-    {/* Dropdown for Committee */}
-    <li
-      className="relative"
-      onMouseEnter={() => setIsCommitteeOpen(true)}
-      onMouseLeave={() => setIsCommitteeOpen(false)}
-      ref={committeeDropdownRef}
-    >
-      <span className="text-white hover:text-gray-200 flex items-center gap-1 cursor-pointer transition-colors duration-200 whitespace-nowrap">
-        Committee <ChevronDown size={16} className={`transition-transform duration-300 ${isCommitteeOpen ? 'rotate-180' : ''}`} />
-      </span>
-
-      {/* Dropdown Menu */}
-      <div
-        className={`absolute top-4 -left-1 mt-2 w-48 bg-gray-200 text-black rounded-md shadow-lg transition-all duration-300 ease-in-out ${
-          isCommitteeOpen
-            ? "opacity-100 visible translate-y-0"
-            : "opacity-0 invisible -translate-y-2 pointer-events-none"
-        }`}
-      >
-        <ul>
-          <li>
-            <Link href="/committee/members">
-              <div className="px-4 py-2 hover:bg-gray-300 rounded-t-md">Members</div>
+               {/* Navbar Links for Desktop */}
+        <div className="hidden lg:flex lg:items-center lg:gap-6"> {/* Changed from md:flex to lg:flex */}
+          <ul className="flex flex-row gap-4 lg:gap-6 font-semibold text-left">
+            <Link href="/#">
+              <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap">Home</li>
             </Link>
-          </li>
-          <li>
-            <Link href="/committee/speakers">
-              <div className="px-4 py-2 hover:bg-gray-300 rounded-b-md">Speakers</div>
+            <Link href="/registration">
+              <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap">
+                Registration
+              </li>
             </Link>
-          </li>
-        </ul>
+
+            {/* Dropdown for Committee */}
+            <li
+              className="relative"
+              onMouseEnter={() => setIsDropdownOpen(true)}
+              onMouseLeave={() => setIsDropdownOpen(false)}
+              ref={dropdownRef}
+            >
+              <span className="text-white hover:text-gray-200 flex items-center gap-1 cursor-pointer transition-colors duration-200 whitespace-nowrap">
+                Committee <ChevronDown size={16} className={`transition-transform duration-300 ${isDropdownOpen ? 'rotate-180' : ''}`} />
+              </span>
+
+              {/* Dropdown Menu */}
+              <div
+                className={`absolute top-4 -left-1 mt-2 w-48 bg-gray-200 text-black rounded-md shadow-lg transition-all duration-800  ease-in-out ${
+                  isDropdownOpen
+                    ? "opacity-100 visible translate-y-0"
+                    : "opacity-0 invisible -translate-y-2 pointer-events-none"
+                }`}
+              >
+                <Link href="/committee/members">
+                  <div className="px-4 py-2 hover:bg-gray-300 rounded-t-md">Members</div>
+                </Link>
+                <Link href="/committee/speakers">
+                  <div className="px-4 py-2 hover:bg-gray-300 rounded-b-md">Speakers</div>
+                </Link>
+              </div>
+            </li>
+
+            <Link href="/guidelines">
+              <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap">
+                Guidelines
+              </li>
+            </Link>
+            <Link
+              href="https://ieeexplore.ieee.org/xpl/conhome/10420826/proceeding"
+              target="_blank"
+            >
+              <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap">
+                ICCSAI-2023
+              </li>
+            </Link>
+            <Link href="/forAuthors">
+              <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap">
+                For Authors
+              </li>
+            </Link>
+          </ul>
+        </div>
+
+        {/* Submit Button Desktop */}
+        <div className="hidden lg:flex"> {/* Changed from md:flex to lg:flex */}
+          <a
+            href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2025"
+            target="_blank"
+          >
+            <button className="bg-gradient-to-r from-[#DE4060] via-[#A73E9C] to-[#438ACC] hover:bg-gradient-to-bl text-white font-normal rounded-xl px-3 lg:px-4 py-2 transition-all duration-300 ease-in-out whitespace-nowrap text-sm lg:text-base">
+              Submit your paper
+            </button>
+          </a>
+        </div>
       </div>
-    </li>
+    </nav>
+  );
+};
 
-    <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap">
-      <Link href="/guidelines">Guidelines</Link>
-    </li>
-
-    {/* Dropdown for For Authors */}
-    <li
-      className="relative"
-      onMouseEnter={() => setIsAuthorsOpen(true)}
-      onMouseLeave={() => setIsAuthorsOpen(false)}
-      ref={authorsDropdownRef}
-    >
-      <span className="text-white hover:text-gray-200 flex items-center gap-1 cursor-pointer transition-colors duration-200 whitespace-nowrap">
-        For Authors <ChevronDown size={16} className={`transition-transform duration-300 ${isAuthorsOpen ? 'rotate-180' : ''}`} />
-      </span>
-
-      {/* Dropdown Menu */}
-      <div
-        className={`absolute top-4 -left-1 mt-2 w-48 bg-gray-200 text-black rounded-md shadow-lg transition-all duration-300 ease-in-out ${
-          isAuthorsOpen
-            ? "opacity-100 visible translate-y-0"
-            : "opacity-0 invisible -translate-y-2 pointer-events-none"
-        }`}
-      >
-        <ul>
-          <li>
-            <Link href="/forAuthors/page">
-              <div className="px-4 py-2 hover:bg-gray-300 rounded-t-md">Online</div>
-            </Link>
-          </li>
-          <li>
-            <Link href="/forAuthors/page">
-              <div className="px-4 py-2 hover:bg-gray-300 rounded-b-md">Offline</div>
-            </Link>
-          </li>
-        </ul>
-      </div>
-    </li>
-
-    {/* External Link for IEEE */}
-    <li>
-      <a
-        href="https://ieeexplore.ieee.org/xpl/conhome/10420826/proceeding"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap"
-      >
-        IEEE Proceedings
-      </a>
-    </li>
-  </ul>
-</div>
-
-{/* Submit Button Desktop */}
-<div className="hidden lg:flex">
-  <a
-    href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2025"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <button className="bg-gradient-to-r from-[#DE4060] via-[#A73E9C] to-[#438ACC] hover:bg-gradient-to-bl text-white font-normal rounded-xl px-3 lg:px-4 py-2 transition-all duration-300 ease-in-out whitespace-nowrap text-sm lg:text-base">
-      Submit your paper
-    </button>
-  </a>
-</div>
 
 export default Navbar;
