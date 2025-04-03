@@ -1,3 +1,6 @@
+import { University } from "lucide-react";
+import { Oranienbaum } from "next/font/google";
+
 export const data = [
   {
       name:"image4",
@@ -424,7 +427,7 @@ export const cards = [
     organization: "Galgotias University, India"
   },
   {
-    name: "Dr. Shachi Mall",
+    name: "Prof. Shachi Mall",
     organization: "Galgotias University, India"
   },
   {
@@ -943,6 +946,14 @@ export const cards = [
   // }
   ,{
     name: "Dr. Rajeev Srivastava"
+  },
+  {
+    name : "Ms. Smita",
+    organization : "Galgotias University"
+  },
+  {
+    name : "Dr. Shachi Mall",
+    organization:"Galgotias Unviversity"
   }
   ,{
     name: "Dr. Anil Kumar Tripathi",
