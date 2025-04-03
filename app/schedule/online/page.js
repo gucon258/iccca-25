@@ -279,6 +279,8 @@ const scheduleData = [
 ];
 
 const Schedule = () => {
+  // Assuming scheduleData and scheduleData2 are defined as shown in your code
+
   return (
     <>
       <div className="container mx-auto p-6 overflow-x-auto">
@@ -312,14 +314,14 @@ const Schedule = () => {
       </div>
       <div className="container mx-auto p-6 overflow-x-auto">
         <h1 className="text-2xl font-bold text-center mb-4">Technical Paper Presentation Schedule SLOT-2</h1>
-        <h2 className="text-lg text-center mb-6"> Day-1(1 PM- 4.00 PM), 04 April 2025</h2>
+        <h2 className="text-lg text-center mb-6"> Day-1(1 PM- 4.00 PM), 04 April 2025</h2>
         <table className="w-full border-collapse border border-gray-300">
           <thead>
             <tr className="bg-red-600 text-white">
               <th className="border p-2">Technical Session</th>
               <th className="border p-2">Paper ID</th>
               <th className="border p-2">Paper Title</th>
-            
+              <th className="border p-2">Presenter</th> {/* Added this missing header */}
               <th className="border p-2">Track Name</th>
             </tr>
           </thead>
@@ -332,7 +334,7 @@ const Schedule = () => {
                 <td className="border p-2 text-center">{item.session}</td>
                 <td className="border p-2 text-center">{item.id}</td>
                 <td className="border p-2">{item.title}</td>
-               
+                <td className="border p-1">{item.presenter}</td> {/* This will now display correctly */}
                 <td className="border p-2">{item.track}</td>
               </tr>
             ))}
