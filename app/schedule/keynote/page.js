@@ -1,6 +1,5 @@
 'use client';
 
-
 import React, { useState } from "react";
 
 const ConferenceSchedule = () => {
@@ -9,6 +8,7 @@ const ConferenceSchedule = () => {
   // Day 1 Schedule - April 4, 2025 (Online Sessions)
   const day1Schedule = [
     { no: 1, event: "Online Technical Session Slot-1 (Technical session 1 to Technical Session 13)", time: "9:30 AM to 12:30 PM" },
+    { no: "", event: "High Tea", time: "10:00 AM - 10:30 AM", highlight: true },
     { no: 2, event: "Keynote Address by - Dr Sivaneasan Bala Krishnan - Deputy Director, SIT Teaching and Learning Academy, Associate Professor, Singapore Institute of Technology, Singapore (AI 307)", time: "12:30 PM to 1:00 PM" },
     { no: "", event: "Lunch", time: "01:05 PM - 01:35 PM", highlight: true },
     { no: 3, event: "Online Technical Session Slot-2 (Technical session 14 to Technical Session 27)", time: "1:00 PM to 4:00 PM" }
@@ -23,6 +23,7 @@ const ConferenceSchedule = () => {
     { no: 4, event: "Visit, Observation of Offline Technical Session", time: "9:50 AM" },
     { no: 5, event: "Visit, Observation & Examination of Events conducted by Galgotias University IEEE Student Chapter and CS Society", time: "10:10 AM" },
     { no: 6, event: "Visit, Observation & Examination of Events conducted by Galgotias University IEEE Student Chapter and WIE Affinity group", time: "10:25 AM" },
+    { no: "", event: "High Tea", time: "10:00 AM - 10:30 AM", highlight: true },
     { no: "", event: "Reach Inauguration venue", time: "10:50 AM", highlight: true },
     { no: 7, event: "Introduction", time: "11:00 AM" },
     { no: 8, event: "Lamp lighting - Maa Saraswati Vandana", time: "11:05 AM" },
@@ -48,16 +49,19 @@ const ConferenceSchedule = () => {
     { no: 27, event: "Keynote Address by- Prof. (Dr.) Bijaya Ketan Panigrahi, Professor (Electrical Engineering), IIT Delhi. (AI 307)", time: "02:10 PM" },
     { no: 28, event: "Keynote Address by - Prof. (Dr.) Anil Kumar Tripathi, Professor, CSE, ITT BHU (AI 307)", time: "02:40 PM" },
     { no: 29, event: "Keynote Address & WIE Kit distribution by - Prof. (Dr.). Harivardhagini Subhadra, 2025 IEEE WIE COMMITTEE (AI-307)", time: "03:10 PM" },
+    { no: "", event: "High Tea", time: "03:30 PM - 04:00 PM", highlight: true },
     { no: "", event: "Cultural Evening", time: "06:00 PM onwards", highlight: true }
   ];
 
   // Day 3 Schedule - April 6, 2025 (Valedictory Day)
   const day3Schedule = [
-    { no: 1, event: "Keynote Address by Prof. (Dr.) Rajeev Kumar Singh, Professor, Department of Electrical Engineering IIT(BHU) (AI-307)", time: "10:40 AM" },
+    { no: 1, event: "Keynote Address by Prof. (Dr.) Rajeev Kumar Singh, Professor, Department of Electrical Engineering IIT(BHU) (AI-307)", time: "10:30 AM" },
+    { no: "", event: "High Tea", time: "11:00 AM - 11:30 AM", highlight: true },
     { no: 2, event: "Keynote Address by - Prof. Dr. Hironori Washizaki-IEEE Computer Society 2025 President (AI-307)", time: "11:30 AM" },
     { no: 3, event: "Facilitation & Certificate Distribution", time: "12:05 PM" },
     { no: 4, event: "Conference Conclusion & Vote of Thanks", time: "12:30 PM" },
-    { no: 5, event: "National Anthem", time: "-" }
+    { no: 5, event: "National Anthem", time: "-" },
+    { no: "", event: "Lunch", time: "01:30 PM - 02:30 PM", highlight: true }
   ];
 
   const renderSchedule = () => {
