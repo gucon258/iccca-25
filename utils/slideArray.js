@@ -262,7 +262,7 @@ export const cards = [
   {
     name: "Dr. Dhruv Galgotia",
     position: "CEO",
-    organization: "Galgotia University India",
+    organization: "Galgotias University India",
     imgSrc: "/ImportantPersons/dhruvSir 2.png", // Replace with actual image paths
   },
   {
@@ -279,8 +279,8 @@ export const cards = [
   },
 {
     name: "Dr. Yogesh S. Chauhan",
-    position: "Professor, Chair",
-    organization: "Indian Institute of Technology Kanpur, IEEE UP Section",
+    position: "Professor, IIT Kanpur",
+    organization: "Chair, IEEE UP Section",
     imgSrc: "/ImportantPersons/yogesh.png",
   },
   {
@@ -310,7 +310,7 @@ export const cards = [
   {
     name: "Dr. Vimal Kumar",
     position: "Professor",
-    organization: "Galgotias University, India",
+    organization: "MMMUT, Gorakhpur",
     imgSrc: "/ImportantPersons/vimalkumar.png",
   },
   {
@@ -353,7 +353,7 @@ export const cards = [
     name: "Prof. Ashok K. Yadav",
     position: "Professor",
     organization: "Galgotias University, India",
-    imgSrc: "/ImportantPersons/ashok.jpg",
+    imgSrc: "/ImportantPersons/ashokkryadav.jpg",
   },
   {
     name: "Dr. Anurag Singh",
@@ -726,7 +726,7 @@ export const cards = [
   {
     name: "Chin Kuan Ho",
     position: "Vice Chanceller",
-    organization: "APU",
+    organization: "Asia Pacific University, Malaysia",
     imgSrc: "/ImportantPersons/chin.jpeg"
   },
   
@@ -916,8 +916,8 @@ export const cards = [
   },
   {
     name: "Dr. Rajeev Srivastava",
-    position: "Professor",
-    organization: "IIT BHU, Varanasi, India",
+    position: "Director",
+    organization: "IIIT Ranchi, Jharkhand, India",
     imgSrc: "/ImportantPersons/rajeevsrivastava.png",
   },
   {
@@ -946,18 +946,26 @@ export const cards = [
   }
   ,{
     name: "Dr. Anil Kumar Tripathi",
+    position:"Professor",
+    organization:"IIT BHU, Varanasi, India",
     imgSrc: "/ImportantPersons/anilkumartripathi.jpeg",
   }
   ,{
     name: "Dr. Mohammad Rihan",
+    position:"Director NISC Gurugram",
+    organization:"Chair Elect, IEEE UP Section",
     imgSrc: "/ImportantPersons/mohammadrihan.jpg",
   }
   ,{
     name: "Dr. Rajeev Kumar Singh",
+    position:"Professor, IIT BHU ",
+    organization: "Secretary, IEEE UP Section",
     imgSrc: "/ImportantPersons/rajeev.jpg",
   }
   ,{
     name: "Dr. Prabhakar Tiwari",
+    position:"Professor",
+    organization:"MMMUT, Gorakhpur",
     imgSrc: "/ImportantPersons/prabhakartiwari.jpeg",
   }
   ,{
@@ -965,10 +973,14 @@ export const cards = [
   }
   ,{
     name: "Dr. Rakesh Kumar",
+    position:"Professor",
+    organization:"MMMUT, Gorakhpur",
     imgSrc: "/ImportantPersons/rakesh1.jpg",
   }
   ,{
     name: "Dr. Varun Kakar",
+    position:"Professor, BTKIT Dwarahat",
+    organization:"Joint Secretary, IEEE UP Section",
     imgSrc: "/ImportantPersons/varunkakar.jpg",
   }
 ];

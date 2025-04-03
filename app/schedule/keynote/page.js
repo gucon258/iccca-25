@@ -40,6 +40,7 @@ const ConferenceSchedule = () => {
         <p className="text-md font-semibold text-red-600">Venue: Galgotias University, Greater Noida, U.P., India</p>
         <h3 className="text-lg font-bold text-blue-700 underline mt-3">Inauguration Day</h3>
         <p className="text-md font-semibold text-gray-600">05 April 2025</p>
+        <p className="text-sm font-medium text-gray-500 mt-1 italic">All timings are in IST (GMT+5:30)</p>
       </div>
       <div className="mt-6 overflow-x-auto">
         <table className="w-full border-collapse border border-gray-300">
@@ -47,7 +48,7 @@ const ConferenceSchedule = () => {
             <tr className="bg-gray-200">
               <th className="border border-gray-300 px-4 py-2">S. No.</th>
               <th className="border border-gray-300 px-4 py-2">Particulars</th>
-              <th className="border border-gray-300 px-4 py-2">Time</th>
+              <th className="border border-gray-300 px-4 py-2 whitespace-nowrap">Time</th>
             </tr>
           </thead>
           <tbody>
@@ -55,7 +56,7 @@ const ConferenceSchedule = () => {
               <tr key={index} className={`${item.highlight ? "bg-yellow-300 font-bold" : index % 2 === 0 ? "bg-gray-100" : "bg-white"}`}>
                 <td className="border border-gray-300 px-4 py-2 text-center">{item.no}</td>
                 <td className="border border-gray-300 px-4 py-2">{item.event}</td>
-                <td className="border border-gray-300 px-4 py-2 text-center">{item.time}</td>
+                <td className="border border-gray-300 px-4 py-2 text-center whitespace-nowrap">{item.time}</td>
               </tr>
             ))}
           </tbody>
@@ -66,4 +67,3 @@ const ConferenceSchedule = () => {
 };
 
 export default ConferenceSchedule;
-
