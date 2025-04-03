@@ -27,7 +27,7 @@ export default function TeamPage() {
     "Conference Technical Chair": [
       "Dr. Sunita Yadav",
       "Dr. V. Khemchandani",
-      // "Prof. Manish Kumar"
+      "Prof. Manish Kumar"
     ],
     "Publication Chairs": [
       "Prof. Shraddha Sagar",
@@ -40,7 +40,7 @@ export default function TeamPage() {
       "Prof. Sunil Bharti"
     ],
     "Conference Technical Co-Chairs": [
-      "Prof. Ravi Sharma",
+      // "Prof. Ravi Sharma",
       "Ms. Trapti Shrivastava",
       // "Dr. Manish Kumar",
       "Dr. Sonu Jha",
