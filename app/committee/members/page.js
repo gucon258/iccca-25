@@ -27,12 +27,11 @@ export default function TeamPage() {
     "Conference Technical Chair": [
       "Dr. Suneeta Yadav",
       "Dr. V. Khemchandani",
-      "Prof. Manish Kumar"
+      // "Prof. Manish Kumar"
     ],
     "Publication Chairs": [
       "Prof. Shraddha Sagar",
-     "Dr. Aditya Nath Bhatt",
-     "Prof. (Dr.) S Srinivasan"
+     
     ],
     "Conference Organizing Co-Chairs": [
       "Prof. Meenakshi Awasthi",
@@ -42,29 +41,34 @@ export default function TeamPage() {
     "Conference Technical Co-Chairs": [
       "Prof. Ravi Sharma",
       "Ms. Trapti Shrivastava",
-      "Dr. Manish Kumar",
+      // "Dr. Manish Kumar",
       "Dr. Sonu Jha",
-      "Dr. Sunil Kumar"
+      "Dr. Smita"
     ],
     "Conference Secretaries": [
       "Dr. K. K. Agrawal",
-      "Dr. Vipin Rai",
+      "Ajeet Singh",
+      
       "Prof. Arunendra Mani Tripathi",
-      "Prof. Avneesh Kumar"
+      // "Prof. Avneesh Kumar",
+      "Prof. Shachi Mall"
     ],
     "International Advisory Chairs": [
-      "Prof. Sanjeev K. Singh",
-      "Prof. N. Partheeban"
+      // "Prof. Sanjeev K. Singh",
+      "Prof. N. Partheeban",
+      "Dr. Aditya Nath Bhatt",
+     "Prof. (Dr.) S Srinivasan"
+
     ],
     "Publication Co-Chairs": [
-      "Dr. Shachi Mall",
-      "Dr. Ajeet Singh"
+      // "Dr. Shachi Mall",
+      "Dr. Vipin Rai"
     ],
     "Publicity Chairs": [
       "Prof. Ravi Sharma"
     ],
     "Sponsorship & Industry Chairs": [
-      "Prof. Vipul Narayan Srivastava",
+      "Prof. Avneesh Kumar",
       "Dr. V.D.S. Baghela"
     ],
     "Event Organising Chair": [
@@ -117,7 +121,7 @@ export default function TeamPage() {
       "Dr. Shafiq Ul Rehman",
       "Prof. Mohammad Rashid Hussain",
       "Prof. Deepak L. Waikar",
-      "Prof. E. Rajesh",
+      // "Prof. E. Rajesh",
       "Prof.(Dr.) Akshay Rathore"
     ],
     "National Advisory Committee": [

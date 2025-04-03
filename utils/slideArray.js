@@ -285,8 +285,8 @@ export const cards = [
   },
   {
     name: "Prof.(Dr.) Avadhesh Kumar",
-    position: "Pro-VC, Vice Chair",
-    organization: "Galgotias University, IEEE UP Section",
+    position: "Pro-VC, Galgotias University, India ",
+    organization: "Vice Chair, IEEE UP Section",
     imgSrc: "/ImportantPersons/avadhesh.png",
   },
   {
@@ -781,7 +781,7 @@ export const cards = [
   },
   {
     name: "Dr. V.D.S. Baghela",
-    organization: "Galgotias University, Greater Noida, India"
+    organization: "Galgotias University, India"
   },
   {
     name: "Ayush Raj",
