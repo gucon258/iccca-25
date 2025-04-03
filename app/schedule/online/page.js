@@ -265,9 +265,19 @@ const scheduleData2 = [
   { session: "Technical Session-26", id: 1822, title: "Intelligent Detection of DDoS Attacks in Software Defined Networks Using Deep Learning", presenter: "Alok Kumar Ranjan", track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications" },
   { session: "Technical Session-26", id: 1831, title: "AI-Driven Dermatological Diagnosis and Treatment System", presenter: "Kshitij Sharma", track: "Track 14: Revolutionizing Industries: Deep Learning, LLMs, and Federated Learning in Healthcare, Agriculture, Intelligent Systems, and Beyond" },
   { session: "Technical Session-26", id: 1863, title: "From Data to Decisions: Evaluating Deep Learning Models for Stock Price Prediction in Volatile Markets", presenter: "Dhaval Mehta", track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications" },
-  { session: "Technical Session-26", id: 2192, title: "Risk Assessment and Prediction of Floods and Droughts using Attention-LSTM", presenter: "Sonal Rajesh Sonarghare", track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications" }
+  { session: "Technical Session-26", id: 2192, title: "Risk Assessment and Prediction of Floods and Droughts using Attention-LSTM", presenter: "Sonal Rajesh Sonarghare", track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications" },
+  { session: "Technical Session-27", id: 2139, title: "VerdictEye - Predict Court Judgements", presenter: "", track: "Track 14:Revolutionizing Industries: Deep Learning, LLMs, and Federated Learning in Healthcare, Agriculture, Intelligent Systems, and Beyond" },
+  { session: "Technical Session-27", id: 561, title: "Basica: A Lightweight Interpreted Language for Streamlined Mobile Development", presenter: "", track: "Track-4: Innovative and Disruptive Technologies" },
+  { session: "Technical Session-27", id: 55, title: "Probabilistic Epileptic Seizure Onset Risk Assessment without Prior Symptoms and Seizure Type Classification", presenter: "", track: "Main Track: ICCSAI2025" },
+  { session: "Technical Session-27", id: 63, title: "Artificial Intelligence and Neurological Disorders: Developments and Opportunities", presenter: "", track: "Main Track: ICCSAI2025" },
+  { session: "Technical Session-27", id: 1949, title: "Study of Track Obstacles Detection System", presenter: "", track: "Track-1: Emerging Trends and Applications in Machine Learning and Deep Learning" },
+  { session: "Technical Session-27", id: 1813, title: "Detection of Poly-Cystic Ovarian Syndrome (PCOS) using Image Processing Techniques", presenter: "", track: "Track-6: Federated Learning for Predictive Healthcare Paradigm" },
+  { session: "Technical Session-27", id: 810, title: "nsuring the Security and Privacy of Healthcare IoT Data: A System for the Safe Administration of Patient Records", presenter: "", track: "Track-8: Emerging Trends with Generative AI, Multimodal Federated Intelligence, and XAI transforming the next generation connected technologies" },
+  { session: "Technical Session-27", id: 824, title: "Employing Artificial Intelligence and Machine Learning to Create Adaptive Models for Improved Predictive Accuracy in Dynamical Real-World Applications", presenter: "", track: "Track-8: Emerging Trends with Generative AI, Multimodal Federated Intelligence, and XAI transforming the next generation connected technologies" },
+  { session: "Technical Session-27", id: 1624, title: "Water Quality Prediction: Machine Learning Approaches for Sustainable Resource Management", presenter: "", track: "Track-1: Emerging Trends and Applications in Machine Learning and Deep Learning" }
 ];
 
+<<<<<<< HEAD:app/forAuthors/page.js
 const scheduleData3 = [{
   session: "Technical Session-1",
   id: 1,
@@ -1201,6 +1211,8 @@ const scheduleData4 =[
     "room": "AI Block-405" 
   }
 ]
+=======
+>>>>>>> original/main:app/schedule/online/page.js
 const Schedule = () => {
   return (
     <>
@@ -1213,20 +1225,20 @@ const Schedule = () => {
               <th className="border p-2">Technical Session</th>
               <th className="border p-2">Paper ID</th>
               <th className="border p-2">Paper Title</th>
-              <th className="border p-2">Presenter</th>
+             
               <th className="border p-2">Track Name</th>
             </tr>
           </thead>
           <tbody>
             {scheduleData.map((item, index) => (
               <tr
-                key={item.id}
+                key={index}
                 className={index % 20 < 10 ? 'bg-yellow-100' : 'bg-red-100'}
               >
                 <td className="border p-2 text-center">{item.session}</td>
                 <td className="border p-2 text-center">{item.id}</td>
                 <td className="border p-2">{item.title}</td>
-                <td className="border p-1">{item.presenter}</td>
+               
                 <td className="border p-2">{item.track}</td>
               </tr>
             ))}
@@ -1234,99 +1246,29 @@ const Schedule = () => {
         </table>
       </div>
       <div className="container mx-auto p-6 overflow-x-auto">
-        <h1 className="text-2xl font-bold text-center mb-4">Technical Paper Presentation Schedule</h1>
-        <h2 className="text-lg text-center mb-6"> Day-1 (01:00 PM- 04.00 PM), 04 April 2025 (Slot 2)</h2>
+        <h1 className="text-2xl font-bold text-center mb-4">Technical Paper Presentation Schedule SLOT-2</h1>
+        <h2 className="text-lg text-center mb-6"> Day-1(1 PM- 4.00 PM), 04 April 2025</h2>
         <table className="w-full border-collapse border border-gray-300">
           <thead>
             <tr className="bg-red-600 text-white">
               <th className="border p-2">Technical Session</th>
               <th className="border p-2">Paper ID</th>
               <th className="border p-2">Paper Title</th>
-              <th className="border p-2">Presenter</th>
+            
               <th className="border p-2">Track Name</th>
             </tr>
           </thead>
           <tbody>
             {scheduleData2.map((item, index) => (
               <tr
-                key={item.id}
+                key={index}
                 className={index % 20 < 10 ? 'bg-yellow-100' : 'bg-red-100'}
               >
                 <td className="border p-2 text-center">{item.session}</td>
                 <td className="border p-2 text-center">{item.id}</td>
                 <td className="border p-2">{item.title}</td>
-                <td className="border p-1">{item.presenter}</td>
+               
                 <td className="border p-2">{item.track}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <div className="container mx-auto p-6 overflow-x-auto">
-        <h1 className="text-2xl font-bold text-center mb-4">Technical Paper Presentation Schedule</h1>
-        <h2 className="text-lg text-center mb-6"> Day-1(9:00 AM- 12.30 PM), 05 April 2025 (Slot 1)</h2>
-        <h2 className="text-lg text-center mb-6 bg-red-600 text-white font-extrabold uppercase px-4 py-2 rounded-lg shadow-lg animate-pulse">
-          OFFLINE
-        </h2>
-
-        <table className="w-full border-collapse border border-gray-300">
-          <thead>
-            <tr className="bg-red-600 text-white">
-              <th className="border p-2">Technical Session</th>
-              <th className="border p-2">Paper ID</th>
-              <th className="border p-2">Paper Title</th>
-              <th className="border p-2">Presenter</th>
-              <th className="border p-2">Track Name</th>
-              <th className="border p-2">Room No.</th>
-            </tr>
-          </thead>
-          <tbody>
-            {scheduleData3.map((item, index) => (
-              <tr
-                key={item.id}
-                className={index % 20 < 10 ? 'bg-yellow-100' : 'bg-red-100'}
-              >
-                <td className="border p-2 text-center">{item.session}</td>
-                <td className="border p-2 text-center">{item.id}</td>
-                <td className="border p-2">{item.title}</td>
-                <td className="border p-1">{item.presenter}</td>
-                <td className="border p-2">{item.track}</td>
-                <td className="border p-2">{item.room}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <div className="container mx-auto p-6 overflow-x-auto">
-        <h1 className="text-2xl font-bold text-center mb-4">Technical Paper Presentation Schedule</h1>
-        <h2 className="text-lg text-center mb-6"> Day-2 (12:00 PM- 03.30 PM), 05 April 2025 (Slot 2)</h2>
-        <h2 className="text-lg text-center mb-6 bg-red-600 text-white font-extrabold uppercase px-4 py-2 rounded-lg shadow-lg animate-pulse">
-          OFFLINE
-        </h2>
-
-        <table className="w-full border-collapse border border-gray-300">
-          <thead>
-            <tr className="bg-red-600 text-white">
-              <th className="border p-2">Technical Session</th>
-              <th className="border p-2">Paper ID</th>
-              <th className="border p-2">Paper Title</th>
-              <th className="border p-2">Presenter</th>
-              <th className="border p-2">Track Name</th>
-              <th className="border p-2">Room No.</th>
-            </tr>
-          </thead>
-          <tbody>
-            {scheduleData4.map((item, index) => (
-              <tr
-                key={item.id}
-                className={index % 20 < 10 ? 'bg-yellow-100' : 'bg-red-100'}
-              >
-                <td className="border p-2 text-center">{item.session}</td>
-                <td className="border p-2 text-center">{item.id}</td>
-                <td className="border p-2">{item.title}</td>
-                <td className="border p-1">{item.presenter}</td>
-                <td className="border p-2">{item.track}</td>
-                <td className="border p-2">{item.room}</td>
               </tr>
             ))}
           </tbody>
