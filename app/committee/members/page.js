@@ -43,7 +43,7 @@ export default function TeamPage() {
       // "Prof. Ravi Sharma",
       "Ms. Trapti Shrivastava",
       // "Dr. Manish Kumar",
-      "Dr. Sonu Jha",
+      // "Dr. Sonu Jha",
       "Dr. Smita"
     ],
     "Conference Secretaries": [
