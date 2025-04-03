@@ -893,8 +893,8 @@ export const cards = [
   },
   {
     name: "Dr. Hironori Washizaki",
-    position: "Professor,2025 IEEE Computer Society President",
-    organization: "Waseda University, Tokyo",
+    position: "2025 IEEE Computer Society President",
+    organization: "Professor, Waseda University, Tokyo",
     imgSrc: "/ImportantPersons/hironori.png",
   },
   {
@@ -938,9 +938,9 @@ export const cards = [
     organization: "IIT Kanpur, India",
     imgSrc: "/ImportantPersons/ramkumar.jpg",
   }
-  ,{
-    name: "Dr. Hironori Washizaki"
-  }
+  // ,{
+  //   name: "Dr. Hironori Washizaki"
+  // }
   ,{
     name: "Dr. Rajeev Srivastava"
   }
