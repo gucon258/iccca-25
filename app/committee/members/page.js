@@ -31,6 +31,7 @@ export default function TeamPage() {
     ],
     "Publication Chairs": [
       "Prof. Shraddha Sagar",
+      "Dr. Arpesh Singh"
      
     ],
     "Conference Organizing Co-Chairs": [
