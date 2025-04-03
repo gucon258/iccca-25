@@ -326,7 +326,7 @@ export const cards = [
     imgSrc: "/ImportantPersons/gauravagarwal.jpeg",
   },
   {
-    name: "Dr. Suneeta Yadav",
+    name: "Dr. Sunita Yadav",
     position: "Dean, SCSE",
     organization: "Galgotias University, India",
     imgSrc: "/ImportantPersons/sunita.jpeg",
