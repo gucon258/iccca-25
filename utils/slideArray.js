@@ -794,12 +794,12 @@ export const cards = [
   {
     name: "Gaurang Pant",
     position: "Chair IEEE CS GU",
-    organization:"Galgotias University"
+    organization:"Galgotias University, India"
   },
   {
     name: "Shivam Kumar",
     position: "Student",
-    organization:"Galgotias University"
+    organization:"Galgotias University, India"
   },{
     name: "Hemendra Harsh",
     position: "Student"
