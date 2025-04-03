@@ -335,7 +335,7 @@ export const cards = [
     imgSrc: "/ImportantPersons/sunita.jpeg",
   },
   {
-    name: "Dr. V. Khemchandani",
+    name: "Dr. Vineeta Khemchandani",
     position: "Dean, SCAT",
     organization: "Galgotias University, India",
     imgSrc: "/ImportantPersons/khemchandani.webp",
@@ -383,7 +383,7 @@ export const cards = [
     organization: "GCET, Greater Noida, India"
   },
   {
-    name: "Prof. Ravi Sharma",
+    name: "Dr. Ravi Sharma",
     organization: "Galgotias University, India"
   },
   {
@@ -427,7 +427,7 @@ export const cards = [
     organization: "Galgotias University, India"
   },
   {
-    name: "Prof. Shachi Mall",
+    name: "Dr. Shachi Mall",
     organization: "Galgotias University, India"
   },
   {
@@ -948,7 +948,7 @@ export const cards = [
     name: "Dr. Rajeev Srivastava"
   },
   {
-    name : "Ms. Smita",
+    name : "Dr. Smita",
     organization : "Galgotias University"
   },
   {

@@ -26,13 +26,29 @@ export default function TeamPage() {
     ],
     "Conference Technical Chair": [
       "Dr. Sunita Yadav",
-      "Dr. V. Khemchandani",
+      "Dr. Vineeta Khemchandani",
       "Prof. Manish Kumar"
     ],
     "Publication Chairs": [
       "Prof. Shraddha Sagar",
       "Dr. Arpesh Singh"
      
+    ],
+    "Publicity Chairs": [
+      "Dr. Ravi Sharma"
+    ],
+    "Conference Secretaries": [
+      "Dr. K. K. Agrawal",
+      "Dr. Ajeet Singh",
+      
+      "Prof. Arunendra Mani Tripathi",
+      // "Prof. Avneesh Kumar",
+      "Dr. Shachi Mall"
+    ],
+    "Event Organising Chair": [
+      "Dr. Pragya Tewari",
+      "Dr. Ambika Gupta",
+      "Dr. Pooja Singh"
     ],
     "Conference Organizing Co-Chairs": [
       "Prof. Meenakshi Awasthi",
@@ -46,14 +62,14 @@ export default function TeamPage() {
       // "Dr. Sonu Jha",
       "Dr. Smita"
     ],
-    "Conference Secretaries": [
-      "Dr. K. K. Agrawal",
-      "Dr. Ajeet Singh",
-      
-      "Prof. Arunendra Mani Tripathi",
-      // "Prof. Avneesh Kumar",
-      "Prof. Shachi Mall"
+    "Publication Co-Chairs": [
+      // "Dr. Shachi Mall",
+      "Dr. Vipin Rai",
+      "Prof. Avneesh Kumar",
+      "Prof. E. Rajesh"
     ],
+    
+    
     "International Advisory Chairs": [
       // "Prof. Sanjeev K. Singh",
       "Prof. N. Partheeban",
@@ -61,22 +77,12 @@ export default function TeamPage() {
      "Prof. (Dr.) S Srinivasan"
 
     ],
-    "Publication Co-Chairs": [
-      // "Dr. Shachi Mall",
-      "Dr. Vipin Rai"
-    ],
-    "Publicity Chairs": [
-      "Prof. Ravi Sharma"
-    ],
+    
     "Sponsorship & Industry Chairs": [
       "Prof. Avneesh Kumar",
       "Dr. V.D.S. Baghela"
     ],
-    "Event Organising Chair": [
-      "Dr. Pragya Tewari",
-      "Dr. Ambika Gupta",
-      "Dr. Pooja Singh"
-    ],
+    
     "Finance Chairs": [
       "Prof. Ashok K. Yadav"
     ],
@@ -95,7 +101,7 @@ export default function TeamPage() {
     ],
     "Hospitality Chairs": [
       "Prof. (Dr.) Rajiv Mishra",
-      "Dr. Vandana Beniwal"
+      // "Dr. Vandana Beniwal"
     ],
     "International Advisory Committee": [
       "Dr. Liudong Xing",
