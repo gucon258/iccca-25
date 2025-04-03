@@ -26,7 +26,7 @@ const Hero = () => {
             <h2>About Galgotias University</h2>
           </div>
           <div className='h-auto py-2 md:py-5 lg:h-2/3 w-full flex justify-start items-start text-xs sm:text-sm md:text-base lg:text-2xl text-white'>
-            <p>Galgotias University hosts over 35,000 students across 100+ undergraduate and postgraduate programs. Renowned for excellence in teaching, research, and innovation, the university is committed to nurturing leaders who make a global impact. Hosting ICCSAI-2025 reinforces this mission by fostering knowledge exchange and innovation.</p>
+            <p>Galgotias University hosts over 20,000 students across 100+ undergraduate and postgraduate programs. Renowned for excellence in teaching, research, and innovation, the university is committed to nurturing leaders who make a global impact. Hosting ICCSAI-2025 reinforces this mission by fostering knowledge exchange and innovation.</p>
           </div>
         </div>
       </div>

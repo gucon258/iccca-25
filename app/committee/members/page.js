@@ -25,7 +25,7 @@ export default function TeamPage() {
       "Dr. Abdul Aleem"
     ],
     "Conference Technical Chair": [
-      "Dr. Suneeta Yadav",
+      "Dr. Sunita Yadav",
       "Dr. V. Khemchandani",
       // "Prof. Manish Kumar"
     ],
