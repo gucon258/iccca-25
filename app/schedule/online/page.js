@@ -319,7 +319,7 @@ const Schedule = () => {
               <th className="border p-2">Technical Session</th>
               <th className="border p-2">Paper ID</th>
               <th className="border p-2">Paper Title</th>
-            
+            <th className="border p-2">Presenter</th>
               <th className="border p-2">Track Name</th>
             </tr>
           </thead>
@@ -332,7 +332,7 @@ const Schedule = () => {
                 <td className="border p-2 text-center">{item.session}</td>
                 <td className="border p-2 text-center">{item.id}</td>
                 <td className="border p-2">{item.title}</td>
-               
+               <td className="border p-1">{item.presenter}</td>
                 <td className="border p-2">{item.track}</td>
               </tr>
             ))}
