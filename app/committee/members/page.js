@@ -48,7 +48,7 @@ export default function TeamPage() {
     ],
     "Conference Secretaries": [
       "Dr. K. K. Agrawal",
-      "Ajeet Singh",
+      "Dr. Ajeet Singh",
       
       "Prof. Arunendra Mani Tripathi",
       // "Prof. Avneesh Kumar",
