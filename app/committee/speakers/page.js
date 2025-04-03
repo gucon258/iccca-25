@@ -11,7 +11,6 @@ const speakers = [
   "Dr. Harivardhagini Subhadra",
   "Dr. Rajeev Srivastava",
   "Dr. S.N.Singh",
-  "Dr. Hironori Washizaki",
   "Dr.Akshay Kumar Rathore",
   "Dr. Sivaneasan Bala Krishnan",
   "Dr. Anil Kumar Tripathi",
