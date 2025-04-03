@@ -806,7 +806,7 @@ export const cards = [
   },
   {
     name: "Dr. P.S. Yadav",
-    position:"Board Hub Technical Education"
+    position:"Board of Technical Education, Uttar Pradesh"
   },{
     name:"Dr. Shailesh Kumar",
     organization:"MMMUT, Gorakhpur"
