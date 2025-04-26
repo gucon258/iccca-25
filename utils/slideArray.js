@@ -20,7 +20,7 @@ export const data = [
     },
     {
       name:"image5",
-      src:'/slider/slide5.png'
+      src:'/slider/slide5.jpg'
   },
   {
     name:"image6",
