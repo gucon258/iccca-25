@@ -38,7 +38,6 @@ const attractions = [
     image: "https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
     mapUrl: "https://goo.gl/maps/TajMahal"
   }
-
 ];
 
 const TouristAttractions = () => {

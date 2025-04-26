@@ -8,8 +8,8 @@ export default {
   theme: {
     extend: { keyframes: {
       breathing: {
-        "0%, 100%": { filter: "drop-shadow(0px 0px 5px rgba(255, 0, 0, 1))" },
-        "50%": { filter: "drop-shadow(0px 0px 10px rgba(255, 0, 0, 1)) brightness(1.3)" }
+        "0%, 100%": { filter: "drop-shadow(0px 0px 5px rgba(34, 197, 94, 0.8))" },
+        "50%": { filter: "drop-shadow(0px 0px 10px rgba(34, 197, 94, 0.8)) brightness(1.3)" }
       }
     },
     animation: {
@@ -18,6 +18,16 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: {
+          DEFAULT: "var(--primary)",
+          light: "var(--primary-light)",
+          dark: "var(--primary-dark)",
+        },
+        accent: {
+          DEFAULT: "var(--accent)",
+          light: "var(--accent-light)",
+          dark: "var(--accent-dark)",
+        }
       },
     },
   },

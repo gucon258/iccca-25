@@ -57,7 +57,7 @@ export default function ChairsFlowchart() {
           className="text-2xl font-bold text-red-600 text-left focus:outline-none focus:ring-2 focus:ring-blue-500"
           onClick={toggleFlowchart}
         >
-          Main Track: ICCSAI2025
+          Main Track: 2025 7th International Conference on Computing, Communication and Automation (ICCCA)
         </button>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {chairs.map((category, index) => (

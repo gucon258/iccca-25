@@ -16,9 +16,14 @@ const parseDate = (dateStr) => {
 
 const getCurrentProgressIndex = () => {
     const currentDate = new Date();
+    currentDate.setHours(0, 0, 0, 0); // Set time to start of day for comparison
+    
     for (let i = 0; i < events.length; i++) {
         const eventDate = parseDate(events[i].date);
-        if (eventDate && currentDate < eventDate) return i - 0.5;
+        if (eventDate) {
+            eventDate.setHours(0, 0, 0, 0); // Set time to start of day for comparison
+            if (currentDate < eventDate) return i - 1; // Return previous index
+        }
     }
     return events.length - 1;
 };

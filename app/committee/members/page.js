@@ -16,18 +16,27 @@ export default function TeamPage() {
     ],
     "Conference Chair": [
       "Dr. Aanjey M. Tripathi",
-      "Prof. Prashant Johri",
-      "Dr. Kuldeep S. Kaswan",
+      // "Prof. Prashant Johri",
+      // "Dr. Kuldeep S. Kaswan",
+      "Prof. Asheesh Kumar Singh"
     ],
     "Conference Organizing Chair": [
       "Dr. Vimal Kumar",
-      "Dr. Gaurav Agarwal",
-      "Dr. Abdul Aleem"
+      // "Dr. Gaurav Agarwal",
+      // "Dr. Abdul Aleem",
+      "Dr. V.D.S. Baghela"
+    ],
+    "Conference Organizing Co-Chairs": [
+      "Prof. Deepak Soni",
+      "Prof. Vipul Narayan Srivastava",
+      "Prof. T. Ganesh Kumar",
+      // "Prof. Desh Deepak Gautam"
     ],
     "Conference Technical Chair": [
       "Dr. Sunita Yadav",
-      "Dr. Vineeta Khemchandani",
-      "Prof. Manish Kumar"
+      "Dr. Kuldeep S. Kaswan"
+      // "Dr. Vineeta Khemchandani",
+      // "Prof. Manish Kumar"
     ],
     "Publication Chairs": [
       "Prof. Shraddha Sagar",
@@ -50,11 +59,11 @@ export default function TeamPage() {
       "Dr. Ambika Gupta",
       "Dr. Pooja Singh"
     ],
-    "Conference Organizing Co-Chairs": [
-      "Prof. Meenakshi Awasthi",
-      "Prof. Deepak Soni",
-      "Prof. Sunil Bharti"
-    ],
+    // "Conference Organizing Co-Chairs": [
+    //   "Prof. Meenakshi Awasthi",
+    //   "Prof. Deepak Soni",
+    //   "Prof. Sunil Bharti"
+    // ]
     "Conference Technical Co-Chairs": [
       // "Prof. Ravi Sharma",
       "Ms. Trapti Shrivastava",
@@ -80,7 +89,7 @@ export default function TeamPage() {
     
     "Sponsorship & Industry Chairs": [
       "Prof. Avneesh Kumar",
-      "Dr. V.D.S. Baghela"
+      // "Dr. V.D.S. Baghela"
     ],
     
     "Finance Chairs": [
@@ -92,9 +101,9 @@ export default function TeamPage() {
     "Website & Graphics Chairs": [
       "Mr. Pankaj Lamba",
       "Gaurang Pant",
-      "Ayush Raj",
-      "Hemendra Harsh",
-      "Shivam Kumar"
+      // "Ayush Raj",
+      // "Hemendra Harsh",
+      // "Shivam Kumar"
     ],
     "Media Chairs": [
       "Prof. AR Pandey"
@@ -104,32 +113,34 @@ export default function TeamPage() {
       // "Dr. Vandana Beniwal"
     ],
     "International Advisory Committee": [
-      "Dr. Liudong Xing",
-      "Dr. LING Tok Wang",
-      "Dr. Norjihan Abdul Ghani",
-      "Dr. Norbik Bashah Bin Idris",
-      "Dr. Maizatul Akmar Ismail",
-      "Dr. Suzan Jabbar Obaiys",
-      "Dr. Mufti Mahmud",
-      "Dr. Deepak K Jain",
-      "Dr. Kishore Bingi",
-      "Dr. Noor Zaman Jhanjhi",
-      "Dr. CHAMAN VERMA",
-      "Dr. Manoj Kumar",
-      "Dr. Sachidanand Mohanty",
-      "Dr. S.B.Goyal",
-      "Dr. Nagender Aneja",
-      "Dr. Pradeep Kumar",
-      "Dr. Mukesh Prasad",
-      "Dr. Gavendra Singh",
-      "Dr. Hoang Pham",
-      "Dr. Nitin Kumar Saxena",
-      "Prof. Utkal Mehta",
-      "Dr. Shafiq Ul Rehman",
-      "Prof. Mohammad Rashid Hussain",
-      "Prof. Deepak L. Waikar",
-      // "Prof. E. Rajesh",
-      "Prof.(Dr.) Akshay Rathore"
+      // "Dr. Liudong Xing",
+      // "Dr. LING Tok Wang",
+      // "Dr. Norjihan Abdul Ghani",
+      // "Dr. Norbik Bashah Bin Idris",
+      // "Dr. Maizatul Akmar Ismail",
+      // "Dr. Suzan Jabbar Obaiys",
+      // "Dr. Mufti Mahmud",
+      // "Dr. Deepak K Jain",
+      // "Dr. Kishore Bingi",
+      // "Dr. Noor Zaman Jhanjhi",
+      // "Dr. CHAMAN VERMA",
+      // "Dr. Manoj Kumar",
+      // "Dr. Sachidanand Mohanty",
+      // "Dr. S.B.Goyal",
+      // "Dr. Nagender Aneja",
+      // "Dr. Pradeep Kumar",
+      // "Dr. Mukesh Prasad",
+      // "Dr. Gavendra Singh",
+      // "Dr. Hoang Pham",
+      // "Dr. Nitin Kumar Saxena",
+      // "Prof. Utkal Mehta",
+      // "Dr. Shafiq Ul Rehman",
+      // "Prof. Mohammad Rashid Hussain",
+      // "Prof. Deepak L. Waikar",
+      // // "Prof. E. Rajesh",
+      // "Prof.(Dr.) Akshay Rathore"
+      "Prof. Sanjeev K. Singh",
+      "Prof. Jagjit Singh Dhatterwal"
     ],
     "National Advisory Committee": [
       "Prof. Adarsh Anand",

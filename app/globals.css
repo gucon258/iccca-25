@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background: #fef2f2;
+  --foreground: #450a0a;
+  --primary: #dc2626;
+  --primary-light: #fecaca;
+  --primary-dark: #991b1b;
+  --accent: #ef4444;
+  --accent-light: #fee2e2;
+  --accent-dark: #b91c1c;
+}
+
 @keyframes scroll {
   0% {
     transform: translateX(0);
@@ -13,4 +24,23 @@
 
 .animate-scroll {
   animation: scroll 30s linear infinite;
+}
+
+/* Add some utility classes for the red theme */
+@layer components {
+  .btn-primary {
+    @apply bg-primary hover:bg-primary-dark text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+  
+  .btn-accent {
+    @apply bg-accent hover:bg-accent-dark text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-lg p-6 border border-primary-light;
+  }
+  
+  .input-primary {
+    @apply border border-primary-light rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent;
+  }
 }

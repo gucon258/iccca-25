@@ -26,7 +26,7 @@ const Hero = () => {
             <h2>About Galgotias University</h2>
           </div>
           <div className='h-auto py-2 md:py-5 lg:h-2/3 w-full flex justify-start items-start text-xs sm:text-sm md:text-base lg:text-2xl text-white'>
-            <p>Galgotias University hosts over 20,000 students across 100+ undergraduate and postgraduate programs. Renowned for excellence in teaching, research, and innovation, the university is committed to nurturing leaders who make a global impact. Hosting ICCSAI-2025 reinforces this mission by fostering knowledge exchange and innovation.</p>
+            <p>Galgotias University hosts over 20,000 students across 100+ undergraduate and postgraduate programs. Renowned for excellence in teaching, research, and innovation, the university is committed to nurturing leaders who make a global impact. Hosting ICCCA-2025 reinforces this mission by fostering knowledge exchange and innovation.</p>
           </div>
         </div>
       </div>
@@ -48,7 +48,7 @@ const Hero = () => {
             <h2>CONFERENCE OBJECTIVE</h2>
           </div>
           <div className='h-auto py-2 md:py-5 lg:h-2/3 w-full flex justify-start items-start text-xs sm:text-sm md:text-base lg:text-2xl text-white'>
-            <p>ICCSAI-2025 is a non-profit international conference designed to advance knowledge in Computer & Communication Engineering. With multiple tracks covering diverse topics in computing, communication, information security, and artificial intelligence, the conference fosters global collaboration and sets new directions in research.</p>
+            <p>ICCCA is a non-profit conference that provides an opportunity for practicing engineers, academicians, and researchers to meet in a forum to discuss various issues and future directions in the field of Engineering and Technologies. The conference aims to bring together experts from relevant areas to disseminate their knowledge and experience for future research scope. The first ICCCA conference was held in 2015 at Radisson Blu Greater Noida, and since then, it has successfully organized five editions (2015, 2016, 2017, 2018, 2020 & 2021), with all presented papers available in IEEE Xplore.</p>
           </div>
         </div>
       </div>

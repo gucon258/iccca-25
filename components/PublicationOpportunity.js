@@ -8,6 +8,12 @@ export default function PublicationOpportunity() {
           Accepted papers, meeting <strong>IEEE Xplore's</strong> scope and quality standards, will be submitted for
           inclusion in <strong>IEEE Xplore</strong>, ensuring global visibility and recognition for the authors.
         </p>
+        <p className="text-gray-700 mb-4">
+          All the accepted and presented papers will be published in the form of e-proceedings and will be submitted to IEEE Xplore Digital Library (indexed in SCOPUS, Google Scholar and other major indexing).
+        </p>
+        <p className="text-gray-700 mb-4">
+          All presented papers will be considered for further review and publication in IEEE Transactions on Industry Applications and IEEE Industry Applications Magazine.
+        </p>
         <div className="flex items-center">
           <img
             src="/Sponser Logos/ieeeXplore.png"

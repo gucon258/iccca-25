@@ -2,53 +2,58 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-t from-[#4E0000] to-[#BE2727] text-white py-8 font-sans">
-      <div className="container mx-auto px-4 flex justify-between items-start flex-col md:flex-row">
-        <div className="w-full md:w-1/3 flex flex-col gap-2 md:gap-10"> {/* Left Column */}
-          <div className='flex justify-between gap-10'>
-            <div>
-                <img src="/logos/footericcsai.png" alt="" />
-            </div>
-            <div className='h-full'>
-            <p className="mb-4">
-            Plot No. 2, Yamuna Expy, opposite<br />
-            Buddha International Circuit, Sector 17A, Greater Noida, Uttar Pradesh 203201
-            </p>
+    <footer className="bg-red-600 text-white py-8 font-sans">
+      <div className="container mx-auto px-6">
+        <div className="flex flex-col md:flex-row justify-between items-start">
+          {/* Logo and Address Column */}
+          <div className="md:w-1/3 mb-6 md:mb-0">
+            <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
+              <div className="mb-4 md:mb-0">
+                <img src="/logos/conflogo2.png" alt="ICCCA Logo" className="h-20 md:h-24 w-auto" />
+              </div>
+              <div>
+                <p className="text-sm leading-relaxed">
+                  Galgotias University, Plot No. 2, Yamuna Expy,<br />
+                  opposite Buddha International Circuit,<br />
+                  Sector 17A, Greater Noida,<br />
+                  Uttar Pradesh 203201
+                </p>
+              </div>
             </div>
           </div>
-          <div>
-            <a href="https://www.galgotiasieee.org/events/event-1">
-              <img 
-                src="https://res.cloudinary.com/dgna3swph/image/upload/v1743326940/Young_minds_lv7cc3.png" 
-                alt="Young Minds logo" 
-                className='h-1/2 md:h-full w-full'
-              />
-            </a>
-          </div>
-        </div>
-        <div className='flex gap-20 p-5 w-full  md:w-1/3'>
-        <div className="w-full"> {/* Middle Column */}
-          <h3 className="text-lg font-semibold mb-2 text-left">Useful Links</h3>
-          <ul className="list-disc p-0">
-            <li className="mb-1"><a href="#" className="text-white hover:underline">About</a></li>
-            <li className="mb-1"><a href="#" className="text-white hover:underline">Events</a></li>
-            <li className="mb-1"><a href="#" className="text-white hover:underline">Gallery</a></li>
-            <li className="mb-1"><a href="#" className="text-white hover:underline">Program</a></li>
-            <li className="mb-1"><a href="#" className="text-white hover:underline">IEEE U.P.</a></li>
-          </ul>
-        </div>
 
-        <div className="w-full "> {/* Right Column */}
-          <h3 className="text-lg font-semibold mb-2">Socials</h3>
-          <ul className="list-disc p-0">
-            <li className="mb-1"><a href="#" className="text-white hover:underline">LinkedIn</a></li>
-            <li className="mb-1"><a href="#" className="text-white hover:underline">Instagram</a></li>
-            <li className="mb-1"><a href="#" className="text-white hover:underline">YouTube</a></li>
-            <li className="mb-1"><a href="#" className="text-white hover:underline">Facebook</a></li>
-            <li className="mb-1"><a href="#" className="text-white hover:underline">X (Twitter)</a></li>
-          </ul>
+          {/* Links and Socials */}
+          <div className="flex gap-12 md:gap-24">
+            {/* Useful Links */}
+            <div>
+              <h3 className="text-lg font-semibold mb-3">Useful Links</h3>
+              <ul className="space-y-1">
+                <li><a href="#" className="text-white hover:text-white/80 transition-colors duration-200">About</a></li>
+                <li><a href="#" className="text-white hover:text-white/80 transition-colors duration-200">Events</a></li>
+                <li><a href="#" className="text-white hover:text-white/80 transition-colors duration-200">Gallery</a></li>
+                <li><a href="#" className="text-white hover:text-white/80 transition-colors duration-200">Program</a></li>
+                <li><a href="#" className="text-white hover:text-white/80 transition-colors duration-200">IEEE U.P.</a></li>
+              </ul>
+            </div>
+
+            {/* Socials */}
+            <div>
+              <h3 className="text-lg font-semibold mb-3">Socials</h3>
+              <ul className="space-y-1">
+                <li><a href="#" className="text-white hover:text-white/80 transition-colors duration-200">LinkedIn</a></li>
+                <li><a href="#" className="text-white hover:text-white/80 transition-colors duration-200">Instagram</a></li>
+                <li><a href="#" className="text-white hover:text-white/80 transition-colors duration-200">YouTube</a></li>
+                <li><a href="#" className="text-white hover:text-white/80 transition-colors duration-200">Facebook</a></li>
+                <li><a href="#" className="text-white hover:text-white/80 transition-colors duration-200">X (Twitter)</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-        </div>
+      </div>
+      
+      {/* Copyright Section */}
+      <div className="container mx-auto px-6 mt-6 pt-4 border-t border-white/20 text-center text-sm">
+        <p>© Copyright 2025 ICCCA. All rights reserved.</p>
       </div>
     </footer>
   );

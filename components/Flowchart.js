@@ -43,30 +43,11 @@ export default function ConferenceDetails() {
       <div className="rounded-lg">
         <div className="flex flex-col md:flex-row gap-8">
           <div className="flex-1 bg-white rounded-lg shadow-md md:p-4">
-            <h2 className="text-xl lg:text-2xl font-bold text-[#BE2727] mb-4 ">Conference Topics Flowchart</h2>
+            <h2 className="text-xl lg:text-2xl font-bold text-[#BE2727] mb-4">Conference Topics</h2>
             <div className="space-y-4">
-              {categories.map((category, index) => (
-                <div key={index} className="bg-gray-50 rounded-lg shadow hover:scale-[1.02] transition-all">
-                  <button
-                    className="w-full flex justify-between items-center md:p-4 text-lg font-medium text-left text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 "
-                    onClick={() => toggleCategory(index)}
-                  >
-                    <div className="p-4 md:p-0 flex items-center justify-center gap-2">
-                      <Component color="#BE2727" className="hidden md:block" /> {category.title}
-                    </div>
-                    <span>{openCategory === index ? '-' : <ChevronDown color="#BE2727" />}</span>
-                  </button>
-                  {openCategory === index && (
-                    <div className="p-4 border-t border-gray-200">
-                      <ul className="list-disc pl-6 space-y-2">
-                        {category.topics.map((topic, i) => (
-                          <li key={i} className="text-gray-600">{topic}</li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-                </div>
-              ))}
+              <div className="bg-gray-50 rounded-lg shadow p-4 text-center">
+                <p className="text-gray-600 text-lg">To be listed soon</p>
+              </div>
             </div>
           </div>
 

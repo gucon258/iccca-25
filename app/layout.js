@@ -15,21 +15,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "ICCSAI 2025",
-  description: "Official website for the ICCSAI-2025.",
+  title: "ICCCA 2025",
+  description: "Official website for the ICCCA-2025.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased `}
-        >
+      <head>
+        <link rel="icon" type="image/png" href="/logos/iccsai_logo.png" />
+      </head>
+
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <MaxWidthWrapper>
-        <Navbar/> 
-        {children}
-        <Footer/>
-      </MaxWidthWrapper>
+          <Navbar />
+          {children}
+          <Footer />
+        </MaxWidthWrapper>
       </body>
     </html>
   );

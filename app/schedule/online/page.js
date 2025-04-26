@@ -4,6 +4,9 @@ import React from "react";
 
 
 const scheduleData = [
+  { session: "Technical Session-1", id: "13", title: "CNN-Based Nerve Block Segmentation", presenter: "Ravi Teja Gundimeda", track: "Main Track: 2025 7th International Conference on Computing, Communication and Automation (ICCCA)" },
+  { session: "Technical Session-1", id: "24", title: "Design and Implementation of Carry Look-Ahead Adder using PTL with Comparative Analysis Against Transmission Gate Logic", presenter: "Chezhiyan M", track: "Main Track: 2025 7th International Conference on Computing, Communication and Automation (ICCCA)" },
+  { session: "Technical Session-1", id: "27", title: "Evolving Tactics in Social Engineering Attacks in the Current Era: A Multi-Platform Honeypot Approach for Awareness and Defense", presenter: "Klk Charith", track: "Main Track: 2025 7th International Conference on Computing, Communication and Automation (ICCCA)" },
   { session: "Technical Session-1", id: "13", title: "CNN-Based Nerve Block Segmentation", presenter: "Ravi Teja Gundimeda", track: "Main Track: ICCSAI 2025" },
   { session: "Technical Session-1", id: "24", title: "Design and Implementation of Carry Look-Ahead Adder using PTL with Comparative Analysis Against Transmission Gate Logic", presenter: "Chezhiyan M", track: "Main Track: ICCSAI 2025" },
   { session: "Technical Session-1", id: "27", title: "Evolving Tactics in Social Engineering Attacks in the Current Era: A Multi-Platform Honeypot Approach for Awareness and Defense", presenter: "Klk Charith", track: "Main Track: ICCSAI 2025" },
