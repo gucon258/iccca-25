@@ -33,6 +33,14 @@ export const data = [
   {
     name:"image8",
     src:'/slider/slide8.jpg'
+},
+{
+  name:"image9",
+  src:'/slider/slide9.jpg'
+},
+{
+  name:"image10",
+  src:'/slider/slide10.jpg'
 }
 ]
 
