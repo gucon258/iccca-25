@@ -805,7 +805,7 @@ export const cards = [
     organization: ""
   },
   {
-    name: "Dr.Akshay Kumar Rathore",
+    name: "Prof.(Dr.) Akshay Rathore",
     position: "Professor",
     organization: " Singapore Institute of Technology, Singapore",
     imgSrc: "/ImportantPersons/akshayrathore.png",
@@ -920,7 +920,7 @@ export const sponsors = [
   // { name: 'Sponsor 4', logo: '/Sponser Logos/wie.png' },
   { name: 'Sponsor 5', logo: '/Sponser Logos/innovative.png' },
   { name: 'IAS', logo: '/Sponser Logos/ias.png' },
-  { name: 'IES', logo: '/Sponser Logos/ieee-ies.png' },
-  { name: 'PES', logo: '/Sponser Logos/ieee-pes.png' },
-  { name: 'PELS', logo: '/Sponser Logos/pels.png' }
+  // { name: 'IES', logo: '/Sponser Logos/ieee-ies.png' },
+  // { name: 'PES', logo: '/Sponser Logos/ieee-pes.png' },
+  // { name: 'PELS', logo: '/Sponser Logos/pels.png' }
 ];

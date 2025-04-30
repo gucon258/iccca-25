@@ -12,6 +12,8 @@ const Navbar = () => {
   const [isCommitteeOpen, setIsCommitteeOpen] = useState(false);
   const [isScheduleOpen, setIsScheduleOpen] = useState(false);
   const [isPreviousConferencesOpen, setIsPreviousConferencesOpen] = useState(false);
+  const [isAwardsOpen, setIsAwardsOpen] = useState(false);
+  const [isEventsOpen, setIsEventsOpen] = useState(false);
   const dropdownRef = useRef(null);
   const mobileNavRef = useRef(null);
   const leaveTimer = useRef(null);
@@ -22,6 +24,9 @@ const Navbar = () => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
         setIsCommitteeOpen(false);
         setIsScheduleOpen(false);
+        setIsAwardsOpen(false);
+        setIsPreviousConferencesOpen(false);
+        setIsEventsOpen(false);
       }
       if (isOpen && mobileNavRef.current && !mobileNavRef.current.contains(event.target) && !event.target.closest('button[aria-label="Toggle menu"]')) {
         setIsOpen(false);
@@ -60,6 +65,9 @@ const Navbar = () => {
     setIsOpen(false);
     setIsCommitteeOpen(false);
     setIsScheduleOpen(false);
+    setIsAwardsOpen(false);
+    setIsPreviousConferencesOpen(false);
+    setIsEventsOpen(false);
   };
 
   const handleMouseEnter = (setter) => {
@@ -166,6 +174,36 @@ const Navbar = () => {
                     <span className="text-white text-lg hover:text-accent-light transition-colors duration-200">Guidelines</span>
                   </Link>
                 </li>
+                {/* Events Dropdown - Mobile */}
+                <li>
+                  <div
+                    className="text-white text-lg hover:text-accent-light flex items-center justify-center gap-1 cursor-pointer transition-colors duration-200"
+                    onClick={() => setIsEventsOpen(!isEventsOpen)}
+                  >
+                    Events <ChevronDown size={16} className={`transition-transform duration-300 ${isEventsOpen ? 'rotate-180' : ''}`} />
+                  </div>
+                  <AnimatePresence>
+                    {isEventsOpen && (
+                      <motion.div
+                        initial={{ opacity: 0, height: 0 }}
+                        animate={{ opacity: 1, height: 'auto' }}
+                        exit={{ opacity: 0, height: 0 }}
+                        transition={{ duration: 0.3 }}
+                        className="w-full bg-primary-dark text-white rounded-md shadow-lg mt-2 overflow-hidden"
+                      >
+                        <Link href="/events/cs" onClick={closeMenu}>
+                          <div className="px-4 py-3 hover:bg-primary">CS</div>
+                        </Link>
+                        <Link href="/events/wie" onClick={closeMenu}>
+                          <div className="px-4 py-3 hover:bg-primary">WIE</div>
+                        </Link>
+                        <Link href="/events/ias" onClick={closeMenu}>
+                          <div className="px-4 py-3 hover:bg-primary">IAS</div>
+                        </Link>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </li>
                 <li>
                   <div
                     className="text-white text-lg hover:text-accent-light flex items-center justify-center gap-1 cursor-not-allowed opacity-75 transition-colors duration-200"
@@ -173,6 +211,45 @@ const Navbar = () => {
                   >
                     Schedule <ChevronDown size={16} />
                   </div>
+                </li>
+                {/* Awards Dropdown - Mobile */}
+                <li>
+                  <div
+                    className="text-white text-lg hover:text-accent-light flex items-center justify-center gap-1 cursor-pointer transition-colors duration-200"
+                    onClick={() => setIsAwardsOpen(!isAwardsOpen)}
+                  >
+                    Awards <ChevronDown size={16} className={`transition-transform duration-300 ${isAwardsOpen ? 'rotate-180' : ''}`} />
+                  </div>
+                  <AnimatePresence>
+                    {isAwardsOpen && (
+                      <motion.div
+                        initial={{ opacity: 0, height: 0 }}
+                        animate={{ opacity: 1, height: 'auto' }}
+                        exit={{ opacity: 0, height: 0 }}
+                        transition={{ duration: 0.3 }}
+                        className="w-full bg-primary-dark text-white rounded-md shadow-lg mt-2 overflow-hidden"
+                      >
+                        <Link href="/awards/best-paper" onClick={closeMenu}>
+                          <div className="px-4 py-3 hover:bg-primary">Best Paper Award</div>
+                        </Link>
+                        <Link href="/awards/best-poster" onClick={closeMenu}>
+                          <div className="px-4 py-3 hover:bg-primary">Best Poster Award</div>
+                        </Link>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </li>
+                {/* Sponsors - Mobile */}
+                <li>
+                  <Link href="/sponsors" onClick={closeMenu}>
+                    <span className="text-white text-lg hover:text-accent-light transition-colors duration-200">Sponsors</span>
+                  </Link>
+                </li>
+                {/* Contact - Mobile */}
+                <li>
+                  <Link href="/contact" onClick={closeMenu}>
+                    <span className="text-white text-lg hover:text-accent-light transition-colors duration-200">Contact</span>
+                  </Link>
                 </li>
               </ul>
 
@@ -194,8 +271,8 @@ const Navbar = () => {
         </AnimatePresence>
 
         {/* Desktop Menu */}
-        <div className="hidden lg:flex items-center gap-8">
-          <ul className="flex items-center gap-8">
+        <div className="hidden lg:flex items-center gap-6">
+          <ul className="flex items-center gap-6">
             <li>
               <Link href="/#">
                 <span className="text-white hover:text-accent-light transition-colors duration-200">Home</span>
@@ -238,6 +315,39 @@ const Navbar = () => {
                 <span className="text-white hover:text-accent-light transition-colors duration-200">Guidelines</span>
               </Link>
             </li>
+            {/* Events Dropdown - Desktop */}
+            <li className="relative">
+              <div
+                className="text-white hover:text-accent-light flex items-center gap-1 cursor-pointer transition-colors duration-200"
+                onMouseEnter={() => handleMouseEnter(setIsEventsOpen)}
+                onMouseLeave={() => handleMouseLeave(setIsEventsOpen)}
+              >
+                Events <ChevronDown size={16} className={`transition-transform duration-300 ${isEventsOpen ? 'rotate-180' : ''}`} />
+              </div>
+              <AnimatePresence>
+                {isEventsOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -10 }}
+                    transition={{ duration: 0.2 }}
+                    className="absolute top-full left-0 mt-2 w-48 bg-primary-dark text-white rounded-md shadow-lg overflow-hidden"
+                    onMouseEnter={() => handleMouseEnter(setIsEventsOpen)}
+                    onMouseLeave={() => handleMouseLeave(setIsEventsOpen)}
+                  >
+                    <Link href="/events/cs">
+                      <div className="px-4 py-3 hover:bg-primary">CS</div>
+                    </Link>
+                    <Link href="/events/wie">
+                      <div className="px-4 py-3 hover:bg-primary">WIE</div>
+                    </Link>
+                    <Link href="/events/ias">
+                      <div className="px-4 py-3 hover:bg-primary">IAS</div>
+                    </Link>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </li>
             <li className="relative">
               <div
                 className="text-white hover:text-accent-light flex items-center gap-1 cursor-pointer transition-colors duration-200"
@@ -247,51 +357,68 @@ const Navbar = () => {
                 Previous Conferences <ChevronDown size={16} className={`transition-transform duration-300 ${isPreviousConferencesOpen ? 'rotate-180' : ''}`} />
               </div>
               <AnimatePresence>
-                {isPreviousConferencesOpen && (
-                  <motion.div
-                    initial={{ opacity: 0, y: -10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -10 }}
-                    transition={{ duration: 0.2 }}
-                    className="absolute top-full left-0 mt-2 w-48 bg-primary-dark text-white rounded-md shadow-lg overflow-hidden"
-                    onMouseEnter={() => handleMouseEnter(setIsPreviousConferencesOpen)}
-                    onMouseLeave={() => handleMouseLeave(setIsPreviousConferencesOpen)}
-                  >
-                    <a 
-                      href="https://ieeexplore.ieee.org/xpl/conhome/9573501/proceeding" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="block px-4 py-3 hover:bg-primary"
-                    >
-                      2021
-                    </a>
-                    <a 
-                      href="https://ieeexplore.ieee.org/xpl/conhome/9230460/proceeding" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="block px-4 py-3 hover:bg-primary"
-                    >
-                      2020
-                    </a>
-                    <a 
-                      href="https://ieeexplore.ieee.org/xpl/conhome/8933293/proceeding" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="block px-4 py-3 hover:bg-primary"
-                    >
-                      2019
-                    </a>
-                    <a 
-                      href="https://ieeexplore.ieee.org/xpl/conhome/8671767/proceeding" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="block px-4 py-3 hover:bg-primary"
-                    >
-                      2018
-                    </a>
-                  </motion.div>
-                )}
-              </AnimatePresence>
+  {isPreviousConferencesOpen && (
+    <motion.div
+      initial={{ opacity: 0, y: -10 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -10 }}
+      transition={{ duration: 0.2 }}
+      className="absolute top-full left-0 mt-2 w-48 bg-primary-dark text-white rounded-md shadow-lg overflow-hidden"
+      onMouseEnter={() => handleMouseEnter(setIsPreviousConferencesOpen)}
+      onMouseLeave={() => handleMouseLeave(setIsPreviousConferencesOpen)}
+    >
+      <a 
+        href="https://ieeexplore.ieee.org/xpl/conhome/9573501/proceeding" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="block px-4 py-3 hover:bg-primary"
+      >
+        2021
+      </a>
+      <a 
+        href="https://ieeexplore.ieee.org/xpl/conhome/9230460/proceeding" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="block px-4 py-3 hover:bg-primary"
+      >
+        2020
+      </a>
+      <a 
+        href="https://ieeexplore.ieee.org/xpl/conhome/8671767/proceeding" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="block px-4 py-3 hover:bg-primary"
+      >
+        2018
+      </a>
+      <a 
+        href="https://ieeexplore.ieee.org/xpl/conhome/8168800/proceeding" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="block px-4 py-3 hover:bg-primary"
+      >
+        2017
+      </a>
+      <a 
+        href="https://ieeexplore.ieee.org/xpl/conhome/7795276/proceeding" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="block px-4 py-3 hover:bg-primary"
+      >
+        2016
+      </a>
+      <a 
+        href="https://ieeexplore.ieee.org/xpl/conhome/7126877/proceeding" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="block px-4 py-3 hover:bg-primary"
+      >
+        2015
+      </a>
+    </motion.div>
+  )}
+</AnimatePresence>
+
             </li>
             <li className="relative">
               <div
@@ -300,6 +427,48 @@ const Navbar = () => {
               >
                 Schedule <ChevronDown size={16} />
               </div>
+            </li>
+            {/* Awards Dropdown - Desktop */}
+            <li className="relative">
+              <div
+                className="text-white hover:text-accent-light flex items-center gap-1 cursor-pointer transition-colors duration-200"
+                onMouseEnter={() => handleMouseEnter(setIsAwardsOpen)}
+                onMouseLeave={() => handleMouseLeave(setIsAwardsOpen)}
+              >
+                Awards <ChevronDown size={16} className={`transition-transform duration-300 ${isAwardsOpen ? 'rotate-180' : ''}`} />
+              </div>
+              <AnimatePresence>
+                {isAwardsOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -10 }}
+                    transition={{ duration: 0.2 }}
+                    className="absolute top-full left-0 mt-2 w-48 bg-primary-dark text-white rounded-md shadow-lg overflow-hidden"
+                    onMouseEnter={() => handleMouseEnter(setIsAwardsOpen)}
+                    onMouseLeave={() => handleMouseLeave(setIsAwardsOpen)}
+                  >
+                    <Link href="/awards/best-paper">
+                      <div className="px-4 py-3 hover:bg-primary">Best Paper Award</div>
+                    </Link>
+                    <Link href="/awards/best-poster">
+                      <div className="px-4 py-3 hover:bg-primary">Best Poster Award</div>
+                    </Link>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </li>
+            {/* Sponsors - Desktop */}
+            <li>
+              <Link href="/sponsors">
+                <span className="text-white hover:text-accent-light transition-colors duration-200">Sponsors</span>
+              </Link>
+            </li>
+            {/* Contact - Desktop */}
+            <li>
+              <Link href="/contact">
+                <span className="text-white hover:text-accent-light transition-colors duration-200">Contact</span>
+              </Link>
             </li>
           </ul>
 

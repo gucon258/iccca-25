@@ -6,41 +6,43 @@ export default function TeamPage() {
     "Chief Patron": ["Shri Suneel Galgotia"],
     "Patrons": [
       "Dr. Dhruv Galgotia",
-      "Prof.(Dr.) S.N. Singh",
+      "Dr. S.N.Singh",
       "Prof.(Dr.) K.M. Babu",
       "Ms. Aradhana Galgotia",
+      
     ],
     "Conference General Chair": [
       "Prof.(Dr.) Avadhesh Kumar",
-      "Dr. Yogesh S. Chauhan"
+      "Dr. Yogesh S. Chauhan",
+      "Prof.(Dr.) Akshay Rathore"
     ],
     "Conference Chair": [
       "Dr. Aanjey M. Tripathi",
       // "Prof. Prashant Johri",
-      // "Dr. Kuldeep S. Kaswan",
-      "Prof. Asheesh Kumar Singh"
+      "Dr. Kuldeep S. Kaswan"
+      // "Prof. Asheesh Kumar Singh"
     ],
     "Conference Organizing Chair": [
       "Dr. Vimal Kumar",
-      // "Dr. Gaurav Agarwal",
-      // "Dr. Abdul Aleem",
-      "Dr. V.D.S. Baghela"
+      "Dr. Gaurav Agarwal",
+      "Dr. Abdul Aleem",
+      "Prof. Manish Kumar",
+      "Dr. Arpesh Singh"
     ],
-    "Conference Organizing Co-Chairs": [
-      "Prof. Deepak Soni",
-      "Prof. Vipul Narayan Srivastava",
-      "Prof. T. Ganesh Kumar",
-      // "Prof. Desh Deepak Gautam"
+    "Conference Co-Organizing Chairs": [
+      "Prof. Meenakshi Awasthi",
+      // "Prof. Deepak Soni",
+      "Prof. Sunil Bharti"
     ],
     "Conference Technical Chair": [
       "Dr. Sunita Yadav",
-      "Dr. Kuldeep S. Kaswan"
-      // "Dr. Vineeta Khemchandani",
+      // "Dr. Kuldeep S. Kaswan"
+      "Dr. Vineeta Khemchandani"
       // "Prof. Manish Kumar"
     ],
     "Publication Chairs": [
-      "Prof. Shraddha Sagar",
-      "Dr. Arpesh Singh"
+      "Prof. Shraddha Sagar"
+      
      
     ],
     "Publicity Chairs": [
@@ -55,15 +57,12 @@ export default function TeamPage() {
       "Dr. Shachi Mall"
     ],
     "Event Organising Chair": [
+      
       "Dr. Pragya Tewari",
       "Dr. Ambika Gupta",
       "Dr. Pooja Singh"
     ],
-    // "Conference Organizing Co-Chairs": [
-    //   "Prof. Meenakshi Awasthi",
-    //   "Prof. Deepak Soni",
-    //   "Prof. Sunil Bharti"
-    // ]
+    
     "Conference Technical Co-Chairs": [
       // "Prof. Ravi Sharma",
       "Ms. Trapti Shrivastava",
