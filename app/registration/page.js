@@ -22,31 +22,38 @@ const page = () => {
           <tbody className="text-gray-700">
             <tr className="bg-orange-100">
               <td className="p-3 border">Indian Author (Academia/Industry)</td>
-              <td className="p-3 border">INR 9,500</td>
-              <td className="p-3 border">INR 11,800</td>
-              <td className="p-3 border">INR 11,800</td>
-              <td className="p-3 border">INR 12,980</td>
+              <td className="p-3 border">₹9500</td>
+              <td className="p-3 border">₹10620</td>
+              <td className="p-3 border">₹10620</td>
+              <td className="p-3 border">₹11800</td>
+            </tr>
+            <tr className="bg-orange-100">
+              <td className="p-3 border">Indian Student Author</td>
+              <td className="p-3 border">₹7080</td>
+              <td className="p-3 border">₹8260</td>
+              <td className="p-3 border">₹8260</td>
+              <td className="p-3 border">₹8850</td>
             </tr>
             <tr className="bg-orange-100">
               <td className="p-3 border">Indian Student Attendee (Non-Author)</td>
-              <td className="p-3 border">INR 4,130</td>
-              <td className="p-3 border">INR 5,310</td>
-              <td className="p-3 border">INR 5,310</td>
-              <td className="p-3 border">INR 6,490</td>
+              <td className="p-3 border">₹3540</td>
+              <td className="p-3 border">₹4130</td>
+              <td className="p-3 border">₹4130</td>
+              <td className="p-3 border">₹4720</td>
             </tr>
             <tr className="bg-orange-100">
               <td className="p-3 border">Indian Professional Attendee (Non-Author)</td>
-              <td className="p-3 border">INR 6,490</td>
-              <td className="p-3 border">INR 7,670</td>
-              <td className="p-3 border">INR 7,670</td>
-              <td className="p-3 border">INR 8,260</td>
+              <td className="p-3 border">₹5900</td>
+              <td className="p-3 border">₹6490</td>
+              <td className="p-3 border">₹6490</td>
+              <td className="p-3 border">₹6490</td>
             </tr>
             <tr className="bg-orange-100">
               <td className="p-3 border">Tutorial only (Indian Student)</td>
-              <td className="p-3 border">INR 500</td>
-              <td className="p-3 border">INR 750</td>
-              <td className="p-3 border">INR 750</td>
-              <td className="p-3 border">INR 1,000</td>
+              <td className="p-3 border">₹500</td>
+              <td className="p-3 border">₹750</td>
+              <td className="p-3 border">₹750</td>
+              <td className="p-3 border">₹1000</td>
             </tr>
             <tr className="bg-orange-100">
               <td className="p-3 border">Foreign Author (Academia/Industry)</td>
@@ -57,31 +64,31 @@ const page = () => {
             </tr>
             <tr className="bg-orange-100">
               <td className="p-3 border">Foreign Student Attendee (Non-Author)</td>
+              <td className="p-3 border">$100</td>
+              <td className="p-3 border">$150</td>
               <td className="p-3 border">$150</td>
               <td className="p-3 border">$200</td>
-              <td className="p-3 border">$200</td>
-              <td className="p-3 border">$225</td>
             </tr>
             <tr className="bg-orange-100">
               <td className="p-3 border">Foreign Professional Attendee (Additional Page)</td>
-              <td className="p-3 border">$15 per page</td>
-              <td className="p-3 border">$15 per page</td>
-              <td className="p-3 border">$15 per page</td>
-              <td className="p-3 border">$15 per page</td>
+              <td className="p-3 border">$15/Page</td>
+              <td className="p-3 border">$15/Page</td>
+              <td className="p-3 border">$15/Page</td>
+              <td className="p-3 border">$15/Page</td>
             </tr>
             <tr className="bg-orange-100">
-              <td className="p-3 border">Indian Professional Author/Attendee</td>
-              <td className="p-3 border">INR 1,000 per page</td>
-              <td className="p-3 border">INR 1,000 per page</td>
-              <td className="p-3 border">INR 1,000 per page</td>
-              <td className="p-3 border">INR 1,000 per page</td>
+              <td className="p-3 border">Indian Professional Author/Attendee (Additional Page)</td>
+              <td className="p-3 border">₹1000/Page</td>
+              <td className="p-3 border">₹1000/Page</td>
+              <td className="p-3 border">₹1000/Page</td>
+              <td className="p-3 border">₹1000/Page</td>
             </tr>
             <tr className="bg-orange-100">
               <td className="p-3 border">Foreign Author Attendee (Non-Author)</td>
+              <td className="p-3 border">$150</td>
+              <td className="p-3 border">$200</td>
               <td className="p-3 border">$200</td>
               <td className="p-3 border">$250</td>
-              <td className="p-3 border">$250</td>
-              <td className="p-3 border">$300</td>
             </tr>
             <tr className="bg-orange-100">
               <td className="p-3 border">Tutorial only (Foreign Student)</td>
@@ -98,6 +105,9 @@ const page = () => {
           </p>
           <p className="text-blue-600 font-medium text-center">
             One full author registration can register up to 2 pages
+          </p>
+          <p className="text-red-600 text-sm text-center mt-2">
+            * Extra page charge of ₹ 1000/- INR per page Indian author and $ 15 per page International author will be chargeable to the author's during registration process.
           </p>
         </div>
       </div>

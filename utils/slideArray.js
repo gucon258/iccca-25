@@ -175,12 +175,7 @@ export const cards = [
     organization: "Galgotias University, India",
     imgSrc: "/ImportantPersons/suneelSir.png",
   },
-  {
-    name: "Dr. S.N.Singh",
-    position: "Director",
-    organization: "IIITM",
-    imgSrc: "/ImportantPersons/snsingh.png",
-  },
+  
   {
     name: "Dr. Dhruv Galgotia",
     position: "CEO",
@@ -199,6 +194,12 @@ export const cards = [
     organization: "Galgotias University, India",
     imgSrc: "/ImportantPersons/aradhna.png",
   },
+  {
+    name: "Dr. S.N.Singh",
+    position: "Director",
+    organization: "IIITM",
+    imgSrc: "/ImportantPersons/snsingh.png",
+  },
 {
     name: "Dr. Yogesh S. Chauhan",
     position: "Professor, IIT Kanpur",
@@ -210,6 +211,12 @@ export const cards = [
     position: "Pro-VC, Galgotias University, India ",
     organization: "Vice Chair, IEEE UP Section",
     imgSrc: "/ImportantPersons/avadhesh.png",
+  },
+  {
+    name: "Prof.(Dr.) Akshay Rathore",
+    position: "Professor",
+    organization: " Singapore Institute of Technology, Singapore",
+    imgSrc: "/ImportantPersons/akshayrathore.png",
   },
   {
     name: "Dr. Aanjey M. Tripathi",
@@ -229,12 +236,12 @@ export const cards = [
     organization: "Galgotias University, India",
     imgSrc: "/ImportantPersons/kuldeepkaswan.png",
   },
-  {
-    name: "Dr. Vimal Kumar",
-    position: "Professor",
-    organization: "MMMUT, Gorakhpur",
-    imgSrc: "/ImportantPersons/vimalkumar.png",
-  },
+  // {
+  //   name: "Dr. Vimal Kumar",
+  //   position: "Professor",
+  //   organization: "MMMUT, Gorakhpur",
+  //   imgSrc: "/ImportantPersons/vimalkumar.png",
+  // },
   {
     name: "Dr. Abdul Aleem",
     position: "Professor",
@@ -283,11 +290,11 @@ export const cards = [
     organization: "NIT Delhi",
     imgSrc: "/ImportantPersons/anuragsingh.png",
   },
-  {
-    name: "Dr. Arvind Panwar",
-    position: "Professor",
-    organization: "Galgotias University, India"
-  },
+  // {
+  //   name: "Dr. Arvind Panwar",
+  //   position: "Professor",
+  //   organization: "Galgotias University, India"
+  // },
   
   {
     name: "Prof. Meenakshi Awasthi",
@@ -807,17 +814,8 @@ export const cards = [
     organization: "CHRIST University, Greater Noida, India"
   },
   
-  {
-    name: "",
-    position: "",
-    organization: ""
-  },
-  {
-    name: "Prof.(Dr.) Akshay Rathore",
-    position: "Professor",
-    organization: " Singapore Institute of Technology, Singapore",
-    imgSrc: "/ImportantPersons/akshayrathore.png",
-  },
+  
+  
   {
     name: "Dr. Hironori Washizaki",
     position: "2025 IEEE Computer Society President",
