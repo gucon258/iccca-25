@@ -1,7 +1,7 @@
 export default function AcknowledgementComponent() {
     return (
       <div className="p-6 border border-gray-300 rounded-lg shadow-md max-w-[90%] mx-auto my-10">
-        <h2 className="text-blue-600 text-xl font-bold border-b-2 border-gray-300 pb-2 mb-4">
+        <h2 className="text-red-600 text-xl font-bold border-b-2 border-gray-300 pb-2 mb-4">
           ACKNOWLEDGEMENT
         </h2>
         <p className="text-gray-700 mb-4">
