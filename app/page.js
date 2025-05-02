@@ -14,6 +14,7 @@ import TouristAttractions from "@/components/TouristAttractions";
 import PublicationOpportunity from "@/components/PublicationOpportunity";
 import IEEEPublicationDetails from "@/components/IEEEPublicationDetails";
 import StudentSupport from "@/components/StudentSupport";
+import AcknowledgementComponent from "@/components/Acknowledgement";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
     <ScrollingLogos/>
     <PublicationOpportunity/>
     <IEEEPublicationDetails/>
+    <AcknowledgementComponent/>
     <TouristAttractions/>
     </>
   );
