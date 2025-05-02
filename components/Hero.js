@@ -21,12 +21,12 @@ const Hero = () => {
         <div className='py-6 md:py-8 w-1/5 h-1/5 lg:h-1/3 flex justify-center items-center'>
           <div className='size-2 lg:size-3 bg-white'></div>
         </div>
-        <div className='h-full w-4/5'>
+        <div className='h-full w-4/5 pl-2 md:pl-4'>
           <div className='h-1/5 py-3 md:py-5 lg:h-1/3 w-full flex justify-start items-center text-white font-bold text-base sm:text-lg md:text-xl lg:text-3xl'>
             <h2>About Galgotias University</h2>
           </div>
           <div className='h-auto py-2 md:py-5 lg:h-2/3 w-full flex justify-start items-start text-xs sm:text-sm md:text-base lg:text-2xl text-white'>
-            <p>Galgotias University hosts over 20,000 students across 100+ undergraduate and postgraduate programs. Renowned for excellence in teaching, research, and innovation, the university is committed to nurturing leaders who make a global impact. Hosting ICCCA-2025 reinforces this mission by fostering knowledge exchange and innovation.</p>
+            <p className="text-justify pr-2 md:pr-4">The university began operations in the 2011-2012 academic session and welcomed its first batch of students in July 2011. Since then, it has grown to have more than 30K+ students. Today, with 20 schools offering over 200 programs, including Diploma, Undergraduate, Postgraduate, and PhD Programs, we rank among India's top universities. We aim to become an internationally recognized institution that excels in multidisciplinary and interdisciplinary education, research, and innovation, producing graduates who are globally competitive and poised to become leaders in their fields. Graduates will possess deep knowledge in their chosen fields, strong problem-solving skills, an understanding of the societal context of their profession, effective teamwork abilities, excellent communication skills, and a commitment to lifelong learning.</p>
           </div>
         </div>
       </div>
@@ -43,12 +43,12 @@ const Hero = () => {
         <div className='py-6 md:py-8 w-1/5 h-1/5 lg:h-1/3 flex justify-center items-center '>
           <div className='size-2 lg:size-3 bg-white'></div>
         </div>
-        <div className='h-full w-4/5'>
+        <div className='h-full w-4/5 pl-2 md:pl-4'>
           <div className='h-1/5 py-3 md:py-5 lg:h-1/3 w-full flex justify-start items-center text-white font-bold text-base sm:text-lg md:text-3xl lg:text-3xl'>
             <h2>CONFERENCE OBJECTIVE</h2>
           </div>
           <div className='h-auto py-2 md:py-5 lg:h-2/3 w-full flex justify-start items-start text-xs sm:text-sm md:text-base lg:text-2xl text-white'>
-            <p>ICCCA is a non-profit conference that provides an opportunity for practicing engineers, academicians, and researchers to meet in a forum to discuss various issues and future directions in the field of Engineering and Technologies. The conference aims to bring together experts from relevant areas to disseminate their knowledge and experience for future research scope. The first ICCCA conference was held in 2015 at Radisson Blu Greater Noida, and since then, it has successfully organized five editions (2015, 2016, 2017, 2018, 2020 & 2021), with all presented papers available in IEEE Xplore.</p>
+            <p className="text-justify pr-2 md:pr-4">ICCCA is a non-profit conference that provides an opportunity for practicing engineers, academicians, and researchers to meet in a forum to discuss various issues and future directions in the field of Engineering and Technologies. The conference aims to bring together experts from relevant areas to disseminate their knowledge and experience for future research scope. The first ICCCA conference was held in 2015 at Radisson Blu Greater Noida, and since then, it has successfully organized five editions (2015, 2016, 2017, 2018, 2020 & 2021), with all presented papers available in IEEE Xplore.</p>
           </div>
         </div>
       </div>
@@ -57,9 +57,6 @@ const Hero = () => {
       </div>
     </motion.div>
   </div>
-  
-
-
   )
 }
 
