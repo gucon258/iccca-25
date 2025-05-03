@@ -256,7 +256,7 @@ const Navbar = () => {
               {/* Submit Button in Mobile Menu */}
               <div className="flex justify-center mt-4 mb-8">
                 <a
-                  href="https://cmt3.research.microsoft.com/User/Login"
+                  href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCCAconf2025"
                   target="_blank"
                   className="w-4/5"
                   onClick={closeMenu}
@@ -474,7 +474,7 @@ const Navbar = () => {
 
           {/* Submit Button Desktop */}
           <a
-            href="https://cmt3.research.microsoft.com/User/Login"
+            href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCCAconf2025"
             target="_blank"
           >
             <button className="bg-gradient-to-r from-[#DE4060] via-[#A73E9C] to-[#438ACC] hover:bg-gradient-to-bl text-white font-medium rounded-xl px-6 py-2 transition-all duration-300 ease-in-out">
