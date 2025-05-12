@@ -33,6 +33,7 @@ export default function RootLayout({ children }) {
           {children}
           <Footer />
         </MaxWidthWrapper>
+        <Analytics />
       </body>
     </html>
   );
