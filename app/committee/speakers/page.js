@@ -2,24 +2,25 @@ import React from "react";
 import { cards } from "@/utils/slideArray";
 
 const speakers = [
-  "Prof.(Dr.) S.N. Singh",
+  "Dr. S.N.Singh",
+  "Prof.(Dr.) Akshay Rathore",
   "Dr. Yogesh S. Chauhan",
   "Prof. J. Ramkumar",
-  "Prof.(Dr.) Akshay Rathore", 
-  "Chin Kuan Ho",
-  "Dr. Hironori Washizaki",
-  "Dr. Harivardhagini Subhadra",
-  "Dr. Rajeev Srivastava",
-  "Dr. S.N.Singh",
-  "Dr.Akshay Kumar Rathore",
-  "Dr. Sivaneasan Bala Krishnan",
-  "Dr. Anil Kumar Tripathi",
-  "Prof. Asheesh Kumar",
-  "Dr. Mohammad Rihan",
-  "Dr. Rajeev Kumar Singh",
-  "Dr. Prabhakar Tiwari",
-  "Dr. Rakesh Kumar",
-  "Dr. Varun Kakar"
+   
+  // "Chin Kuan Ho",
+  // "Dr. Hironori Washizaki",
+  // "Dr. Harivardhagini Subhadra",
+  // "Dr. Rajeev Srivastava",
+  // "Dr. S.N.Singh",
+  // "Dr.Akshay Kumar Rathore",
+  // "Dr. Sivaneasan Bala Krishnan",
+  // "Dr. Anil Kumar Tripathi",
+  // "Prof. Asheesh Kumar",
+  // "Dr. Mohammad Rihan",
+  // "Dr. Rajeev Kumar Singh",
+  // "Dr. Prabhakar Tiwari",
+  // "Dr. Rakesh Kumar",
+  // "Dr. Varun Kakar"
 ];
 
 

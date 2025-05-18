@@ -164,7 +164,9 @@ const Navbar = () => {
                         <Link href="/committee/members" onClick={closeMenu}>
                           <div className="px-4 py-3 hover:bg-primary">Members</div>
                         </Link>
-                        <div className="px-4 py-3 hover:bg-primary cursor-not-allowed opacity-75">Speakers</div>
+                        <Link href="/committee/speakers" onClick={closeMenu}>
+                        <div className="px-4 py-3 hover:bg-primary">Speakers</div>
+                        </Link>
                       </motion.div>
                     )}
                   </AnimatePresence>
@@ -305,7 +307,9 @@ const Navbar = () => {
                     <Link href="/committee/members">
                       <div className="px-4 py-3 hover:bg-primary">Members</div>
                     </Link>
-                    <div className="px-4 py-3 hover:bg-primary cursor-not-allowed opacity-75">Speakers</div>
+                    <Link href="/committee/speakers">
+                    <div className="px-4 py-3 hover:bg-primary">Speakers</div>
+                    </Link>
                   </motion.div>
                 )}
               </AnimatePresence>
