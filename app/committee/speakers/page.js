@@ -29,7 +29,7 @@ export default function KeynoteSpeakers() {
     <div className="py-6">
       <h2 className="text-center text-3xl font-bold">Keynote Speakers</h2>
       <p className="text-center text-gray-600 mb-6">
-        International Conference on Computing, Systems, and AI
+        2025 7th International Conference on Computing, Communication and Automation 
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
         {speakers.map((speakerName, index) => {
