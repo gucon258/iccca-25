@@ -6,6 +6,7 @@ import Timeline from "@/components/Timeline";
 import Hero from "@/components/Hero";
 import Banner from "@/components/banner"
 import Flowchart from "@/components/Flowchart";
+import BrochureSection from "@/components/BrochureSection";
 import PersonSlider from "@/components/PersonSlider";
 import ChairsFlowchart from "@/components/ChairsFlowchart";
 import Footer from "@/components/footer";
@@ -19,22 +20,20 @@ import AcknowledgementComponent from "@/components/Acknowledgement";
 export default function Home() {
   return (
     <>
-    
-    
-    <Slider/>
-    <Timeline/>
-    <Banner/>
-    <Hero/>
-    <ChairsFlowchart/>
-    <PersonSlider/>
-    <Flowchart/>
-    <StudentSupport/>
-    <ScrollingLogos/>
-    <PublicationOpportunity/>
-    <IEEEPublicationDetails/>
-    <AcknowledgementComponent/>
-    <TouristAttractions/>
+      <Slider/>
+      <Timeline/>
+      <Banner/>
+      <Hero/>
+      <ChairsFlowchart/>
+      <PersonSlider/>
+      <Flowchart/>
+      <BrochureSection/>
+      <StudentSupport/>
+      <ScrollingLogos/>
+      <PublicationOpportunity/>
+      <IEEEPublicationDetails/>
+      <AcknowledgementComponent/>
+      <TouristAttractions/>
     </>
   );
 }
-
