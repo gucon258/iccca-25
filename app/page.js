@@ -9,6 +9,7 @@ import Flowchart from "@/components/Flowchart";
 import BrochureSection from "@/components/BrochureSection";
 import PersonSlider from "@/components/PersonSlider";
 import ChairsFlowchart from "@/components/ChairsFlowchart";
+import SpecialTracks from "@/components/SpecialTracks";
 import Footer from "@/components/footer";
 import ScrollingLogos from "@/components/ScrollingLogos";
 import TouristAttractions from "@/components/TouristAttractions";
@@ -25,6 +26,7 @@ export default function Home() {
       <Banner/>
       <Hero/>
       <ChairsFlowchart/>
+      <SpecialTracks/>
       <PersonSlider/>
       <Flowchart/>
       <BrochureSection/>
