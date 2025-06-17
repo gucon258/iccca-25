@@ -162,6 +162,20 @@ export const chairs = [
   {
     "title": "Power Supplies for Datacentres, Telecom & Autonomous Systems",
     "chairpersons": []
+  },
+  {
+    "title":"Applications of AI &amp; ML Techniques in Sustainable Analytics for Industry 6.0 Applications",
+    "chairpersons":["Dr. Manisha Sharma: NMIMS University, Mumbai.", 
+
+      "Dr. Neha Verma:ABES Business School, Ghaziabad",
+     " Dr. Shanu Sharma:  ABES Engineering College, Ghaziabad"]
+
+  },
+  {
+    "title":"EdgeAI for Secure Mobility, Action Recognition, and Behavioral Retrieval",
+    "chairpersons":["Dr. Ajay Kumar Gupta, University of Allahabad, Praygraj",  
+      "Dr. Pratik Shrivastava, Jaypee Institute of Information Technology, Noida",  
+      "Dr. Suryabhan Pratap Singh, Deen Dayal Upadhyaya Gorakhpur University"]
   }
 ];
 

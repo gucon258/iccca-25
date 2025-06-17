@@ -108,7 +108,7 @@ const page = () => {
             * All rates are inclusive of GST 18%
           </p>
           <p className="text-blue-600 font-medium text-center">
-            One full author registration can register up to 2 pages
+            One full author registration can register up to 2 papers
           </p>
           <p className="text-red-600 text-sm text-center mt-2">
             * Extra page charge of ₹ 1000/- INR per page Indian author and $ 15 per page International author will be chargeable to the author's during registration process.
