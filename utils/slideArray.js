@@ -270,10 +270,17 @@ export const cards = [
   },
   {
     name: "Dr. Sunita Yadav",
-    position: "Dean, SCSE",
-    organization: "Galgotias University, India",
-    imgSrc: "/ImportantPersons/sunita.jpeg",
+    position: "Professor",
+    organization: "National University of Singapore",
+    imgSrc: "/ImportantPersons/ds.jpg",
   },
+  {
+    name: "Dr. Dipti Srinivasan",
+    position: "Professor",
+    organization: "National University of Singapore, Singapore",
+    imgSrc: "/ImportantPersons/ds.jpg",
+  },
+  
   {
     name: "Dr. Vineeta Khemchandani",
     position: "Dean, SCAT",

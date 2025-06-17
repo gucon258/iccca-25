@@ -6,7 +6,8 @@ const speakers = [
   "Prof.(Dr.) Akshay Rathore",
   "Dr. Yogesh S. Chauhan",
   "Prof. J. Ramkumar",
-   
+   "Dr. Dipti Srinivasan",
+   "Dr. Harivardhagini Subhadra"
   // "Chin Kuan Ho",
   // "Dr. Hironori Washizaki",
   // "Dr. Harivardhagini Subhadra",
