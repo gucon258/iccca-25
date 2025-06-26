@@ -272,7 +272,7 @@ export const cards = [
     name: "Dr. Sunita Yadav",
     position: "Professor",
     organization: "National University of Singapore",
-    imgSrc: "/ImportantPersons/ds.jpg",
+    imgSrc: "/ImportantPersons/sunita.jpeg",
   },
   {
     name: "Dr. Dipti Srinivasan",
