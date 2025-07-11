@@ -87,7 +87,7 @@ const page = () => {
                 <td className="p-3 border">₹1000/Page</td>
               </tr>
               <tr className="bg-orange-100">
-                <td className="p-3 border">Foreign Author Attendee (Non-Author)</td>
+                <td className="p-3 border">Foreign Professional Attendee (Non-Author)</td>
                 <td className="p-3 border">$150</td>
                 <td className="p-3 border">$200</td>
                 <td className="p-3 border">$200</td>

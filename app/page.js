@@ -33,7 +33,7 @@ export default function Home() {
       <StudentSupport/>
       <ScrollingLogos/>
       <PublicationOpportunity/>
-      <IEEEPublicationDetails/>
+      {/* <IEEEPublicationDetails/> */}
       <AcknowledgementComponent/>
       <TouristAttractions/>
     </>

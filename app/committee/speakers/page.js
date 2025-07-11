@@ -3,13 +3,17 @@ import { cards } from "@/utils/slideArray";
 
 const speakers = [
   "Dr. S.N.Singh",
+    "Dr. Ayman EL-Refaie ,Ph.D, FIEEE, FIET, FNAI",
   "Prof.(Dr.) Akshay Rathore",
+
+  "Dr. Hironori Washizaki",
+
   "Dr. Yogesh S. Chauhan",
   "Prof. J. Ramkumar",
    "Dr. Dipti Srinivasan",
-   "Dr. Harivardhagini Subhadra"
+   "Dr. Harivardhagini Subhadra",
   // "Chin Kuan Ho",
-  // "Dr. Hironori Washizaki",
+  
   // "Dr. Harivardhagini Subhadra",
   // "Dr. Rajeev Srivastava",
   // "Dr. S.N.Singh",

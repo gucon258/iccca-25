@@ -144,7 +144,7 @@ export const categories = [
 
 export const chairs = [
   {
-    "title": "ICCCA2025",
+    "title": " Main Track : ICCCA2025",
     "chairpersons": []
   },
   {
@@ -200,6 +200,12 @@ export default { data, events };
 
 export const cards = [
   
+  {
+    name: "Shri Suneel Galgotia",
+    position: "Hon'ble Chancellor",
+    organization: "Galgotias University, India",
+    imgSrc: "/ImportantPersons/suneelSir.png",
+  },
   {
     name: "Shri Suneel Galgotia",
     position: "Hon'ble Chancellor",
@@ -856,9 +862,17 @@ export const cards = [
   
   {
     name: "Dr. Hironori Washizaki",
-    position: "2025 IEEE Computer Society President",
+    position: "2025-26 IEEE Computer Society President",
     organization: "Professor, Waseda University, Tokyo",
     imgSrc: "/ImportantPersons/hironori.png",
+  },
+  {
+    
+    name: "Dr. Ayman EL-Refaie ,Ph.D, FIEEE, FIET, FNAI",
+    position: "2025-26 IEEE IAS President",
+    organization: "Werner Endowed Chair in Secure and Sustainable Energy, Marquette University, USA",
+    imgSrc: "/ImportantPersons/era.jpg",
+  
   },
   {
     name: "Dr. Sivaneasan Bala Krishnan",

@@ -30,7 +30,7 @@ export default function TeamPage() {
       "Dr. Arpesh Singh"
     ],
     "Conference Co-Organizing Chairs": [
-      "Prof. Meenakshi Awasthi",
+      // "Prof. Meenakshi Awasthi",
       // "Prof. Deepak Soni",
       "Prof. Sunil Bharti"
     ],
@@ -74,15 +74,15 @@ export default function TeamPage() {
       // "Dr. Shachi Mall",
       "Dr. Vipin Rai",
       "Prof. Avneesh Kumar",
-      "Prof. E. Rajesh"
+      // "Prof. E. Rajesh"
     ],
     
     
     "International Advisory Chairs": [
       // "Prof. Sanjeev K. Singh",
-      "Prof. N. Partheeban",
+      // "Prof. N. Partheeban",
       "Dr. Aditya Nath Bhatt",
-     "Prof. (Dr.) S Srinivasan"
+    //  "Prof. (Dr.) S Srinivasan"
 
     ],
     
