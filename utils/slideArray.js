@@ -148,34 +148,51 @@ export const chairs = [
     "chairpersons": []
   },
   {
-    "title": "Applications of AI and ML Techniques to Power Electronics",
-    "chairpersons": []
-  },
-  {
     "title": "Industry 5.0 applications for sustainability",
     "chairpersons": []
   },
   {
-    "title": "Artificial Intelligence and Soft Computing in Power, Energy, Communication, and Security Systems",
+    "title": "Applications of AI and ML Techniques to Power Electronics",
     "chairpersons": []
   },
   {
     "title": "Power Supplies for Datacentres, Telecom & Autonomous Systems",
     "chairpersons": []
   },
+  
+  {
+    "title": "Artificial Intelligence and Soft Computing in Power, Energy, Communication, and Security Systems",
+    "chairpersons": []
+  },
+  
   {
     "title":"Applications of AI &amp; ML Techniques in Sustainable Analytics for Industry 6.0 Applications",
-    "chairpersons":["Dr. Manisha Sharma: NMIMS University, Mumbai.", 
-
-      "Dr. Neha Verma:ABES Business School, Ghaziabad",
-     " Dr. Shanu Sharma:  ABES Engineering College, Ghaziabad"]
+    "chairpersons":[]
 
   },
   {
     "title":"EdgeAI for Secure Mobility, Action Recognition, and Behavioral Retrieval",
-    "chairpersons":["Dr. Ajay Kumar Gupta, University of Allahabad, Praygraj",  
-      "Dr. Pratik Shrivastava, Jaypee Institute of Information Technology, Noida",  
-      "Dr. Suryabhan Pratap Singh, Deen Dayal Upadhyaya Gorakhpur University"]
+    "chairpersons":[]
+  },
+  {
+    "title":"AI-Powered Human-Centric Systems: NLP, Trustworthy Interfaces, and Blockchain-Enabled Applications",
+    "chairpersons":[] 
+  },
+  {
+    "title":"AI-Powered Cloud Resource Allocation and Optimization",
+    "chairpersons":[]
+  },
+  {
+    "title":"Innovative and Disruptive Technologies: Reimagining the Future",
+    "chairpersons":[]
+  },
+  {
+    "title":"Innovations in Information Security, Cybersecurity and Digital Defense",
+    "chairpersons":[]
+  },
+  {
+    "title":"From Data to Imagination: Generative AI and the Architecture of Tomorrow", 
+    "chairpersons":[]
   }
 ];
 
