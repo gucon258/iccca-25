@@ -10,10 +10,10 @@ export const data = [
         name:"image1",
         src:'/slider/slide1.jpg'
     },
-    // {
-    //     name:"image2",
-    //     src:'/slider/slide2.jpg'
-    // },
+    {
+        name:"image2",
+        src:'/slider/slide2.jpg'
+    },
     {
         name:"image3",
         src:'/slider/slide3.jpg'
@@ -26,14 +26,14 @@ export const data = [
     name:"image6",
     src:'/slider/slide6.jpg'
 },
-//   {
-//     name:"image7",
-//     src:'/slider/slide7.jpg'
-// },
-//   {
-//     name:"image8",
-//     src:'/slider/slide8.jpg'
-// },
+  {
+    name:"image7",
+    src:'/slider/slide7.jpg'
+},
+  {
+    name:"image8",
+    src:'/slider/slide8.jpg'
+},
 {
   name:"image9",
   src:'/slider/slide9.jpg'
