@@ -52,8 +52,7 @@ const chairs = [
   {
     "title": "Innovative and Disruptive Technologies: Reimagining the Future",
     "chairpersons": [
-      "Dr. Bhanu Sharma, Chitkara University, Punjab",
-      "Dr. Nitin Goyal, Chandigarh University, Punjab"
+      "Dr. Nitin Goyal, Central University of Haryana, Haryana"
     ]
   },
   {
