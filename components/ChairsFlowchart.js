@@ -44,9 +44,10 @@ const chairs = [
   {
     "title": "AI-Powered Cloud Resource Allocation and Optimization",
     "chairpersons": [
-      "Dr Payal Bansal, Poornima Institute of Engineering & Technology, Jaipur Rajasthan",
-      "Dr Amit Tiwari, Poornima Institute of Engineering & Technology, Jaipur Rajasthan",
-      "Dr Rajeev Kumar, Poornima Institute of Engineering & Technology, Jaipur Rajasthan"
+      "Dr Payal Bansal, Poornima Institute of Engineering & technology, Jaipur, Rajasthan",
+      "Dr Amit Tiwari, Gyan Vihar University, Jaipur, Rajasthan",
+,
+      "Dr Rajeev Kumar, Moradabad Institute of Technology, Moradabad, UP"
     ]
   },
   {
