@@ -52,6 +52,7 @@ const chairs = [
   {
     "title": "Innovative and Disruptive Technologies: Reimagining the Future",
     "chairpersons": [
+      "Dr. Bhanu Sharma, Chitkara University, Punjab",
       "Dr. Nitin Goyal, Central University of Haryana, Haryana"
     ]
   },
@@ -68,6 +69,14 @@ const chairs = [
       "Dr T Ganesh Kumar, Galgotias University, Greater Noida, Delhi NCR",
       "Dr Priti Rishi, SRM Institute of Engineering and Technology, Vadapalani Campus",
       "Jawahir Binti Che Mustapha, Universiti Kuala Lumpur, Malaysian Institute of Information Technology, Kuala Lumpur"
+    ]
+  },
+  {
+    "title": " Advancements in Artificial intelligence, Soft Computing, and Engineering Systems",
+    "chairpersons": [
+      "Dr. Anurag Dwivedi, Echelon Institute of Technology (EIT), Faridabad, India",
+      "Dr. Saurabh Kumar,	Institute of Engineering and Rural Technology (IERT), Prayagraj, India",
+      "Dr. Stuti Saxena, Echelon Institute of Technology (EIT), Faridabad, India"
     ]
   }
 ];
