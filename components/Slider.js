@@ -41,14 +41,17 @@ const Slider = () => {
       >
         {data.map((d, index) => (
           <SwiperSlide key={d.name}>
-            <div className="relative w-full h-[30vh] sm:h-[40vh] md:h-[50vh] lg:h-[60vh] xl:h-[70vh] bg-gray-100">
+            <div className="relative w-full h-[35vh] sm:h-[45vh] md:h-[55vh] lg:h-[65vh] xl:h-[75vh] bg-gray-100 rounded-lg overflow-hidden">
               <Image
                 src={d.src}
                 alt={d.name || `Slide ${index + 1}`}
                 fill
-                className="object-cover rounded-lg"
+                className="object-contain rounded-lg"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
                 priority={index === 0}
+                style={{
+                  objectPosition: 'center center'
+                }}
                 onError={(e) => {
                   console.error(`Failed to load image: ${d.src}`, e);
                 }}
