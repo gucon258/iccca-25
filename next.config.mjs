@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
+    trailingSlash: true,
     images: {
         unoptimized: true, // Required for static export
         formats: ['image/webp', 'image/avif'],
@@ -9,10 +10,7 @@ const nextConfig = {
     },
     // Enable compression
     compress: true,
-    // Optimize CSS
-    experimental: {
-        optimizeCss: true,
-    },
+    // Remove experimental optimizeCss as it causes build issues on Cloudflare
 };
 
 export default nextConfig;

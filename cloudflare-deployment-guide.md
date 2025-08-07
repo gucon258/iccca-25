@@ -36,8 +36,11 @@
    Framework preset: Next.js (Static HTML Export)
    Build command: npm run build
    Build output directory: out
-   Root directory: project (if your Next.js app is in project folder)
+   Root directory: (leave empty if Next.js is in root, or "project" if in subfolder)
+   Node.js version: 18 or higher
    ```
+
+   **IMPORTANT**: Do NOT use "Next.js (Cloudflare Pages)" preset - use "Next.js (Static HTML Export)" instead!
 
 5. **Environment Variables (if needed):**
    - Add any environment variables your app needs
