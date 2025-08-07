@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -8,8 +9,14 @@ const Footer = () => {
           {/* Logo and Address Column */}
           <div className="md:w-1/3 mb-6 md:mb-0">
             <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
-              <div className="mb-4 md:mb-0">
-                <img src="/logos/conflogo2.png" alt="ICCCA Logo" className="h-20 md:h-24 w-auto" />
+              <div className="mb-4 md:mb-0 relative h-20 md:h-24 w-[200px] md:w-[240px]">
+                <Image 
+                  src="/logos/conflogo2.png" 
+                  alt="ICCCA Logo" 
+                  fill
+                  className="object-contain"
+                  sizes="(max-width: 768px) 200px, 240px"
+                />
               </div>
               <div>
                 <p className="text-sm leading-relaxed">

@@ -4,43 +4,43 @@ import { Oranienbaum } from "next/font/google";
 export const data = [
   {
       name:"image4",
-      src:'/slider/slide4.jpg'
+      src:'/slider/slide4.webp'
   },
     {
         name:"image1",
-        src:'/slider/slide1.jpg'
+        src:'/slider/slide1.webp'
     },
     {
         name:"image2",
-        src:'/slider/slide2.jpg'
+        src:'/slider/slide2.webp'
     },
     {
         name:"image3",
-        src:'/slider/slide3.jpg'
+        src:'/slider/slide3.webp'
     },
     {
       name:"image5",
-      src:'/slider/slide5.jpg'
+      src:'/slider/slide5.webp'
   },
   {
     name:"image6",
-    src:'/slider/slide6.jpg'
+    src:'/slider/slide6.webp'
 },
   {
     name:"image7",
-    src:'/slider/slide7.jpg'
+    src:'/slider/slide7.webp'
 },
   {
     name:"image8",
-    src:'/slider/slide8.jpg'
+    src:'/slider/slide8.webp'
 },
 {
   name:"image9",
-  src:'/slider/slide9.jpg'
+  src:'/slider/slide9.webp'
 },
 {
   name:"image10",
-  src:'/slider/slide10.jpg'
+  src:'/slider/slide10.webp'
 }
 ]
 

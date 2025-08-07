@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from "react";
+import Image from 'next/image';
 
 // Example attractions data - replace with your actual data
 const attractions = [
@@ -65,10 +66,12 @@ const TouristAttractions = () => {
                 onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(null)}
               >
-                <img 
+                <Image 
                   src={place.image} 
                   alt={place.name} 
-                  className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-300 ${hoveredIndex === index ? 'opacity-0' : 'opacity-100'}`}
+                  fill
+                  className={`object-cover transition-opacity duration-300 ${hoveredIndex === index ? 'opacity-0' : 'opacity-100'}`}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 
                 {place.mapUrl && (

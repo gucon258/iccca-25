@@ -1,0 +1,36 @@
+# Cache static assets for 1 year
+/slider/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/logos/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/ImportantPersons/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/Sponser Logos/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/places/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/timeline/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Cache HTML for 1 hour
+/*.html
+  Cache-Control: public, max-age=3600
+
+# Cache CSS/JS for 1 year
+/*.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.js
+  Cache-Control: public, max-age=31536000, immutable
+
+# Cache fonts for 1 year
+/*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.woff
+  Cache-Control: public, max-age=31536000, immutable

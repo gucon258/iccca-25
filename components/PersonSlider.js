@@ -1,6 +1,7 @@
 'use client'
 
 import React from "react";
+import Image from 'next/image';
 import { cards } from "@/utils/slideArray";
 
 const PersonSlider = () => {
@@ -25,11 +26,15 @@ const PersonSlider = () => {
             className="flex items-center justify-between w-[300px] h-[150px] p-4 bg-[#BE2727] shadow-md relative"
           >
             <div className="w-1/3 flex items-center justify-center">
-              <img
-                src={card.imgSrc}
-                alt={card.name}
-                className="absolute left-[-20px] size-28 object-contain bg-white"
-              />
+              <div className="absolute left-[-20px] size-28 bg-white">
+                <Image
+                  src={card.imgSrc}
+                  alt={card.name}
+                  fill
+                  className="object-contain"
+                  sizes="112px"
+                />
+              </div>
             </div>
             <div className="text-white p-2 pl-8 w-full">
               <h2 className="text-lg font-bold">{card.name}</h2>

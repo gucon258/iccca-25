@@ -1,6 +1,7 @@
 "use client"
 
 import React from 'react'
+import Image from 'next/image'
 import { motion } from 'framer-motion';
 
 const Hero = () => {
@@ -13,7 +14,15 @@ const Hero = () => {
       viewport={{ once: true }}
       className='h-auto mx-auto border-box flex flex-col lg:flex-row gap-10 lg:gap-0'>
       <div className='my-auto w-full lg:w-1/2 h-full flex items-center justify-center'>
-        <img className='h-[50px]  sm:h-[60px] md:h-[80px] lg:h-1/3' src='/logos/gulogo.png' alt='' />
+        <div className='relative h-[50px] w-[200px] sm:h-[60px] sm:w-[240px] md:h-[80px] md:w-[320px] lg:h-[120px] lg:w-[480px]'>
+          <Image 
+            src='/logos/gulogo.png' 
+            alt='Galgotias University Logo' 
+            fill
+            className='object-contain'
+            sizes="(max-width: 640px) 200px, (max-width: 768px) 240px, (max-width: 1024px) 320px, 480px"
+          />
+        </div>
       </div>
       <div className='w-full lg:w-1/2 h-full flex relative bg-[#BE2727] p-5'>
         <div className='w-[90%] h-full z-[-2] bg-[#F8C907] absolute top-4 right-0'></div>
@@ -53,7 +62,15 @@ const Hero = () => {
         </div>
       </div>
       <div className='my-auto w-full lg:w-1/2 h-full flex items-center justify-center'>
-        <img className='h-[150px] sm:h-[200px] md:h-[250px] lg:h-full mix-blend-multiply' src='/logos/iccsai_logo.png' alt='' />
+        <div className='relative h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] md:h-[250px] md:w-[250px] lg:h-[400px] lg:w-[400px]'>
+          <Image 
+            src='/logos/iccsai_logo.png' 
+            alt='ICCSAI Conference Logo' 
+            fill
+            className='object-contain mix-blend-multiply'
+            sizes="(max-width: 640px) 150px, (max-width: 768px) 200px, (max-width: 1024px) 250px, 400px"
+          />
+        </div>
       </div>
     </motion.div>
   </div>
