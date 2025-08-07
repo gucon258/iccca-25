@@ -3,144 +3,144 @@ import { Oranienbaum } from "next/font/google";
 
 export const data = [
   {
-      name:"image4",
-      src:'/slider/slide4.webp'
-  },
-    {
-        name:"image1",
-        src:'/slider/slide1.webp'
-    },
-    {
-        name:"image2",
-        src:'/slider/slide2.webp'
-    },
-    {
-        name:"image3",
-        src:'/slider/slide3.webp'
-    },
-    {
-      name:"image5",
-      src:'/slider/slide5.webp'
+    name: "image4",
+    src: '/slider/slide4.webp'
   },
   {
-    name:"image6",
-    src:'/slider/slide6.webp'
-},
+    name: "image1",
+    src: '/slider/slide1.webp'
+  },
   {
-    name:"image7",
-    src:'/slider/slide7.webp'
-},
+    name: "image2",
+    src: '/slider/slide2.webp'
+  },
   {
-    name:"image8",
-    src:'/slider/slide8.webp'
-},
-{
-  name:"image9",
-  src:'/slider/slide9.webp'
-},
-{
-  name:"image10",
-  src:'/slider/slide10.webp'
-}
+    name: "image3",
+    src: '/slider/slide3.webp'
+  },
+  {
+    name: "image5",
+    src: '/slider/slide5.webp'
+  },
+  {
+    name: "image6",
+    src: '/slider/slide6.webp'
+  },
+  {
+    name: "image7",
+    src: '/slider/slide7.webp'
+  },
+  {
+    name: "image8",
+    src: '/slider/slide8.webp'
+  },
+  {
+    name: "image9",
+    src: '/slider/slide9.webp'
+  },
+  {
+    name: "image10",
+    src: '/slider/slide10.webp'
+  }
 ]
 
 export const events = [
-    { date: "25th April, 2025", description: "Call for Papers" },
-    { date: "17th September, 2025", description: "Last date of Submission" },
-    { date: "7th October, 2025", description: "Acceptance Notification" },
-    { date: "16th October, 2025", description: "Final Camera-Ready Paper" },
-    { date: "20th October, 2025", description: "Registration Deadline" }
+  { date: "25th April, 2025", description: "Call for Papers" },
+  { date: "17th September, 2025", description: "Last date of Submission" },
+  { date: "7th October, 2025", description: "Acceptance Notification" },
+  { date: "16th October, 2025", description: "Final Camera-Ready Paper" },
+  { date: "20th October, 2025", description: "Registration Deadline" }
 ];
 
 export const categories = [
-    {
-      title: 'Artificial Intelligence & Machine Learning',
-      topics: [
-        'Artificial Intelligence',
-        'LLM (Large Language Models)',
-        'Federated Learning',
-        'Machine Learning',
-        'Deep Learning',
-        'Cognitive Computing',
-        'Computer Vision and Image Processing Applications',
-      ],
-    },
-    {
-      title: 'Cybersecurity & Privacy',
-      topics: [
-        'Cyber Security',
-        'Information Security',
-        'Privacy and Preservation',
-        'Digital Services and Protection Mechanism',
-      ],
-    },
-    {
-      title: 'Networking & Communication',
-      topics: [
-        '5G/6G/7G Technologies',
-        'Wireless Communication Network',
-        'Cloud & Grid Computing',
-        'Mobile Computing',
-        'Edge Computing',
-        'Fog Computing',
-        'Distributed & Parallel Computing',
-        'Cloud Quality Management',
-      ],
-    },
-    {
-      title: 'Data & Computing',
-      topics: [
-        'Data Science',
-        'Big Data',
-        'Quantum Computing',
-        'High Performance Computing',
-        'Soft Computing',
-      ],
-    },
-    {
-      title: 'Electronics & Hardware',
-      topics: [
-        'Electronics & Communication Engineering',
-        'Control Systems',
-        'Robotics and Automation',
-        'Human Computer Interface',
-        'IoT (Internet of Things)',
-        'IIoT (Industrial IoT)',
-        'IMoT (Internet of Medical Things)',
-      ],
-    },
-    {
-      title: 'Blockchain & Cryptography',
-      topics: [
-        'Blockchain',
-        'Cryptocurrency',
-        'Bitcoin',
-        'Cryptography',
-        'Watermarking',
-      ],
-    },
-    {
-      title: 'Energy & Sustainability',
-      topics: [
-        'Renewable Energy',
-        'Smart Grid',
-        'Electric Vehicles',
-        'Sustainability',
-      ],
-    },
-    {
-      title: 'Specialized Applications',
-      topics: [
-        'AR/VR/Metaverse',
-        'AI in Fashion Technology',
-        'Multimedia Technology',
-        'E-commerce',
-        'DNA Computing',
-        'Ontology',
-        'Cyborg',
-      ],
-    },
-  ];
+  {
+    title: 'Artificial Intelligence & Machine Learning',
+    topics: [
+      'Artificial Intelligence',
+      'LLM (Large Language Models)',
+      'Federated Learning',
+      'Machine Learning',
+      'Deep Learning',
+      'Cognitive Computing',
+      'Computer Vision and Image Processing Applications',
+    ],
+  },
+  {
+    title: 'Cybersecurity & Privacy',
+    topics: [
+      'Cyber Security',
+      'Information Security',
+      'Privacy and Preservation',
+      'Digital Services and Protection Mechanism',
+    ],
+  },
+  {
+    title: 'Networking & Communication',
+    topics: [
+      '5G/6G/7G Technologies',
+      'Wireless Communication Network',
+      'Cloud & Grid Computing',
+      'Mobile Computing',
+      'Edge Computing',
+      'Fog Computing',
+      'Distributed & Parallel Computing',
+      'Cloud Quality Management',
+    ],
+  },
+  {
+    title: 'Data & Computing',
+    topics: [
+      'Data Science',
+      'Big Data',
+      'Quantum Computing',
+      'High Performance Computing',
+      'Soft Computing',
+    ],
+  },
+  {
+    title: 'Electronics & Hardware',
+    topics: [
+      'Electronics & Communication Engineering',
+      'Control Systems',
+      'Robotics and Automation',
+      'Human Computer Interface',
+      'IoT (Internet of Things)',
+      'IIoT (Industrial IoT)',
+      'IMoT (Internet of Medical Things)',
+    ],
+  },
+  {
+    title: 'Blockchain & Cryptography',
+    topics: [
+      'Blockchain',
+      'Cryptocurrency',
+      'Bitcoin',
+      'Cryptography',
+      'Watermarking',
+    ],
+  },
+  {
+    title: 'Energy & Sustainability',
+    topics: [
+      'Renewable Energy',
+      'Smart Grid',
+      'Electric Vehicles',
+      'Sustainability',
+    ],
+  },
+  {
+    title: 'Specialized Applications',
+    topics: [
+      'AR/VR/Metaverse',
+      'AI in Fashion Technology',
+      'Multimedia Technology',
+      'E-commerce',
+      'DNA Computing',
+      'Ontology',
+      'Cyborg',
+    ],
+  },
+];
 
 export const chairs = [
   {
@@ -159,47 +159,63 @@ export const chairs = [
     "title": "Power Supplies for Datacentres, Telecom & Autonomous Systems",
     "chairpersons": []
   },
-  
+
   {
     "title": "Artificial Intelligence and Soft Computing in Power, Energy, Communication, and Security Systems",
     "chairpersons": []
   },
-  
+
   {
-    "title":"Applications of AI &amp; ML Techniques in Sustainable Analytics for Industry 6.0 Applications",
-    "chairpersons":[]
+    "title": "Applications of AI &amp; ML Techniques in Sustainable Analytics for Industry 6.0 Applications",
+    "chairpersons": []
 
   },
   {
-    "title":"EdgeAI for Secure Mobility, Action Recognition, and Behavioral Retrieval",
-    "chairpersons":[]
+    "title": "EdgeAI for Secure Mobility, Action Recognition, and Behavioral Retrieval",
+    "chairpersons": []
   },
   {
-    "title":"AI-Powered Human-Centric Systems: NLP, Trustworthy Interfaces, and Blockchain-Enabled Applications",
-    "chairpersons":[] 
+    "title": "AI-Powered Human-Centric Systems: NLP, Trustworthy Interfaces, and Blockchain-Enabled Applications",
+    "chairpersons": []
   },
   {
-    "title":"AI-Powered Cloud Resource Allocation and Optimization",
-    "chairpersons":[]
+    "title": "AI-Powered Cloud Resource Allocation and Optimization",
+    "chairpersons": []
   },
   {
-    "title":"Innovative and Disruptive Technologies: Reimagining the Future",
-    "chairpersons":[]
+    "title": "Innovative and Disruptive Technologies: Reimagining the Future",
+    "chairpersons": []
   },
   {
-    "title":"Innovations in Information Security, Cybersecurity and Digital Defense",
-    "chairpersons":[]
+    "title": "Innovations in Information Security, Cybersecurity and Digital Defense",
+    "chairpersons": []
   },
   {
-    "title":"From Data to Imagination: Generative AI and the Architecture of Tomorrow", 
-    "chairpersons":[]
+    "title": "From Data to Imagination: Generative AI and the Architecture of Tomorrow",
+    "chairpersons": []
+  },
+  {
+    "title": "Advancements in Artificial Intelligence, Soft Computing, and Engineering Systems",
+    "chairpersons": []
+  },
+  {
+    "title": "Smart and Sustainable Systems with Advanced Machine Learning",
+    "chairpersons": []
+  },
+  {
+    "title": "Advancing Social Good Through Trustworthy AI: Transformative Applications in Healthcare, Agriculture, Education and Smart cities",
+    "chairpersons": []
+  },
+  {
+    "title": "AI-Driven Cybersecurity in Intelligent Transportation Systems",
+    "chairpersons": []
   }
 ];
 
 export default { data, events };
 
 export const cards = [
-  
+
   {
     name: "Shri Suneel Galgotia",
     position: "Hon'ble Chancellor",
@@ -212,7 +228,7 @@ export const cards = [
     organization: "Galgotias University, India",
     imgSrc: "/ImportantPersons/suneelSir.png",
   },
-  
+
   {
     name: "Dr. Dhruv Galgotia",
     position: "CEO",
@@ -225,7 +241,7 @@ export const cards = [
     organization: "Galgotias University, India",
     imgSrc: "/ImportantPersons/mkbabu.png",
   },
-{
+  {
     name: "Ms. Aradhana Galgotia",
     position: "Director Operations",
     organization: "Galgotias University, India",
@@ -237,7 +253,7 @@ export const cards = [
     organization: "IIITM",
     imgSrc: "/ImportantPersons/snsingh.png",
   },
-{
+  {
     name: "Dr. Yogesh S. Chauhan",
     position: "Professor, IIT Kanpur",
     organization: "Chair, IEEE UP Section",
@@ -303,7 +319,7 @@ export const cards = [
     organization: "National University of Singapore, Singapore",
     imgSrc: "/ImportantPersons/ds.jpg",
   },
-  
+
   {
     name: "Dr. Vineeta Khemchandani",
     position: "Dean, SCAT",
@@ -339,7 +355,7 @@ export const cards = [
   //   position: "Professor",
   //   organization: "Galgotias University, India"
   // },
-  
+
   {
     name: "Prof. Meenakshi Awasthi",
     organization: "Galgotias University, India"
@@ -429,8 +445,8 @@ export const cards = [
     organization: "Galgotias University, India"
   },
   {
-    name : "Prof. Jagjit Singh Dhatterwal",
-    organization : "KL University, Guntur, Andhara Pradesh , India"
+    name: "Prof. Jagjit Singh Dhatterwal",
+    organization: "KL University, Guntur, Andhara Pradesh , India"
   },
   {
     name: "Prof. E. Rajesh",
@@ -677,24 +693,24 @@ export const cards = [
     position: "National Institute of Technology",
     organization: "Delhi, India"
   },
-  
+
   {
     name: "Prof. (Dr.) Sahil",
     organization: "National Institute of Technology, Delhi, India"
   },
-  
+
   {
     name: "Prof. Karuna Kadian",
     position: "COMPUTER SCIENCE AND ENGINEERING",
     organization: "IGDTUW, Delhi, India"
   },
-  
+
   {
     name: "Dr. Satish Chandra",
     position: "Department of Electronics and Communication Engineering",
     organization: "MNNIT, Prayagraj, India"
   },
-  
+
   {
     name: "Prof. Anil Kumar Sagar",
     position: "Sharda University",
@@ -706,44 +722,44 @@ export const cards = [
     organization: "Asia Pacific University, Malaysia",
     imgSrc: "/ImportantPersons/chin.jpeg"
   },
-  
+
   {
     name: "Dr. Savita Yadav",
     position: "Netaji Subhas University of Technology",
     organization: "Delhi, India"
   },
-  
+
   {
     name: "Prof. Anurag Diwedi",
     organization: "BIET, Lucknow, India"
   },
-  
+
   {
     name: "Prof. Arvind Pandey",
     position: "Director",
     organization: "BIT, Gorakhpur India"
   },
-  
+
   {
     name: "Prof. Shashank Srivastav",
     organization: "BIT, Gorakhpur, India"
   },
-  
+
   {
     name: "Prof. Deependra Rastogi",
     organization: "IILM University, India"
   },
-  
+
   {
     name: "Prof. N.Gayathri",
     organization: "GITAM University, Bangalore, India"
   },
-  
+
   {
     name: "Prof. S.Rakesh Kumar",
     organization: "GITAM University, Bangalore, India"
   },
-  
+
   {
     name: "Prof. Anoop Kumar Patel",
     organization: "NIT Kurukshetra, India"
@@ -763,36 +779,36 @@ export const cards = [
   {
     name: "Ayush Raj",
     position: "Student",
-    organization:"Galgotias College of Engineering and Technology"
+    organization: "Galgotias College of Engineering and Technology"
   },
   {
     name: "Gaurang Pant",
     position: "Chair IEEE CS GU",
-    organization:"Galgotias University, India"
+    organization: "Galgotias University, India"
   },
   {
     name: "Shivam Kumar",
     position: "Student",
-    organization:"Galgotias University, India"
-  },{
+    organization: "Galgotias University, India"
+  }, {
     name: "Hemendra Harsh",
     position: "Student"
   },
   {
     name: "Dr. P.S. Yadav",
-    position:"Board of Technical Education, Uttar Pradesh"
-  },{
-    name:"Dr. Shailesh Kumar",
-    organization:"MMMUT, Gorakhpur"
+    position: "Board of Technical Education, Uttar Pradesh"
+  }, {
+    name: "Dr. Shailesh Kumar",
+    organization: "MMMUT, Gorakhpur"
   },
-  
+
   {
-    name:"Dr. Swapnita Srivastava",
-    organization:"MMMUT, Gorakhpur"
+    name: "Dr. Swapnita Srivastava",
+    organization: "MMMUT, Gorakhpur"
   },
   {
-    name:"Dr. Vipul Narayan",
-    organization:"MMMUT, Gorakhpur"
+    name: "Dr. Vipul Narayan",
+    organization: "MMMUT, Gorakhpur"
   },
   {
     name: "Dr. Arvind Kumar",
@@ -848,18 +864,18 @@ export const cards = [
     name: "Prof. Dilip Yadav",
     organization: "Bennett University, Greater Noida, India"
   },
-  
+
   {
     name: "Prof. SPS Chauhan",
   },
-  
+
   {
     name: "Prof. Vandana Sharma",
     organization: "CHRIST University, Greater Noida, India"
   },
-  
-  
-  
+
+
+
   {
     name: "Dr. Hironori Washizaki",
     position: "2025-26 IEEE Computer Society President",
@@ -867,12 +883,12 @@ export const cards = [
     imgSrc: "/ImportantPersons/hironori.png",
   },
   {
-    
+
     name: "Dr. Ayman EL-Refaie ,Ph.D, FIEEE, FIET, FNAI",
     position: "2025-26 IEEE IAS President",
     organization: "Werner Endowed Chair in Secure and Sustainable Energy, Marquette University, USA",
     imgSrc: "/ImportantPersons/era.jpg",
-  
+
   },
   {
     name: "Dr. Sivaneasan Bala Krishnan",
@@ -918,55 +934,55 @@ export const cards = [
   // ,{
   //   name: "Dr. Hironori Washizaki"
   // }
-  ,{
+  , {
     name: "Dr. Rajeev Srivastava"
   },
   {
-    name : "Dr. Smita",
-    organization : "Galgotias University",
+    name: "Dr. Smita",
+    organization: "Galgotias University",
     imgSrc: "/ImportantPersons/drsmita.jpg"
   },
   {
-    name : "Dr. Shachi Mall",
-    organization:"Galgotias Unviversity"
+    name: "Dr. Shachi Mall",
+    organization: "Galgotias Unviversity"
   }
-  ,{
+  , {
     name: "Dr. Anil Kumar Tripathi",
-    position:"Professor",
-    organization:"IIT BHU, Varanasi, India",
+    position: "Professor",
+    organization: "IIT BHU, Varanasi, India",
     imgSrc: "/ImportantPersons/anilkumartripathi.jpeg"
   }
-  ,{
+  , {
     name: "Dr. Mohammad Rihan",
-    position:"Director NISC Gurugram",
-    organization:"Chair Elect, IEEE UP Section",
+    position: "Director NISC Gurugram",
+    organization: "Chair Elect, IEEE UP Section",
     imgSrc: "/ImportantPersons/mohammadrihan.jpg",
   }
-  ,{
+  , {
     name: "Dr. Rajeev Kumar Singh",
-    position:"Professor, IIT BHU ",
+    position: "Professor, IIT BHU ",
     organization: "Secretary, IEEE UP Section",
     imgSrc: "/ImportantPersons/rajeev.jpg",
   }
-  ,{
+  , {
     name: "Dr. Prabhakar Tiwari",
-    position:"Professor",
-    organization:"MMMUT, Gorakhpur",
+    position: "Professor",
+    organization: "MMMUT, Gorakhpur",
     imgSrc: "/ImportantPersons/prabhakartiwari.jpeg",
   }
-  ,{
+  , {
     name: "Dr. Harivardhagini Subhadra"
   }
-  ,{
+  , {
     name: "Dr. Rakesh Kumar",
-    position:"Professor",
-    organization:"MMMUT, Gorakhpur",
+    position: "Professor",
+    organization: "MMMUT, Gorakhpur",
     imgSrc: "/ImportantPersons/rakesh1.jpg",
   }
-  ,{
+  , {
     name: "Dr. Varun Kakar",
-    position:"Professor, BTKIT Dwarahat",
-    organization:"Joint Secretary, IEEE UP Section",
+    position: "Professor, BTKIT Dwarahat",
+    organization: "Joint Secretary, IEEE UP Section",
     imgSrc: "/ImportantPersons/varunkakar.jpg",
   }
 ];
