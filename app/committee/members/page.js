@@ -14,13 +14,16 @@ export default function TeamPage() {
     "Conference General Chair": [
       "Prof.(Dr.) Avadhesh Kumar",
       "Dr. Yogesh S. Chauhan",
-      "Prof.(Dr.) Akshay Rathore"
+      "Prof.(Dr.) Akshay Rathore",
+      "Ayman EL-Refaie"
+      
     ],
     "Conference Chair": [
       "Dr. Aanjey M. Tripathi",
       // "Prof. Prashant Johri",
       "Dr. Kuldeep S. Kaswan"
-      // "Prof. Asheesh Kumar Singh"
+      // "Prof. Asheesh Kumar Singh",
+    
     ],
     "Conference Organizing Chair": [
       "Dr. Vimal Kumar",
@@ -68,7 +71,7 @@ export default function TeamPage() {
       "Ms. Trapti Shrivastava",
       // "Dr. Manish Kumar",
       // "Dr. Sonu Jha",
-      "Dr. Smita"
+      
     ],
     "Publication Co-Chairs": [
       // "Dr. Shachi Mall",
@@ -80,10 +83,19 @@ export default function TeamPage() {
     
     "International Advisory Chairs": [
       // "Prof. Sanjeev K. Singh",
-      // "Prof. N. Partheeban",
-      "Dr. Aditya Nath Bhatt",
+      // // "Prof. N. Partheeban",
+      // "Dr. Aditya Nath Bhatt",
     //  "Prof. (Dr.) S Srinivasan"
+    "Prof. Sanjeev K. Singh",
+      "Prof. Jagjit Singh Dhatterwal",
+      "Prof.(Dr.) Akshay Rathore"
 
+    ],
+    "National Advisory Chair": [
+      "Dr. Harivardhagini Subhadra",
+      "Abhishek Appaji",
+      "Prof. (Dr.) Geeta Sikka",
+      "Dr. Vimal Kumar"
     ],
     
     "Sponsorship & Industry Chairs": [
@@ -111,6 +123,7 @@ export default function TeamPage() {
       "Prof. (Dr.) Rajiv Mishra",
       // "Dr. Vandana Beniwal"
     ],
+    
     "International Advisory Committee": [
       // "Dr. Liudong Xing",
       // "Dr. LING Tok Wang",
@@ -141,6 +154,7 @@ export default function TeamPage() {
       "Prof. Sanjeev K. Singh",
       "Prof. Jagjit Singh Dhatterwal"
     ],
+
     "National Advisory Committee": [
       "Prof. Adarsh Anand",
       "Prof. (Dr.) Chandra Prakash",

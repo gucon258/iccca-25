@@ -977,7 +977,12 @@ export const cards = [
     organization: "MMMUT, Gorakhpur",
     imgSrc: "/ImportantPersons/prabhakartiwari.jpeg",
   }
-  , {
+  ,{
+    name: "Ayman EL-Refaie",
+    position: "IAS President 2025-2026, Professor",
+    organization: "Dept. of Electrical and Computer Engineering, Marquette University, Milwaukee, WI",
+    imgSrc: "/ImportantPersons/aer.jpg",
+  }, {
     name: "Dr. Harivardhagini Subhadra"
   }
   , {
