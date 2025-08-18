@@ -35,7 +35,7 @@ export default function TeamPage() {
       "Prof. Sunil Bharti"
     ],
     "Conference Technical Chair": [
-      "Dr. Sunita Yadav",
+      "Dr. Sonia Setia",
       // "Dr. Kuldeep S. Kaswan"
       "Dr. Vineeta Khemchandani"
       // "Prof. Manish Kumar"

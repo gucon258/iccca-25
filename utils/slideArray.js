@@ -692,7 +692,14 @@ export const cards = [
     name: "Prof. (Dr.) Chandra Prakash",
     position: "National Institute of Technology",
     organization: "Delhi, India"
-  },
+  }
+  ,
+    {
+      name: "Dr. Sonia Setia",
+      position: "Professor",
+      organization: "Galgotias University, India",
+      imgSrc: "/ImportantPersons/sonia.jpg",
+    },
 
   {
     name: "Prof. (Dr.) Sahil",

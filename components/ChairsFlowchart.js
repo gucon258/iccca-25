@@ -40,7 +40,7 @@ export default function ChairsFlowchart() {
         {tracks.map((category, index) => {
           const globalIndex = startIndex + index;
           let trackLabel = "";
-          
+
           if (sectionTitle === "Regular Tracks") {
             if (index === 0) {
               trackLabel = "Main Track: ";
@@ -50,7 +50,7 @@ export default function ChairsFlowchart() {
           } else {
             trackLabel = `Track ${index + 5}: `;
           }
-          
+
           return (
             <div key={globalIndex} className="bg-white rounded-lg shadow-sm">
               <button
@@ -109,13 +109,13 @@ export default function ChairsFlowchart() {
               Conference Tracks, Track Chairs and Related Topics
             </h2>
           </div>
-          
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {/* Regular Tracks Column */}
             <div>
               {renderTrackSection(regularTracks, 0, "Regular Tracks")}
             </div>
-            
+
             {/* Special Sessions/Tracks Column */}
             <div>
               {renderTrackSection(specialTracks, 5, "Special Sessions/Tracks")}

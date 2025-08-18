@@ -13,10 +13,10 @@ const sliderFiles = fs.readdirSync(sliderPath);
 
 console.log('\n🔴 CRITICAL: Slider Images (Current: ~78MB total)');
 sliderFiles.forEach(file => {
-  const filePath = path.join(sliderPath, file);
-  const stats = fs.statSync(filePath);
-  const sizeMB = (stats.size / (1024 * 1024)).toFixed(2);
-  console.log(`  ${file}: ${sizeMB}MB → Should be <0.5MB`);
+    const filePath = path.join(sliderPath, file);
+    const stats = fs.statSync(filePath);
+    const sizeMB = (stats.size / (1024 * 1024)).toFixed(2);
+    console.log(`  ${file}: ${sizeMB}MB → Should be <0.5MB`);
 });
 
 console.log('\n📋 Optimization Steps:');
