@@ -984,6 +984,22 @@ export const cards = [
     imgSrc: "/ImportantPersons/aer.jpg",
   }, {
     name: "Dr. Harivardhagini Subhadra"
+  },
+  {
+    name: "Abhishek Appaji",
+    position: "Associate Professor",
+    organization: "B.M.S. College of Engineering, Bengaluru, India",
+    imgSrc: "/ImportantPersons/abhishek.jpg",
+  },{
+    name: "Prof. (Dr.) Geeta Sikka",
+    position: "Professor",
+    organization: "Department of Computer Science & Engineering, NIT Delhi",
+    imgSrc: "/ImportantPersons/geeta.webp",
+  },
+  {
+    name: "Dr. Vimal Kumar",
+    position: "Professor",
+    organization: "School of Computer Science & Engineering, MMMUT, Gorakhpur, India",
   }
   , {
     name: "Dr. Rakesh Kumar",
