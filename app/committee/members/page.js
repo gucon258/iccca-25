@@ -130,7 +130,7 @@ export default function TeamPage() {
       "Dr. Liudong Xing",
       "Ayman EL-Refaie",
       "Dr. Diane Rover",
-      "Dr. Diana Andone",
+      
     ],
 
     "National Advisory Committee": [
