@@ -168,9 +168,9 @@ export const chairs = [
   {
     "title": "Applications of AI &amp; ML Techniques in Sustainable Analytics for Industry 6.0 Applications",
     "chairpersons": [
-      "Dr Manisha Sharma (Affiliation not provided)",
-      "Dr Neha Verma (Affiliation not provided)",
-      "Dr. Shanu Sharma (Affiliation not provided)"
+      "Dr Manisha Sharma ",
+      "Dr Neha Verma ",
+      "Dr. Shanu Sharma "
     ]
   },
   {
