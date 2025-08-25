@@ -167,36 +167,64 @@ export const chairs = [
 
   {
     "title": "Applications of AI &amp; ML Techniques in Sustainable Analytics for Industry 6.0 Applications",
-    "chairpersons": []
-
+    "chairpersons": [
+      "Dr Manisha Sharma (Affiliation not provided)",
+      "Dr Neha Verma (Affiliation not provided)",
+      "Dr. Shanu Sharma (Affiliation not provided)"
+    ]
   },
   {
     "title": "EdgeAI for Secure Mobility, Action Recognition, and Behavioral Retrieval",
-    "chairpersons": []
+    "chairpersons": [
+      "Dr. Ajay Kumar Gupta - University of Allahabad, Praygraj",
+      "Dr. Pratik Shrivastava - Jaypee Institute of Information Technology, Noida",
+      "Dr. Suryabhan Pratap Singh - Deen Dayal Upadhyaya Gorakhpur University"
+    ]
   },
   {
     "title": "AI-Powered Human-Centric Systems: NLP, Trustworthy Interfaces, and Blockchain-Enabled Applications",
-    "chairpersons": []
+    "chairpersons": [
+      "Dr. Gunjan Chhabra - School of Science and Technology, Swami Rama Himalayan University",
+      "Dr. Keshav Kaushik - School of Computer Science & Engineering, Sharda University, Greater Noida"
+    ]
   },
   {
     "title": "AI-Powered Cloud Resource Allocation and Optimization",
-    "chairpersons": []
+    "chairpersons": [
+      "Dr Payal Bansal - Poornima Institute of Engineering & Technology, Jaipur, Rajasthan",
+      "Dr Amit Tiwari - Poornima Institute of Engineering & Technology, Jaipur, Rajasthan",
+      "Dr Rajeev Kumar - Poornima Institute of Engineering & Technology, Jaipur, Rajasthan"
+    ]
   },
   {
     "title": "Innovative and Disruptive Technologies: Reimagining the Future",
-    "chairpersons": []
+    "chairpersons": [
+      "Dr. Bhanu Sharma - Chitkara University, Punjab",
+      "Dr. Nitin Goyal - Chandigarh University"
+    ]
   },
   {
     "title": "Innovations in Information Security, Cybersecurity and Digital Defense",
-    "chairpersons": []
+    "chairpersons": [
+      "Dr. Amanpreet Kaur - Chitkara University, Punjab"
+    ]
   },
   {
     "title": "From Data to Imagination: Generative AI and the Architecture of Tomorrow",
-    "chairpersons": []
+    "chairpersons": [
+      "Dr P Privietha - Sathyabama Institute of Science and Technology, Chennai, TN, India",
+      "Dr T Ganesh Kumar - Galgotias University, Greater Noida, Delhi NCR",
+      "Dr Priti Rishi - SRM Institute of Engineering and Technology, Vadapalani Campus",
+      "JAWAHIR BINTI CHE MUSTAPHA - Universiti Kuala Lumpur, Malaysian Institute of Information Technology, Kuala Lumpur"
+    ]
   },
   {
     "title": "Advancements in Artificial Intelligence, Soft Computing, and Engineering Systems",
-    "chairpersons": []
+    "chairpersons": [
+      "Dr. Anurag Dwivedi - Echelon Institute of Technology (EIT), Faridabad, India",
+      "Dr. Saurabh Kumar - Institute of Engineering and Rural Technology (IERT), Prayagraj, India",
+      "Dr. Stuti Saxena - Echelon Institute of Technology (EIT), Faridabad, India"
+    ]
   },
   {
     "title": "Smart and Sustainable Systems with Advanced Machine Learning",
@@ -209,6 +237,22 @@ export const chairs = [
   {
     "title": "AI-Driven Cybersecurity in Intelligent Transportation Systems",
     "chairpersons": []
+  },
+  {
+    "title": "AI-Enhanced Sensors, Drones, and Autonomous Systems: From Edge Intelligence to Generative Autonomy",
+    "chairpersons": [
+      "Dr. Salil Bharany - Postdoctoral Researcher, Université de Moncton, Moncton, NB E1A 3E9, Canada",
+      "Prof. Rupali Gill - Chitkara University, Rajpura, Punjab, India",
+      "Dr. Ateeq Ur Rehman - School of Computing, Gachon University, Seongnam-si, 13120, Republic of Korea"
+    ]
+  },
+  {
+    "title": "Next-Gen Cybersecurity: Leveraging Generative AI and Machine Learning for Adaptive Threat Mitigation",
+    "chairpersons": [
+      "Dr. Sunil Kumar - Guru Jambheshwar University of Science & Technology, Hisar",
+      "Dr. Aparna Kumari - Nirma University, Ahmedabad, Gujarat, India",
+      "Dr. Narendra Kumar - Guru Jambheshwar University of Science & Technology, Hisar"
+    ]
   }
 ];
 
