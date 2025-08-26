@@ -25,6 +25,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" type="image/png" href="/logos/iccsai_logo.png" />
+        {/* Preload critical slider images for better LCP */}
+        <link rel="preload" as="image" href="/slider/slide4.webp" />
+        <link rel="preload" as="image" href="/slider/slide1.webp" />
       </head>
 
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>

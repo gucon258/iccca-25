@@ -4,7 +4,7 @@ const page = () => {
   return (
     <div className="bg-gray-100 min-h-screen flex flex-col items-center py-10 px-4">
       <h1 className="text-3xl font-bold text-orange-600 mb-6">Registration Rates</h1>
-      
+
       {/* Added overflow container for table responsiveness */}
       <div className="w-full max-w-6xl bg-white shadow-md rounded-lg overflow-hidden">
         <div className="overflow-x-auto">
@@ -108,7 +108,7 @@ const page = () => {
             * All rates are inclusive of GST 18%
           </p>
           <p className="text-blue-600 font-medium text-center">
-          An author may register for a maximum of two papers, with the registration fee paid separately for each paper.
+            An author may register for a maximum of two papers, with the registration fee paid separately for each paper.
           </p>
           <p className="text-red-600 text-sm text-center mt-2">
             * Extra page charge of ₹ 1000/- INR per page Indian author and $ 15 per page International author will be chargeable to the author's during registration process.
