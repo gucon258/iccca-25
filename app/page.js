@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Image from "next/image";
-import OptimizedSlider from "@/components/OptimizedSlider";
+import Slider from "@/components/Slider";
 import Timeline from "@/components/Timeline";
 import Hero from "@/components/Hero";
 import Banner from "@/components/banner"
@@ -21,7 +21,7 @@ import AcknowledgementComponent from "@/components/Acknowledgement";
 export default function Home() {
   return (
     <>
-      <OptimizedSlider/>
+      <Slider/>
       <Timeline/>
       <Banner/>
       <Hero/>
