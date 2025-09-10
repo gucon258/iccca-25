@@ -66,6 +66,13 @@ const page = () => {
                 <td className="p-3 border">$450</td>
               </tr>
               <tr className="bg-orange-100">
+                <td className="p-3 border">Foreign Student Author</td>
+                <td className="p-3 border">$150</td>
+                <td className="p-3 border">$200</td>
+                <td className="p-3 border">$200</td>
+                <td className="p-3 border">$250</td>
+              </tr>
+              <tr className="bg-orange-100">
                 <td className="p-3 border">Foreign Student Attendee (Non-Author)</td>
                 <td className="p-3 border">$100</td>
                 <td className="p-3 border">$150</td>
