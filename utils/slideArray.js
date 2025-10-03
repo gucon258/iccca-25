@@ -228,15 +228,25 @@ export const chairs = [
   },
   {
     "title": "Smart and Sustainable Systems with Advanced Machine Learning",
-    "chairpersons": []
+    "chairpersons": [
+      "Dr. Varun Malik - Chitkara University, Punjab",
+      "Dr. Kiran Malik - GL Bajaj Institute of Technology & Management, Greater Noida, India",
+      "Dr. Jagjit Singh Dhatterwal - SR University, Warangal, Telangana, India"
+    ]
   },
   {
     "title": "Advancing Social Good Through Trustworthy AI: Transformative Applications in Healthcare, Agriculture, Education and Smart cities",
-    "chairpersons": []
+    "chairpersons": [
+      "Dr. Kushagra Agrawal - Manav Rachna International Institute of Research & Studies (Deemed to be University), Faridabad",
+      "Dr. Ganga Sharma - Manav Rachna University, Faridabad"
+    ]
   },
   {
     "title": "AI-Driven Cybersecurity in Intelligent Transportation Systems",
-    "chairpersons": []
+    "chairpersons": [
+      "Aryan Chaudhary - Director & Chief Scientific Advisor, BioTech Sphere Research, India | Unit of NeoNexus Healthcare Pvt Ltd",
+      "Dr. Sakshi Gupta - Associate Professor, Department of Mathematics, Applied Sciences and Humanities, Dronacharya College of Engineering, Gurugram, Haryana, India"
+    ]
   },
   {
     "title": "AI-Enhanced Sensors, Drones, and Autonomous Systems: From Edge Intelligence to Generative Autonomy",
@@ -244,6 +254,13 @@ export const chairs = [
       "Dr. Salil Bharany - Postdoctoral Researcher, Université de Moncton, Moncton, NB E1A 3E9, Canada",
       "Prof. Rupali Gill - Chitkara University, Rajpura, Punjab, India",
       "Dr. Ateeq Ur Rehman - School of Computing, Gachon University, Seongnam-si, 13120, Republic of Korea"
+    ]
+  },
+  {
+    "title": "AI, Blockchain, and 6G: Intelligent and Secure Technologies for Next-Generation Networks and Applications",
+    "chairpersons": [
+      "Dr. Renu Mishra - Sharda University, India",
+      "Dr. Vimal Dwivedi - Ulster University, UK"
     ]
   },
   {
