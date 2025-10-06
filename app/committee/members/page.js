@@ -69,6 +69,7 @@ export default function TeamPage() {
     "Conference Technical Co-Chairs": [
       // "Prof. Ravi Sharma",
       "Ms. Trapti Shrivastava",
+      "Dr. Shipra Shukla",
       // "Dr. Manish Kumar",
       // "Dr. Sonu Jha",
       

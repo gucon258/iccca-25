@@ -47,7 +47,7 @@ export const data = [
 export const events = [
   { date: "25th April, 2025", description: "Call for Papers" },
   { date: "17th September, 2025", description: "Last date of Submission" },
-  { date: "7th October, 2025", description: "Acceptance Notification" },
+  { date: "10th October, 2025", description: "Acceptance Notification" },
   { date: "16th October, 2025", description: "Final Camera-Ready Paper" },
   { date: "20th October, 2025", description: "Registration Deadline" }
 ];
@@ -533,6 +533,12 @@ export const cards = [
     name: "Ms. Trapti Shrivastava",
     organization: "Galgotias University, India",
     imgSrc: "/ImportantPersons/trapti.jpg",
+  },
+  {
+    name: "Dr. Shipra Shukla",
+    position: "Professor",
+    organization: "Galgotias University, India",
+    imgSrc: "/ImportantPersons/shipra.jpg"
   },
   {
     name: "Prof. (Dr.) Rajiv Mishra",
