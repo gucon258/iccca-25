@@ -123,51 +123,17 @@ const page = () => {
         </div>
       </div>
 
-      {/* Payment button section */}
-      <div className="w-full max-w-md mt-8 flex justify-center">
-        <a
-          href="https://p.ppsl.io/PYTMPS/f9Gv6k"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-4 px-8 rounded-lg shadow-lg transition-colors duration-300 flex items-center space-x-2 text-lg"
-        >
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path>
+      {/* Registration Closed Notice */}
+      <div className="w-full max-w-md mt-8 flex flex-col items-center">
+        <div className="bg-red-100 border-2 border-red-500 rounded-lg p-6 w-full text-center">
+          <svg className="w-12 h-12 mx-auto mb-3 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
           </svg>
-          <span>Pay Now - Indian Authors</span>
-        </a>
-      </div>
-
-      {/* Account details section with responsive adjustments */}
-      <div className="w-full max-w-md bg-white shadow-md rounded-lg mt-6 overflow-hidden">
-        <h2 className="text-lg font-semibold text-orange-600 p-4 bg-orange-50">Account Details</h2>
-        <div className="overflow-x-auto">
-          <table className="w-full">
-            <tbody className="text-gray-700">
-              <tr className="border-b">
-                <td className="p-3 font-bold border-r">Name of Account</td>
-                <td className="p-3">GU Conferences</td>
-              </tr>
-              <tr className="border-b bg-orange-50">
-                <td className="p-3 font-bold border-r">Account Number</td>
-                <td className="p-3">6717000100025845</td>
-              </tr>
-              <tr className="border-b">
-                <td className="p-3 font-bold border-r">IFSC Code</td>
-                <td className="p-3">PUNB0671700</td>
-              </tr>
-              <tr className="border-b bg-orange-50">
-                <td className="p-3 font-bold border-r">Bank Name</td>
-                <td className="p-3">Punjab National Bank, Noida</td>
-              </tr>
-              <tr>
-                <td className="p-3 font-bold border-r">SWIFT Code</td>
-                <td className="p-3">PUNBINBBMSN</td>
-              </tr>
-            </tbody>
-          </table>
+          <h2 className="text-2xl font-bold text-red-700 mb-2">Registrations are Closed</h2>
+          <p className="text-red-600">The registration period has ended. Thank you for your interest.</p>
         </div>
       </div>
+
 
       {/* Added scroll indicator for mobile users */}
       <div className="md:hidden w-full max-w-6xl mt-4 text-center text-gray-500 text-sm flex items-center justify-center">
