@@ -208,11 +208,29 @@ const Navbar = () => {
                 </li>
                 <li>
                   <div
-                    className="text-white text-lg hover:text-accent-light flex items-center justify-center gap-1 cursor-not-allowed opacity-75 transition-colors duration-200"
-                    onClick={(e) => e.preventDefault()}
+                    className="text-white text-lg hover:text-accent-light flex items-center justify-center gap-1 cursor-pointer transition-colors duration-200"
+                    onClick={() => setIsScheduleOpen(!isScheduleOpen)}
                   >
-                    Schedule <ChevronDown size={16} />
+                    Schedule <ChevronDown size={16} className={`transition-transform duration-300 ${isScheduleOpen ? 'rotate-180' : ''}`} />
                   </div>
+                  <AnimatePresence>
+                    {isScheduleOpen && (
+                      <motion.div
+                        initial={{ opacity: 0, height: 0 }}
+                        animate={{ opacity: 1, height: 'auto' }}
+                        exit={{ opacity: 0, height: 0 }}
+                        transition={{ duration: 0.3 }}
+                        className="w-full bg-primary-dark text-white rounded-md shadow-lg mt-2 overflow-hidden"
+                      >
+                        <Link href="/schedule/offline" onClick={closeMenu}>
+                          <div className="px-4 py-3 hover:bg-primary">Offline Schedule</div>
+                        </Link>
+                        <Link href="/schedule/online" onClick={closeMenu}>
+                          <div className="px-4 py-3 hover:bg-primary">Online Schedule</div>
+                        </Link>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
                 </li>
                 {/* Awards Dropdown - Mobile */}
                 <li>
@@ -426,11 +444,32 @@ const Navbar = () => {
             </li>
             <li className="relative">
               <div
-                className="text-white hover:text-accent-light flex items-center gap-1 cursor-not-allowed opacity-75 transition-colors duration-200"
-                onClick={(e) => e.preventDefault()}
+                className="text-white hover:text-accent-light flex items-center gap-1 cursor-pointer transition-colors duration-200"
+                onMouseEnter={() => handleMouseEnter(setIsScheduleOpen)}
+                onMouseLeave={() => handleMouseLeave(setIsScheduleOpen)}
               >
-                Schedule <ChevronDown size={16} />
+                Schedule <ChevronDown size={16} className={`transition-transform duration-300 ${isScheduleOpen ? 'rotate-180' : ''}`} />
               </div>
+              <AnimatePresence>
+                {isScheduleOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -10 }}
+                    transition={{ duration: 0.2 }}
+                    className="absolute top-full left-0 mt-2 w-56 bg-primary-dark text-white rounded-md shadow-lg overflow-hidden"
+                    onMouseEnter={() => handleMouseEnter(setIsScheduleOpen)}
+                    onMouseLeave={() => handleMouseLeave(setIsScheduleOpen)}
+                  >
+                    <Link href="/schedule/offline">
+                      <div className="px-4 py-3 hover:bg-primary">Offline Schedule</div>
+                    </Link>
+                    <Link href="/schedule/online">
+                      <div className="px-4 py-3 hover:bg-primary">Online Schedule</div>
+                    </Link>
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </li>
             {/* Awards Dropdown - Desktop */}
             <li className="relative">
