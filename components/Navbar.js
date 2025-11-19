@@ -8,25 +8,36 @@ import { motion, AnimatePresence } from "framer-motion";
 import conflogo from "@/assets/logo/conflogo.png";
 
 const Navbar = () => {
+  // Mobile Menu States
   const [isOpen, setIsOpen] = useState(false);
-  const [isCommitteeOpen, setIsCommitteeOpen] = useState(false);
-  const [isScheduleOpen, setIsScheduleOpen] = useState(false);
-  const [isPreviousConferencesOpen, setIsPreviousConferencesOpen] = useState(false);
-  const [isAwardsOpen, setIsAwardsOpen] = useState(false);
-  const [isEventsOpen, setIsEventsOpen] = useState(false);
+  const [mobileCommitteeOpen, setMobileCommitteeOpen] = useState(false);
+  const [mobileScheduleOpen, setMobileScheduleOpen] = useState(false);
+  const [mobilePreviousConferencesOpen, setMobilePreviousConferencesOpen] = useState(false);
+  const [mobileAwardsOpen, setMobileAwardsOpen] = useState(false);
+  const [mobileEventsOpen, setMobileEventsOpen] = useState(false);
+
+  // Desktop Menu State
+  const [activeDropdown, setActiveDropdown] = useState(null);
+  const [scrolled, setScrolled] = useState(false);
+
   const dropdownRef = useRef(null);
   const mobileNavRef = useRef(null);
-  const leaveTimer = useRef(null);
+  const timeoutRef = useRef(null);
+
+  // Handle scroll effect
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   // Close dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-        setIsCommitteeOpen(false);
-        setIsScheduleOpen(false);
-        setIsAwardsOpen(false);
-        setIsPreviousConferencesOpen(false);
-        setIsEventsOpen(false);
+        setActiveDropdown(null);
       }
       if (isOpen && mobileNavRef.current && !mobileNavRef.current.contains(event.target) && !event.target.closest('button[aria-label="Toggle menu"]')) {
         setIsOpen(false);
@@ -63,454 +74,335 @@ const Navbar = () => {
 
   const closeMenu = () => {
     setIsOpen(false);
-    setIsCommitteeOpen(false);
-    setIsScheduleOpen(false);
-    setIsAwardsOpen(false);
-    setIsPreviousConferencesOpen(false);
-    setIsEventsOpen(false);
+    setMobileCommitteeOpen(false);
+    setMobileScheduleOpen(false);
+    setMobilePreviousConferencesOpen(false);
+    setMobileAwardsOpen(false);
+    setMobileEventsOpen(false);
+    setActiveDropdown(null);
   };
 
-  const handleMouseEnter = (setter) => {
-    if (leaveTimer.current) {
-      clearTimeout(leaveTimer.current);
+  const handleMouseEnter = (menuLabel) => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
     }
-    setter(true);
+    setActiveDropdown(menuLabel);
   };
 
-  const handleMouseLeave = (setter) => {
-    leaveTimer.current = setTimeout(() => {
-      setter(false);
-    }, 200); // 200ms delay before closing
+  const handleMouseLeave = () => {
+    timeoutRef.current = setTimeout(() => {
+      setActiveDropdown(null);
+    }, 200);
   };
+
+  const navLinkClasses = "text-white/90 hover:text-white text-sm font-medium tracking-wide transition-colors duration-200 relative group py-2";
+  const dropdownClasses = "absolute top-full left-0 mt-2 w-56 bg-white/95 backdrop-blur-md rounded-xl shadow-xl border border-gray-100 overflow-hidden py-2";
+  const dropdownItemClasses = "block px-4 py-2.5 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600 transition-colors duration-200";
 
   return (
-    <nav className="bg-[#BE2727] sticky top-0 z-50 w-full shadow-lg">
-      <div className="mx-auto w-full max-w-screen-xl 2xl:max-w-screen-2xl flex justify-between items-center px-6 py-2">
+    <nav
+      className={`fixed top-0 z-50 w-full transition-all duration-300 ${scrolled
+        ? "bg-[#BE2727]/95 backdrop-blur-md shadow-lg py-2"
+        : "bg-[#BE2727] py-4"
+        }`}
+    >
+      <div className="mx-auto w-full max-w-screen-2xl flex justify-between items-center px-6 lg:px-12">
         {/* Logo Section */}
-        <div className="flex items-center">
-          <Link href="/#" className="flex items-center">
-            <div className="flex items-center gap-8">
-            <div className="relative w-[150px] h-[40px] sm:w-[180px] sm:h-[45px] md:w-[200px] md:h-[50px] lg:w-[225px] lg:h-[55px]">
-                <Image 
-                  src={conflogo}
-                  alt="ICCCA Logo" 
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  className="scale-125"
-                  priority
-                />
-              </div>
-              {/* <div className="h-[40px] w-[2px] bg-white/80 rounded-full sm:h-[45px] md:h-[50px]"></div>
-              <div className="relative w-[180px] h-[40px] sm:w-[200px] sm:h-[45px] md:w-[220px] md:h-[50px] hover:opacity-90 transition-opacity">
-                {/* <Image 
-                  src="/logos/gulogowhite.png" 
-                  alt="Galgotias University Logo" 
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  priority
-                /> */}
-              {/* </div> */} 
-            </div>
-          </Link>
-        </div>
+        <Link href="/" className="flex items-center group">
+          <div className="relative w-[160px] h-[45px] sm:w-[180px] sm:h-[50px] transition-transform duration-300 group-hover:scale-105">
+            <Image
+              src={conflogo}
+              alt="ICCCA Logo"
+              fill
+              style={{ objectFit: 'contain', objectPosition: 'left' }}
+              priority
+              className="drop-shadow-sm"
+            />
+          </div>
+        </Link>
 
         {/* Mobile Menu Button */}
         <button
-          className="lg:hidden text-white focus:outline-none"
+          className="lg:hidden text-white p-2 hover:bg-white/10 rounded-lg transition-colors"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle menu"
         >
-          {isOpen ? <X size={28} /> : <Menu size={28} />}
+          {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
 
-        {/* Mobile Menu */}
+        {/* Mobile Menu Overlay */}
         <AnimatePresence>
           {isOpen && (
-            <motion.div
-              ref={mobileNavRef}
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.3 }}
-              className="lg:hidden fixed left-0 top-[60px] w-full bg-gradient-to-r from-primary-dark to-primary overflow-y-auto"
-            >
-              <ul className="flex flex-col gap-6 font-semibold text-center p-8">
-                <li>
-                  <Link href="/#" onClick={closeMenu}>
-                    <span className="text-white text-lg hover:text-accent-light transition-colors duration-200">Home</span>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/registration" onClick={closeMenu}>
-                    <span className="text-white text-lg hover:text-accent-light transition-colors duration-200">Registration</span>
-                  </Link>
-                </li>
-                <li>
-                  <div
-                    className="text-white text-lg hover:text-accent-light flex items-center justify-center gap-1 cursor-pointer transition-colors duration-200"
-                    onClick={() => setIsCommitteeOpen(!isCommitteeOpen)}
-                  >
-                    Committee <ChevronDown size={16} className={`transition-transform duration-300 ${isCommitteeOpen ? 'rotate-180' : ''}`} />
+            <>
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                className="lg:hidden fixed inset-0 bg-black/50 backdrop-blur-sm z-40"
+                onClick={closeMenu}
+              />
+              <motion.div
+                ref={mobileNavRef}
+                initial={{ x: "100%" }}
+                animate={{ x: 0 }}
+                exit={{ x: "100%" }}
+                transition={{ type: "spring", damping: 25, stiffness: 200 }}
+                className="lg:hidden fixed right-0 top-0 h-full w-[300px] bg-white z-50 shadow-2xl overflow-y-auto"
+              >
+                <div className="p-6 flex flex-col h-full">
+                  <div className="flex justify-end mb-8">
+                    <button
+                      onClick={closeMenu}
+                      className="p-2 text-gray-500 hover:bg-gray-100 rounded-full transition-colors"
+                    >
+                      <X size={24} />
+                    </button>
                   </div>
-                  <AnimatePresence>
-                    {isCommitteeOpen && (
-                      <motion.div
-                        initial={{ opacity: 0, height: 0 }}
-                        animate={{ opacity: 1, height: 'auto' }}
-                        exit={{ opacity: 0, height: 0 }}
-                        transition={{ duration: 0.3 }}
-                        className="w-full bg-primary-dark text-white rounded-md shadow-lg mt-2 overflow-hidden"
-                      >
-                        <Link href="/committee/members" onClick={closeMenu}>
-                          <div className="px-4 py-3 hover:bg-primary">Members</div>
-                        </Link>
-                        <Link href="/committee/speakers" onClick={closeMenu}>
-                        <div className="px-4 py-3 hover:bg-primary">Speakers</div>
-                        </Link>
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
-                </li>
-                <li>
-                  <Link href="/guidelines" onClick={closeMenu}>
-                    <span className="text-white text-lg hover:text-accent-light transition-colors duration-200">Guidelines</span>
-                  </Link>
-                </li>
-                {/* Events Dropdown - Mobile */}
-                <li>
-                  <div
-                    className="text-white text-lg hover:text-accent-light flex items-center justify-center gap-1 cursor-pointer transition-colors duration-200"
-                    onClick={() => setIsEventsOpen(!isEventsOpen)}
-                  >
-                    Events <ChevronDown size={16} className={`transition-transform duration-300 ${isEventsOpen ? 'rotate-180' : ''}`} />
-                  </div>
-                  <AnimatePresence>
-                    {isEventsOpen && (
-                      <motion.div
-                        initial={{ opacity: 0, height: 0 }}
-                        animate={{ opacity: 1, height: 'auto' }}
-                        exit={{ opacity: 0, height: 0 }}
-                        transition={{ duration: 0.3 }}
-                        className="w-full bg-primary-dark text-white rounded-md shadow-lg mt-2 overflow-hidden"
-                      >
-                        <Link href="/events/cs" onClick={closeMenu}>
-                          <div className="px-4 py-3 hover:bg-primary">CS</div>
-                        </Link>
-                        <Link href="/events/wie" onClick={closeMenu}>
-                          <div className="px-4 py-3 hover:bg-primary">WIE</div>
-                        </Link>
-                        <Link href="/events/ias" onClick={closeMenu}>
-                          <div className="px-4 py-3 hover:bg-primary">IAS</div>
-                        </Link>
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
-                </li>
-                <li>
-                  <div
-                    className="text-white text-lg hover:text-accent-light flex items-center justify-center gap-1 cursor-pointer transition-colors duration-200"
-                    onClick={() => setIsScheduleOpen(!isScheduleOpen)}
-                  >
-                    Schedule <ChevronDown size={16} className={`transition-transform duration-300 ${isScheduleOpen ? 'rotate-180' : ''}`} />
-                  </div>
-                  <AnimatePresence>
-                    {isScheduleOpen && (
-                      <motion.div
-                        initial={{ opacity: 0, height: 0 }}
-                        animate={{ opacity: 1, height: 'auto' }}
-                        exit={{ opacity: 0, height: 0 }}
-                        transition={{ duration: 0.3 }}
-                        className="w-full bg-primary-dark text-white rounded-md shadow-lg mt-2 overflow-hidden"
-                      >
-                        <Link href="/schedule/offline" onClick={closeMenu}>
-                          <div className="px-4 py-3 hover:bg-primary">Offline Schedule</div>
-                        </Link>
-                        <Link href="/schedule/online" onClick={closeMenu}>
-                          <div className="px-4 py-3 hover:bg-primary">Online Schedule</div>
-                        </Link>
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
-                </li>
-                {/* Awards Dropdown - Mobile */}
-                <li>
-                  <div
-                    className="text-white text-lg hover:text-accent-light flex items-center justify-center gap-1 cursor-pointer transition-colors duration-200"
-                    onClick={() => setIsAwardsOpen(!isAwardsOpen)}
-                  >
-                    Awards <ChevronDown size={16} className={`transition-transform duration-300 ${isAwardsOpen ? 'rotate-180' : ''}`} />
-                  </div>
-                  <AnimatePresence>
-                    {isAwardsOpen && (
-                      <motion.div
-                        initial={{ opacity: 0, height: 0 }}
-                        animate={{ opacity: 1, height: 'auto' }}
-                        exit={{ opacity: 0, height: 0 }}
-                        transition={{ duration: 0.3 }}
-                        className="w-full bg-primary-dark text-white rounded-md shadow-lg mt-2 overflow-hidden"
-                      >
-                        <Link href="/awards/best-paper" onClick={closeMenu}>
-                          <div className="px-4 py-3 hover:bg-primary">Best Paper Award</div>
-                        </Link>
-                        <Link href="/awards/best-poster" onClick={closeMenu}>
-                          <div className="px-4 py-3 hover:bg-primary">Best Poster Award</div>
-                        </Link>
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
-                </li>
-                {/* Sponsors - Mobile */}
-                <li>
-                  <Link href="/sponsors" onClick={closeMenu}>
-                    <span className="text-white text-lg hover:text-accent-light transition-colors duration-200">Sponsors</span>
-                  </Link>
-                </li>
-                {/* Contact - Mobile */}
-                <li>
-                  <Link href="/contact" onClick={closeMenu}>
-                    <span className="text-white text-lg hover:text-accent-light transition-colors duration-200">Contact</span>
-                  </Link>
-                </li>
-              </ul>
 
-              {/* Submit Button in Mobile Menu */}
-              <div className="flex justify-center mt-4 mb-8">
-                <a
-                  href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCCAconf2025"
-                  target="_blank"
-                  className="w-4/5"
-                  onClick={closeMenu}
-                >
-                  <button className="w-full bg-accent hover:bg-accent-dark text-white font-medium rounded-xl px-4 py-3 transition-all duration-300 ease-in-out">
-                    Submit your paper
-                  </button>
-                </a>
-              </div>
-            </motion.div>
+                  <ul className="flex flex-col gap-4 flex-1">
+                    <li>
+                      <Link href="/" onClick={closeMenu} className="block text-lg font-semibold text-gray-800 hover:text-red-600 py-2">
+                        Home
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/registration" onClick={closeMenu} className="block text-lg font-semibold text-gray-800 hover:text-red-600 py-2">
+                        Registration
+                      </Link>
+                    </li>
+
+                    {/* Mobile Dropdowns */}
+                    {[
+                      {
+                        label: "Committee",
+                        state: mobileCommitteeOpen,
+                        setter: setMobileCommitteeOpen,
+                        items: [
+                          { label: "Members", href: "/committee/members" },
+                          { label: "Speakers", href: "/committee/speakers" }
+                        ]
+                      },
+                      {
+                        label: "Events",
+                        state: mobileEventsOpen,
+                        setter: setMobileEventsOpen,
+                        items: [
+                          { label: "CS", href: "/events/cs" },
+                          { label: "WIE", href: "/events/wie" },
+                          { label: "IAS", href: "/events/ias" }
+                        ]
+                      },
+                      {
+                        label: "Schedule",
+                        state: mobileScheduleOpen,
+                        setter: setMobileScheduleOpen,
+                        items: [
+                          { label: "Offline Schedule", href: "/schedule/offline" },
+                          { label: "Online Schedule", href: "/schedule/online" }
+                        ]
+                      },
+                      {
+                        label: "Awards",
+                        state: mobileAwardsOpen,
+                        setter: setMobileAwardsOpen,
+                        items: [
+                          { label: "Best Paper Award", href: "/awards/best-paper" },
+                          { label: "Best Poster Award", href: "/awards/best-poster" }
+                        ]
+                      }
+                    ].map((menu) => (
+                      <li key={menu.label}>
+                        <button
+                          onClick={() => menu.setter(!menu.state)}
+                          className="flex items-center justify-between w-full text-lg font-semibold text-gray-800 hover:text-red-600 py-2"
+                        >
+                          {menu.label}
+                          <ChevronDown
+                            size={20}
+                            className={`transition-transform duration-300 ${menu.state ? 'rotate-180' : ''}`}
+                          />
+                        </button>
+                        <AnimatePresence>
+                          {menu.state && (
+                            <motion.div
+                              initial={{ height: 0, opacity: 0 }}
+                              animate={{ height: "auto", opacity: 1 }}
+                              exit={{ height: 0, opacity: 0 }}
+                              className="overflow-hidden bg-gray-50 rounded-lg mt-2"
+                            >
+                              {menu.items.map((item) => (
+                                <Link
+                                  key={item.href}
+                                  href={item.href}
+                                  onClick={closeMenu}
+                                  className="block px-4 py-3 text-gray-600 hover:text-red-600 hover:bg-red-50 text-sm font-medium"
+                                >
+                                  {item.label}
+                                </Link>
+                              ))}
+                            </motion.div>
+                          )}
+                        </AnimatePresence>
+                      </li>
+                    ))}
+
+                    <li>
+                      <Link href="/guidelines" onClick={closeMenu} className="block text-lg font-semibold text-gray-800 hover:text-red-600 py-2">
+                        Guidelines
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/sponsors" onClick={closeMenu} className="block text-lg font-semibold text-gray-800 hover:text-red-600 py-2">
+                        Sponsors
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/contact" onClick={closeMenu} className="block text-lg font-semibold text-gray-800 hover:text-red-600 py-2">
+                        Contact
+                      </Link>
+                    </li>
+                  </ul>
+
+                  <div className="mt-8">
+                    <a
+                      href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCCAconf2025"
+                      target="_blank"
+                      className="block w-full"
+                      onClick={closeMenu}
+                    >
+                      <button className="w-full bg-gradient-to-r from-[#DE4060] via-[#A73E9C] to-[#438ACC] text-white font-bold rounded-xl px-6 py-4 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        Submit Paper
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </motion.div>
+            </>
           )}
         </AnimatePresence>
 
         {/* Desktop Menu */}
-        <div className="hidden lg:flex items-center gap-6">
+        <div className="hidden lg:flex items-center gap-8">
           <ul className="flex items-center gap-6">
             <li>
-              <Link href="/#">
-                <span className="text-white hover:text-accent-light transition-colors duration-200">Home</span>
+              <Link href="/" className={navLinkClasses}>
+                Home
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
               </Link>
             </li>
             <li>
-              <Link href="/registration">
-                <span className="text-white hover:text-accent-light transition-colors duration-200">Registration</span>
+              <Link href="/registration" className={navLinkClasses}>
+                Registration
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
               </Link>
             </li>
-            <li className="relative" ref={dropdownRef}>
-              <div
-                className="text-white hover:text-accent-light flex items-center gap-1 cursor-pointer transition-colors duration-200"
-                onMouseEnter={() => handleMouseEnter(setIsCommitteeOpen)}
-                onMouseLeave={() => handleMouseLeave(setIsCommitteeOpen)}
-              >
-                Committee <ChevronDown size={16} className={`transition-transform duration-300 ${isCommitteeOpen ? 'rotate-180' : ''}`} />
-              </div>
-              <AnimatePresence>
-                {isCommitteeOpen && (
-                  <motion.div
-                    initial={{ opacity: 0, y: -10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -10 }}
-                    transition={{ duration: 0.2 }}
-                    className="absolute top-full left-0 mt-2 w-48 bg-primary-dark text-white rounded-md shadow-lg overflow-hidden"
-                    onMouseEnter={() => handleMouseEnter(setIsCommitteeOpen)}
-                    onMouseLeave={() => handleMouseLeave(setIsCommitteeOpen)}
-                  >
-                    <Link href="/committee/members">
-                      <div className="px-4 py-3 hover:bg-primary">Members</div>
-                    </Link>
-                    <Link href="/committee/speakers">
-                    <div className="px-4 py-3 hover:bg-primary">Speakers</div>
-                    </Link>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </li>
-            <li>
-              <Link href="/guidelines">
-                <span className="text-white hover:text-accent-light transition-colors duration-200">Guidelines</span>
-              </Link>
-            </li>
-            {/* Events Dropdown - Desktop */}
-            <li className="relative">
-              <div
-                className="text-white hover:text-accent-light flex items-center gap-1 cursor-pointer transition-colors duration-200"
-                onMouseEnter={() => handleMouseEnter(setIsEventsOpen)}
-                onMouseLeave={() => handleMouseLeave(setIsEventsOpen)}
-              >
-                Events <ChevronDown size={16} className={`transition-transform duration-300 ${isEventsOpen ? 'rotate-180' : ''}`} />
-              </div>
-              <AnimatePresence>
-                {isEventsOpen && (
-                  <motion.div
-                    initial={{ opacity: 0, y: -10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -10 }}
-                    transition={{ duration: 0.2 }}
-                    className="absolute top-full left-0 mt-2 w-48 bg-primary-dark text-white rounded-md shadow-lg overflow-hidden"
-                    onMouseEnter={() => handleMouseEnter(setIsEventsOpen)}
-                    onMouseLeave={() => handleMouseLeave(setIsEventsOpen)}
-                  >
-                    <Link href="/events/cs">
-                      <div className="px-4 py-3 hover:bg-primary">CS</div>
-                    </Link>
-                    <Link href="/events/wie">
-                      <div className="px-4 py-3 hover:bg-primary">WIE</div>
-                    </Link>
-                    <Link href="/events/ias">
-                      <div className="px-4 py-3 hover:bg-primary">IAS</div>
-                    </Link>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </li>
-            <li className="relative">
-              <div
-                className="text-white hover:text-accent-light flex items-center gap-1 cursor-pointer transition-colors duration-200"
-                onMouseEnter={() => handleMouseEnter(setIsPreviousConferencesOpen)}
-                onMouseLeave={() => handleMouseLeave(setIsPreviousConferencesOpen)}
-              >
-                Previous Conferences <ChevronDown size={16} className={`transition-transform duration-300 ${isPreviousConferencesOpen ? 'rotate-180' : ''}`} />
-              </div>
-              <AnimatePresence>
-  {isPreviousConferencesOpen && (
-    <motion.div
-      initial={{ opacity: 0, y: -10 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: -10 }}
-      transition={{ duration: 0.2 }}
-      className="absolute top-full left-0 mt-2 w-48 bg-primary-dark text-white rounded-md shadow-lg overflow-hidden"
-      onMouseEnter={() => handleMouseEnter(setIsPreviousConferencesOpen)}
-      onMouseLeave={() => handleMouseLeave(setIsPreviousConferencesOpen)}
-    >
-      <a 
-        href="https://ieeexplore.ieee.org/xpl/conhome/9573501/proceeding" 
-        target="_blank" 
-        rel="noopener noreferrer"
-        className="block px-4 py-3 hover:bg-primary"
-      >
-        2021
-      </a>
-      <a 
-        href="https://ieeexplore.ieee.org/xpl/conhome/9230460/proceeding" 
-        target="_blank" 
-        rel="noopener noreferrer"
-        className="block px-4 py-3 hover:bg-primary"
-      >
-        2020
-      </a>
-      <a 
-        href="https://ieeexplore.ieee.org/xpl/conhome/8671767/proceeding" 
-        target="_blank" 
-        rel="noopener noreferrer"
-        className="block px-4 py-3 hover:bg-primary"
-      >
-        2018
-      </a>
-      <a 
-        href="https://ieeexplore.ieee.org/xpl/conhome/8168800/proceeding" 
-        target="_blank" 
-        rel="noopener noreferrer"
-        className="block px-4 py-3 hover:bg-primary"
-      >
-        2017
-      </a>
-      <a 
-        href="https://ieeexplore.ieee.org/xpl/conhome/7795276/proceeding" 
-        target="_blank" 
-        rel="noopener noreferrer"
-        className="block px-4 py-3 hover:bg-primary"
-      >
-        2016
-      </a>
-      <a 
-        href="https://ieeexplore.ieee.org/xpl/conhome/7126877/proceeding" 
-        target="_blank" 
-        rel="noopener noreferrer"
-        className="block px-4 py-3 hover:bg-primary"
-      >
-        2015
-      </a>
-    </motion.div>
-  )}
-</AnimatePresence>
 
-            </li>
-            <li className="relative">
-              <div
-                className="text-white hover:text-accent-light flex items-center gap-1 cursor-pointer transition-colors duration-200"
-                onMouseEnter={() => handleMouseEnter(setIsScheduleOpen)}
-                onMouseLeave={() => handleMouseLeave(setIsScheduleOpen)}
-              >
-                Schedule <ChevronDown size={16} className={`transition-transform duration-300 ${isScheduleOpen ? 'rotate-180' : ''}`} />
-              </div>
-              <AnimatePresence>
-                {isScheduleOpen && (
-                  <motion.div
-                    initial={{ opacity: 0, y: -10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -10 }}
-                    transition={{ duration: 0.2 }}
-                    className="absolute top-full left-0 mt-2 w-56 bg-primary-dark text-white rounded-md shadow-lg overflow-hidden"
-                    onMouseEnter={() => handleMouseEnter(setIsScheduleOpen)}
-                    onMouseLeave={() => handleMouseLeave(setIsScheduleOpen)}
-                  >
-                    <Link href="/schedule/offline">
-                      <div className="px-4 py-3 hover:bg-primary">Offline Schedule</div>
-                    </Link>
-                    <Link href="/schedule/online">
-                      <div className="px-4 py-3 hover:bg-primary">Online Schedule</div>
-                    </Link>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </li>
-            {/* Awards Dropdown - Desktop */}
-            <li className="relative">
-              <div
-                className="text-white hover:text-accent-light flex items-center gap-1 cursor-pointer transition-colors duration-200"
-                onMouseEnter={() => handleMouseEnter(setIsAwardsOpen)}
-                onMouseLeave={() => handleMouseLeave(setIsAwardsOpen)}
-              >
-                Awards <ChevronDown size={16} className={`transition-transform duration-300 ${isAwardsOpen ? 'rotate-180' : ''}`} />
-              </div>
-              <AnimatePresence>
-                {isAwardsOpen && (
-                  <motion.div
-                    initial={{ opacity: 0, y: -10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -10 }}
-                    transition={{ duration: 0.2 }}
-                    className="absolute top-full left-0 mt-2 w-48 bg-primary-dark text-white rounded-md shadow-lg overflow-hidden"
-                    onMouseEnter={() => handleMouseEnter(setIsAwardsOpen)}
-                    onMouseLeave={() => handleMouseLeave(setIsAwardsOpen)}
-                  >
-                    <Link href="/awards/best-paper">
-                      <div className="px-4 py-3 hover:bg-primary">Best Paper Award</div>
-                    </Link>
-                    <Link href="/awards/best-poster">
-                      <div className="px-4 py-3 hover:bg-primary">Best Poster Award</div>
-                    </Link>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </li>
-            {/* Sponsors - Desktop */}
+            {/* Desktop Dropdowns */}
+            {[
+              {
+                label: "Committee",
+                items: [
+                  { label: "Members", href: "/committee/members" },
+                  { label: "Speakers", href: "/committee/speakers" }
+                ]
+              },
+              {
+                label: "Events",
+                items: [
+                  { label: "CS", href: "/events/cs" },
+                  { label: "WIE", href: "/events/wie" },
+                  { label: "IAS", href: "/events/ias" }
+                ]
+              },
+              {
+                label: "Previous Conferences",
+                items: [
+                  { label: "2021", href: "https://ieeexplore.ieee.org/xpl/conhome/9573501/proceeding", external: true },
+                  { label: "2020", href: "https://ieeexplore.ieee.org/xpl/conhome/9230460/proceeding", external: true },
+                  { label: "2018", href: "https://ieeexplore.ieee.org/xpl/conhome/8671767/proceeding", external: true },
+                  { label: "2017", href: "https://ieeexplore.ieee.org/xpl/conhome/8168800/proceeding", external: true },
+                  { label: "2016", href: "https://ieeexplore.ieee.org/xpl/conhome/7795276/proceeding", external: true },
+                  { label: "2015", href: "https://ieeexplore.ieee.org/xpl/conhome/7126877/proceeding", external: true }
+                ]
+              },
+              {
+                label: "Schedule",
+                items: [
+                  { label: "Offline Schedule", href: "/schedule/offline" },
+                  { label: "Online Schedule", href: "/schedule/online" }
+                ]
+              },
+              {
+                label: "Awards",
+                items: [
+                  { label: "Best Paper Award", href: "/awards/best-paper" },
+                  { label: "Best Poster Award", href: "/awards/best-poster" }
+                ]
+              }
+            ].map((menu) => (
+              <li key={menu.label} className="relative">
+                <div
+                  className={`flex items-center gap-1 cursor-pointer ${navLinkClasses}`}
+                  onMouseEnter={() => handleMouseEnter(menu.label)}
+                  onMouseLeave={handleMouseLeave}
+                >
+                  {menu.label} <ChevronDown size={14} className={`transition-transform duration-300 ${activeDropdown === menu.label ? 'rotate-180' : ''}`} />
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+                </div>
+                <AnimatePresence>
+                  {activeDropdown === menu.label && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 10, scale: 0.95 }}
+                      animate={{ opacity: 1, y: 0, scale: 1 }}
+                      exit={{ opacity: 0, y: 10, scale: 0.95 }}
+                      transition={{ duration: 0.2 }}
+                      className={dropdownClasses}
+                      onMouseEnter={() => handleMouseEnter(menu.label)}
+                      onMouseLeave={handleMouseLeave}
+                    >
+                      {menu.items.map((item) => (
+                        item.external ? (
+                          <a
+                            key={item.label}
+                            href={item.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={dropdownItemClasses}
+                          >
+                            {item.label}
+                          </a>
+                        ) : (
+                          <Link
+                            key={item.href}
+                            href={item.href}
+                            className={dropdownItemClasses}
+                          >
+                            {item.label}
+                          </Link>
+                        )
+                      ))}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </li>
+            ))}
+
             <li>
-              <Link href="/sponsors">
-                <span className="text-white hover:text-accent-light transition-colors duration-200">Sponsors</span>
+              <Link href="/guidelines" className={navLinkClasses}>
+                Guidelines
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
               </Link>
             </li>
-            {/* Contact - Desktop */}
             <li>
-              <Link href="/contact">
-                <span className="text-white hover:text-accent-light transition-colors duration-200">Contact</span>
+              <Link href="/sponsors" className={navLinkClasses}>
+                Sponsors
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+              </Link>
+            </li>
+            <li>
+              <Link href="/contact" className={navLinkClasses}>
+                Contact
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
               </Link>
             </li>
           </ul>
@@ -520,8 +412,8 @@ const Navbar = () => {
             href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCCAconf2025"
             target="_blank"
           >
-            <button className="bg-gradient-to-r from-[#DE4060] via-[#A73E9C] to-[#438ACC] hover:bg-gradient-to-bl text-white font-medium rounded-xl px-6 py-2 transition-all duration-300 ease-in-out">
-              Submit your paper
+            <button className="bg-white text-[#BE2727] hover:bg-gray-100 font-bold rounded-full px-6 py-2.5 shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5 text-sm tracking-wide">
+              Submit Paper
             </button>
           </a>
         </div>

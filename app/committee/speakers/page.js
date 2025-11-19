@@ -2,30 +2,21 @@ import React from "react";
 import { cards } from "@/utils/slideArray";
 
 const speakers = [
-  "Dr. S.N.Singh",
-    "Dr. Ayman EL-Refaie ,Ph.D, FIEEE, FIET, FNAI",
-  "Prof.(Dr.) Akshay Rathore",
-
+  "Professor T. G. Sitharam",
+  "Dr. Sri Niwas Singh",
+  "Dr. Akshay Rathore",
+  "Dr. J. Ramkumar",
+  "Dr. Rajeev Kumar Singh",
+  "Dr. Harivardhagini Subhadra",
+  "Dr. Varun Kakar",
+  "Dr. Mohammad Rihan",
+  "Dr Bijaya Ketan Panigrahi",
+  "Ayman EL-Refaie- Ph.D., FIEEE, FIET, FNAI",
+  "Prof. Asheesh Kumar",
+  "Dr. Brij B. Gupta",
   "Dr. Hironori Washizaki",
-
-  "Dr. Yogesh S. Chauhan",
-  "Prof. J. Ramkumar",
-   "Dr. Dipti Srinivasan",
-   "Dr. Harivardhagini Subhadra",
-  // "Chin Kuan Ho",
-  
-  // "Dr. Harivardhagini Subhadra",
-  // "Dr. Rajeev Srivastava",
-  // "Dr. S.N.Singh",
-  // "Dr.Akshay Kumar Rathore",
-  // "Dr. Sivaneasan Bala Krishnan",
-  // "Dr. Anil Kumar Tripathi",
-  // "Prof. Asheesh Kumar",
-  // "Dr. Mohammad Rihan",
-  // "Dr. Rajeev Kumar Singh",
-  // "Dr. Prabhakar Tiwari",
-  // "Dr. Rakesh Kumar",
-  // "Dr. Varun Kakar"
+  "Dr. Supavadee Aramvith",
+  "Dr. Vinay Kumar"
 ];
 
 
@@ -34,7 +25,7 @@ export default function KeynoteSpeakers() {
     <div className="py-6">
       <h2 className="text-center text-3xl font-bold">Keynote Speakers</h2>
       <p className="text-center text-gray-600 mb-6">
-        2025 7th International Conference on Computing, Communication and Automation 
+        2025 7th International Conference on Computing, Communication and Automation
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
         {speakers.map((speakerName, index) => {

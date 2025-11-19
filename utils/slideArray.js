@@ -369,7 +369,7 @@ export const cards = [
     imgSrc: "/ImportantPersons/gauravagarwal.jpeg",
   },
   {
-    name: "Dr. Sunita Yadav",
+    name: "Prof. (Dr.) Harish Kumar GR",
     position: "Dean, SCSE",
     organization: "Galgotias University, India",
     imgSrc: "/ImportantPersons/sunita.jpeg",
@@ -761,12 +761,12 @@ export const cards = [
     organization: "Delhi, India"
   }
   ,
-    {
-      name: "Dr. Sonia Setia",
-      position: "Professor",
-      organization: "Galgotias University, India",
-      imgSrc: "/ImportantPersons/sonia.jpg",
-    },
+  {
+    name: "Dr. Sonia Setia",
+    position: "Professor",
+    organization: "Galgotias University, India",
+    imgSrc: "/ImportantPersons/sonia.jpg",
+  },
 
   {
     name: "Prof. (Dr.) Sahil",
@@ -797,6 +797,96 @@ export const cards = [
     imgSrc: "/ImportantPersons/chin.jpeg"
   },
 
+  {
+    name: "Professor T. G. Sitharam",
+    position: "AICTE chairman",
+    organization: "",
+    imgSrc: "/ImportantPersons/tg.webp",
+  },
+  {
+    name: "Dr. Sri Niwas Singh",
+    position: "Director-IIITM Gwalior/ IEEE Fellow",
+    organization: "",
+    imgSrc: "/ImportantPersons/snsingh.png",
+  },
+  {
+    name: "Dr. Akshay Rathore",
+    position: "Professor- SIT, Singapore/ IEEE Fellow",
+    organization: "",
+    imgSrc: "/ImportantPersons/akshayrathore.png",
+  },
+  {
+    name: "Dr. J. Ramkumar",
+    position: "Dean (Planning)- IIT Kanpur/ IEEE Fellow",
+    organization: "",
+    imgSrc: "/ImportantPersons/ramkumar.jpg",
+  },
+  {
+    name: "Dr. Rajeev Kumar Singh",
+    position: "Professor-IIT BHU/Secreatary-IEEE UP Section",
+    organization: "",
+    imgSrc: "/ImportantPersons/rajeev.jpg",
+  },
+  {
+    name: "Dr. Harivardhagini Subhadra",
+    position: "Professor-CVR College of Engineering, Hyderabad /IEEE WIE Committee Member",
+    organization: "",
+    imgSrc: "/ImportantPersons/harivardhagini.jpeg",
+  },
+  {
+    name: "Dr. Varun Kakar",
+    position: "Joint Secreatary-IEEE UP Section",
+    organization: "",
+    imgSrc: "/ImportantPersons/varunkakar.jpg",
+  },
+  {
+    name: "Dr. Mohammad Rihan",
+    position: "Director- NISE, Gurugram/ Chair Elect-IEEE UP Section",
+    organization: "",
+    imgSrc: "/ImportantPersons/mohammadrihan.jpg",
+  },
+  {
+    name: "Dr Bijaya Ketan Panigrahi",
+    position: "Professor, IIT Delhi/ IEEE Fellow",
+    organization: "",
+    imgSrc: "/ImportantPersons/bpanigrahi.jpeg",
+  },
+  {
+    name: "Ayman EL-Refaie- Ph.D., FIEEE, FIET, FNAI",
+    position: "2025-26 IEEE IAS President",
+    organization: "",
+    imgSrc: "/ImportantPersons/era.jpg",
+  },
+  {
+    name: "Prof. Asheesh Kumar",
+    position: "Professor Department of Electrical Engineering",
+    organization: "Motilal Nehru National Institute of Technology Allahabad, Prayagraj, India",
+    imgSrc: "/ImportantPersons/asheeshsingh.jpg",
+  },
+  {
+    name: "Dr. Brij B. Gupta",
+    position: "Director, International Center for AI and Cyber Security Research and Innovation",
+    organization: "",
+    imgSrc: "/ImportantPersons/brij-gupta.webp",
+  },
+  {
+    name: "Dr. Hironori Washizaki",
+    position: "2025-26 IEEE Computer Society President",
+    organization: "Professor, Waseda University, Tokyo",
+    imgSrc: "/ImportantPersons/hironori.png",
+  },
+  {
+    name: "Dr. Supavadee Aramvith",
+    position: "Associate Professor Department of Electrical Engineering",
+    organization: "Chair Elect, IEEE New Initiatives Committee",
+    imgSrc: "/ImportantPersons/supavadee.jpeg",
+  },
+  {
+    name: "Dr. Vinay Kumar",
+    position: "Scientist-F, SIRO, DSIR, India",
+    organization: "",
+    imgSrc: "/reshot-icon-user-ZXFJAEQURK.svg",
+  },
   {
     name: "Dr. Savita Yadav",
     position: "Netaji Subhas University of Technology",
@@ -1044,7 +1134,7 @@ export const cards = [
     organization: "MMMUT, Gorakhpur",
     imgSrc: "/ImportantPersons/prabhakartiwari.jpeg",
   }
-  ,{
+  , {
     name: "Ayman EL-Refaie",
     position: "IAS President 2025-2026, Professor",
     organization: "Dept. of Electrical and Computer Engineering, Marquette University, Milwaukee, WI",
@@ -1057,7 +1147,7 @@ export const cards = [
     position: "Associate Professor",
     organization: "B.M.S. College of Engineering, Bengaluru, India",
     imgSrc: "/ImportantPersons/abhishek.jpg",
-  },{
+  }, {
     name: "Prof. (Dr.) Geeta Sikka",
     position: "Professor",
     organization: "Department of Computer Science & Engineering, NIT Delhi",
