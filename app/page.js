@@ -1,6 +1,4 @@
-import Navbar from "@/components/Navbar";
-import MaxWidthWrapper from "@/components/MaxWidthWrapper";
-import Image from "next/image";
+
 import Slider from "@/components/Slider";
 import Timeline from "@/components/Timeline";
 import Hero from "@/components/Hero";
@@ -10,7 +8,6 @@ import BrochureSection from "@/components/BrochureSection";
 import PersonSlider from "@/components/PersonSlider";
 import ChairsFlowchart from "@/components/ChairsFlowchart";
 import SpecialTracks from "@/components/SpecialTracks";
-import Footer from "@/components/footer";
 import ScrollingLogos from "@/components/ScrollingLogos";
 import TouristAttractions from "@/components/TouristAttractions";
 import PublicationOpportunity from "@/components/PublicationOpportunity";
@@ -21,21 +18,21 @@ import AcknowledgementComponent from "@/components/Acknowledgement";
 export default function Home() {
   return (
     <>
-      <Slider/>
-      <Timeline/>
-      <Banner/>
-      <Hero/>
-      <ChairsFlowchart/>
-      <SpecialTracks/>
-      <PersonSlider/>
-      <Flowchart/>
-      <BrochureSection/>
-      <StudentSupport/>
-      <ScrollingLogos/>
-      <PublicationOpportunity/>
+      <Slider />
+      <Timeline />
+      <Banner />
+      <Hero />
+      <ChairsFlowchart />
+      <SpecialTracks />
+      <PersonSlider />
+      <Flowchart />
+      <BrochureSection />
+      <StudentSupport />
+      <ScrollingLogos />
+      <PublicationOpportunity />
       {/* <IEEEPublicationDetails/> */}
-      <AcknowledgementComponent/>
-      <TouristAttractions/>
+      <AcknowledgementComponent />
+      <TouristAttractions />
     </>
   );
 }
