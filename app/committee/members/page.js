@@ -9,24 +9,24 @@ export default function TeamPage() {
       "Dr. S.N.Singh",
       "Prof.(Dr.) K.M. Babu",
       "Ms. Aradhana Galgotia",
-      
+
     ],
     "Conference General Chair": [
       "Prof.(Dr.) Avadhesh Kumar",
       "Dr. Yogesh S. Chauhan",
       "Prof.(Dr.) Akshay Rathore",
       "Ayman EL-Refaie"
-      
+
     ],
     "Conference Chair": [
       "Dr. Aanjey M. Tripathi",
       // "Prof. Prashant Johri",
       "Dr. Kuldeep S. Kaswan"
       // "Prof. Asheesh Kumar Singh",
-    
+
     ],
     "Conference Organizing Chair": [
-      "Dr. Vimal Kumar",
+      "Prof. (Dr.) Harish Kumar GR",
       "Dr. Gaurav Agarwal",
       "Dr. Abdul Aleem",
       "Prof. Manish Kumar",
@@ -45,8 +45,8 @@ export default function TeamPage() {
     ],
     "Publication Chairs": [
       "Prof. Shraddha Sagar"
-      
-     
+
+
     ],
     "Publicity Chairs": [
       "Dr. Ravi Sharma"
@@ -54,25 +54,25 @@ export default function TeamPage() {
     "Conference Secretaries": [
       "Dr. K. K. Agrawal",
       "Dr. Ajeet Singh",
-      
+
       "Prof. Arunendra Mani Tripathi",
       // "Prof. Avneesh Kumar",
       "Dr. Shachi Mall"
     ],
     "Event Organising Chair": [
-      
+
       "Dr. Pragya Tewari",
       "Dr. Ambika Gupta",
       "Dr. Pooja Singh"
     ],
-    
+
     "Conference Technical Co-Chairs": [
       // "Prof. Ravi Sharma",
       "Ms. Trapti Shrivastava",
       "Dr. Shipra Shukla",
       // "Dr. Manish Kumar",
       // "Dr. Sonu Jha",
-      
+
     ],
     "Publication Co-Chairs": [
       // "Dr. Shachi Mall",
@@ -80,14 +80,14 @@ export default function TeamPage() {
       "Prof. Avneesh Kumar",
       // "Prof. E. Rajesh"
     ],
-    
-    
+
+
     "International Advisory Chairs": [
       // "Prof. Sanjeev K. Singh",
       // // "Prof. N. Partheeban",
       // "Dr. Aditya Nath Bhatt",
-    //  "Prof. (Dr.) S Srinivasan"
-    "Prof. Sanjeev K. Singh",
+      //  "Prof. (Dr.) S Srinivasan"
+      "Prof. Sanjeev K. Singh",
       "Prof. Jagjit Singh Dhatterwal",
       "Prof.(Dr.) Akshay Rathore"
 
@@ -96,14 +96,14 @@ export default function TeamPage() {
       "Dr. Harivardhagini Subhadra",
       "Abhishek Appaji",
       "Prof. (Dr.) Geeta Sikka",
-      "Dr. Vimal Kumar"
+      "Prof. (Dr.) Harish Kumar GR"
     ],
-    
+
     "Sponsorship & Industry Chairs": [
       "Prof. Avneesh Kumar",
       // "Dr. V.D.S. Baghela"
     ],
-    
+
     "Finance Chairs": [
       "Prof. Ashok K. Yadav"
     ],
@@ -124,14 +124,14 @@ export default function TeamPage() {
       "Prof. (Dr.) Rajiv Mishra",
       // "Dr. Vandana Beniwal"
     ],
-    
+
     "International Advisory Committee": [
       "Dr. Hironori Washizaki",
       "Dr. Dipti Srinivasan",
       "Dr. Liudong Xing",
       "Ayman EL-Refaie",
       "Dr. Diane Rover",
-      
+
     ],
 
     "National Advisory Committee": [
@@ -154,7 +154,7 @@ export default function TeamPage() {
       "Dr. Vimal Kumar Singh Yadav",
       "Prof. Karuna Kadian",
       "Dr. Satish Chandra",
-      "Dr. Vimal Kumar",
+      "Prof. (Dr.) Harish Kumar GR",
       "Dr. Savita Yadav",
       "Prof. Anurag Diwedi",
       "Prof. N. Gayathri",
@@ -175,21 +175,21 @@ export default function TeamPage() {
     ],
     "Technical Program Committee": [
       "Dr. Arvind Kumar",
-    "Prof. V. Krishna Rao Kandanvli",
-    "Prof. P. Karuppanan",
-    "Dr. Dharmendra Dixit",
-    "Dr. Deepak Punetha",
-    "Dr. Arun Kumar Saurabh",
-    "Prof. Navdeep Singh",
-    "Dr. Nirmal Ch Roy",
-    "Prof. Priya Matta",
-    "Prof. Alok Katiyar",
-    "Prof. Dilip Yadav",
-    "Prof. SPS Chauhan",
-    "Prof. Vandana Sharma",
-    "Dr. Shailesh Kumar",
-    "Dr. Swapnita Srivastava",
-    "Dr. Vipul Narayan"
+      "Prof. V. Krishna Rao Kandanvli",
+      "Prof. P. Karuppanan",
+      "Dr. Dharmendra Dixit",
+      "Dr. Deepak Punetha",
+      "Dr. Arun Kumar Saurabh",
+      "Prof. Navdeep Singh",
+      "Dr. Nirmal Ch Roy",
+      "Prof. Priya Matta",
+      "Prof. Alok Katiyar",
+      "Prof. Dilip Yadav",
+      "Prof. SPS Chauhan",
+      "Prof. Vandana Sharma",
+      "Dr. Shailesh Kumar",
+      "Dr. Swapnita Srivastava",
+      "Dr. Vipul Narayan"
     ]
   };
 

@@ -1154,9 +1154,10 @@ export const cards = [
     imgSrc: "/ImportantPersons/geeta.webp",
   },
   {
-    name: "Dr. Vimal Kumar",
-    position: "Professor",
-    organization: "School of Computer Science & Engineering, MMMUT, Gorakhpur, India",
+    name: "Prof. (Dr.) Harish Kumar GR",
+    position: "Dean, SCSE",
+    organization: "Galgotias University, India",
+    imgSrc: "/ImportantPersons/sunita.jpeg",
   }
   , {
     name: "Dr. Rakesh Kumar",
