@@ -198,7 +198,8 @@ const Navbar = () => {
                         setter: setMobileScheduleOpen,
                         items: [
                           { label: "Offline Schedule", href: "/schedule/offline" },
-                          { label: "Online Schedule", href: "/schedule/online" }
+                          { label: "Online Schedule", href: "/schedule/online" },
+                          { label: "Keynote Schedule", href: "/schedule/keynote" }
                         ]
                       },
                       {
@@ -329,7 +330,8 @@ const Navbar = () => {
                 label: "Schedule",
                 items: [
                   { label: "Offline Schedule", href: "/schedule/offline" },
-                  { label: "Online Schedule", href: "/schedule/online" }
+                  { label: "Online Schedule", href: "/schedule/online" },
+                  { label: "Keynote Schedule", href: "/schedule/keynote" }
                 ]
               },
               {
