@@ -1084,7 +1084,7 @@ export const cards = [
     "name": "Dr. Vinay Kumar",
     "position": "Scientist-F, SIRO, DSIR, India",
     "organization": "",
-    "imgSrc": "/reshot-icon-user-ZXFJAEQURK.svg"
+    "imgSrc": "/ImportantPersons/dr-vinay-kumar.jpg"
   },
   {
     "name": "Dr. Savita Yadav",
