@@ -1012,7 +1012,7 @@ export const cards = [
     "name": "Professor T. G. Sitharam",
     "position": "AICTE chairman",
     "organization": "",
-    "imgSrc": "/ImportantPersons/tg.webp"
+    "imgSrc": "/ImportantPersons/chairman-aicte.jpg"
   },
   {
     "name": "Dr. Sri Niwas Singh",

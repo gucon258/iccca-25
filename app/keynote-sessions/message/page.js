@@ -8,7 +8,7 @@ export default function MessagePage() {
             <div className="flex flex-col items-center mb-8">
                 <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-red-600 shadow-lg mb-4">
                     <img
-                        src="/ImportantPersons/tg.webp"
+                        src="/ImportantPersons/chairman-aicte.jpg"
                         alt="Professor T. G. Sitharam"
                         className="w-full h-full object-cover"
                     />
