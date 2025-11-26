@@ -412,7 +412,7 @@ export const cards = [
     "name": "Prof. (Dr.) Meenakshi Sharma",
     "position": "",
     "organization": "Director, IQAC, Galgotias University, Greater Noida, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/meenakshiiqac.jpg"
   },
   {
     "name": "Prof. (Dr.) Ravi Sharma",
@@ -424,7 +424,7 @@ export const cards = [
     "name": "Prof. (Dr.) Manish Raj",
     "position": "",
     "organization": "Associate Dean, SAI, Galgotias University, Greater Noida, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/manishraj.jpg"
   },
   {
     "name": "Prof. (Dr.) Ajeet Singh",
@@ -472,7 +472,7 @@ export const cards = [
     "name": "Prof. (Dr.) Anupam Baliyan",
     "position": "",
     "organization": "Associate Dean (APR), Galgotias University, Greater Noida, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/anupambaliyan.jpg"
   },
   {
     "name": "Prof. (Dr.) Trapti Shrivastava",
@@ -514,7 +514,7 @@ export const cards = [
     "name": "Prof. (Dr.) Sanjeev K. Singh",
     "position": "",
     "organization": "Galgotias University, Greater Noida, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Dr. sanjeev kumar singh.jpg"
   },
   {
     "name": "Prof. (Dr.) Jagjit Singh Dhatterwal",

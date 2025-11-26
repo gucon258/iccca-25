@@ -10,7 +10,7 @@ import conflogo from "@/assets/logo/conflogo.png";
 const Navbar = () => {
   // Mobile Menu States
   const [isOpen, setIsOpen] = useState(false);
-  const [mobileCommitteeOpen, setMobileCommitteeOpen] = useState(false);
+  const [mobileKeynoteSessionsOpen, setMobileKeynoteSessionsOpen] = useState(false);
   const [mobileScheduleOpen, setMobileScheduleOpen] = useState(false);
   const [mobilePreviousConferencesOpen, setMobilePreviousConferencesOpen] = useState(false);
   const [mobileAwardsOpen, setMobileAwardsOpen] = useState(false);
@@ -74,7 +74,7 @@ const Navbar = () => {
 
   const closeMenu = () => {
     setIsOpen(false);
-    setMobileCommitteeOpen(false);
+    setMobileKeynoteSessionsOpen(false);
     setMobileScheduleOpen(false);
     setMobilePreviousConferencesOpen(false);
     setMobileAwardsOpen(false);
@@ -96,7 +96,7 @@ const Navbar = () => {
   };
 
   const navLinkClasses = "text-white/90 hover:text-white text-sm font-medium tracking-wide transition-colors duration-200 relative group py-2";
-  const dropdownClasses = "absolute top-full left-0 mt-2 w-56 bg-white/95 backdrop-blur-md rounded-xl shadow-xl border border-gray-100 overflow-hidden py-2";
+  const dropdownClasses = "absolute top-full left-0 mt-2 w-64 bg-white/95 backdrop-blur-md rounded-xl shadow-xl border border-gray-100 overflow-hidden py-2";
   const dropdownItemClasses = "block px-4 py-2.5 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600 transition-colors duration-200";
 
   return (
@@ -170,16 +170,21 @@ const Navbar = () => {
                         Registration
                       </Link>
                     </li>
+                    <li>
+                      <Link href="/committee/members" onClick={closeMenu} className="block text-lg font-semibold text-gray-800 hover:text-red-600 py-2">
+                        Committee
+                      </Link>
+                    </li>
 
                     {/* Mobile Dropdowns */}
                     {[
                       {
-                        label: "Committee",
-                        state: mobileCommitteeOpen,
-                        setter: setMobileCommitteeOpen,
+                        label: "Keynote Sessions",
+                        state: mobileKeynoteSessionsOpen,
+                        setter: setMobileKeynoteSessionsOpen,
                         items: [
-                          { label: "Members", href: "/committee/members" },
-                          { label: "Speakers", href: "/committee/speakers" }
+                          { label: "Message from Chairman AICTE", href: "/keynote-sessions/message" },
+                          { label: "Speakers", href: "/keynote-sessions/speakers" }
                         ]
                       },
                       {
@@ -297,14 +302,20 @@ const Navbar = () => {
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
               </Link>
             </li>
+            <li>
+              <Link href="/committee/members" className={navLinkClasses}>
+                Committee
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+              </Link>
+            </li>
 
             {/* Desktop Dropdowns */}
             {[
               {
-                label: "Committee",
+                label: "Keynote Sessions",
                 items: [
-                  { label: "Members", href: "/committee/members" },
-                  { label: "Speakers", href: "/committee/speakers" }
+                  { label: "Message from Chairman AICTE", href: "/keynote-sessions/message" },
+                  { label: "Speakers", href: "/keynote-sessions/speakers" }
                 ]
               },
               {

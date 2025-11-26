@@ -6,7 +6,7 @@ export default function TeamPage() {
     "Chief Patron": [
       "Shri Suneel Galgotia"
     ],
-    "Patrons": [
+    "Patron": [
       "Dr. Dhruv Galgotia",
       "Ms. Aradhana Galgotia",
       "Prof. (Dr.) S.N.Singh",
@@ -15,7 +15,7 @@ export default function TeamPage() {
     "Conference General Chair": [
       "Prof. (Dr.) Avadhesh Kumar",
       "Prof. (Dr.) Yogesh S. Chauhan",
-      "Prof. (Dr.) Akshay Rathore",
+
       "Prof. (Dr.) Ayman EL-Refaie"
     ],
     "Conference Chair": [
@@ -29,23 +29,23 @@ export default function TeamPage() {
       "Prof. Manish Kumar",
       "Prof. Arpesh Singh"
     ],
-    "Conference Co-Organizing Chairs": [
+    "Conference Co-Organizing Chair": [
       "Prof. (Dr.) Sunil Bharti"
     ],
-    "Technical Program Committee Chairs": [
+    "Technical Program Committee Chair": [
       "Prof. (Dr.) Vineeta Khemchandani",
       "Prof. (Dr.) Sudhir Kr. Singh",
       "Prof. (Dr.) Deepak Soni",
       "Prof. (Dr.) Sonia Setia"
     ],
-    "Publication Chairs": [
+    "Publication Chair": [
       "Prof. (Dr.) Shrddha Sagar"
     ],
-    "Publicity Chairs": [
+    "Publicity Chair": [
       "Prof. (Dr.) Meenakshi Sharma",
       "Prof. (Dr.) Ravi Sharma"
     ],
-    "Conference Secretaries": [
+    "Conference Secretary": [
       "Prof. (Dr.) Manish Raj",
       "Prof. (Dr.) Ajeet Singh",
       "Prof. (Dr.) Saurabh Singh",
@@ -57,19 +57,19 @@ export default function TeamPage() {
       "Prof. (Dr.) Pooja Singh",
       "Prof. Pragya Tewari"
     ],
-    "Conference Technical Co-Chairs": [
+    "Conference Technical Co-Chair": [
       "Prof. (Dr.) Anupam Baliyan",
       "Prof. (Dr.) Trapti Shrivastava",
       "Prof. (Dr.) Shipra Shukla",
       "Prof. Jitendra"
     ],
-    "Publication Co-Chairs": [
+    "Publication Co-Chair": [
       "Prof. (Dr.) Shashi Bhusan",
       "Prof. (Dr.) Meenakshi Awasthi",
       "Prof. (Dr.) Vipin Rai"
     ],
-    "International Advisory Chairs": [
-      "Prof. (Dr.) Akshay Rathore",
+    "International Advisory Chair": [
+
       "Prof. (Dr.) Sanjeev K. Singh",
       "Prof. (Dr.) Jagjit Singh Dhatterwal"
     ],
@@ -78,25 +78,122 @@ export default function TeamPage() {
       "Prof. (Dr.) Abhishek Appaji",
       "Prof. (Dr.) Harivardhagini Subhadra"
     ],
-    "Sponsorship & Industry Chairs": [
+
+    "Sponsorship & Industry Chair": [
       "Prof. (Dr.) Avneesh Kumar"
     ],
-    "Finance Chairs": [
+    "Finance Chair": [
       "Prof. (Dr.) Ashok K. Yadav"
     ],
-    "Transport Chairs": [
+    "Transport Chair": [
       "Prof. (Dr.) Ganesh Kumar",
       "Prof. (Dr.) Dinesh Kumar"
     ],
-    "Website & Graphics Chairs": [
+    "Website & Graphics Chair": [
       "Mr. Pankaj Lamba",
       "Mr. Gaurang Pant"
     ],
-    "Media Chairs": [
+    "Media Chair": [
       "Prof. (Dr.) Neha Jindal"
     ],
-    "Hospitality Chairs": [
+    "Hospitality Chair": [
       "Prof. (Dr.) Shankar Kumar"
+    ],
+    "International Advisory Committee": [
+      "Dr. Liudong Xing",
+      "Dr. LING Tok Wang",
+      "Dr. Norjihan Abdul Ghani",
+      "Dr. Norbik Bashah Bin Idris",
+      "Dr. Maizatul Akmar Ismail",
+      "Dr. Suzan Jabbar Obaiys",
+      "Dr. Mufti Mahmud",
+      "Dr. Deepak K Jain",
+      "Dr. Kishore Bingi",
+      "Dr. Noor Zaman Jhanjhi",
+      "Dr. CHAMAN VERMA",
+      "Dr. Manoj Kumar",
+      "Dr. Sachidanand Mohanty",
+      "Dr. S.B.Goyal",
+      "Dr. Nagender Aneja",
+      "Dr. Pradeep Kumar",
+      "Dr. Mukesh Prasad",
+      "Dr. Gavendra Singh",
+      "Dr. Hoang Pham",
+      "Dr. Nitin Kumar Saxena",
+      "Prof. Utkal Mehta",
+      "Dr. Shafiq Ul Rehman",
+      "Prof. Mohammad Rashid Hussain",
+      "Prof. Deepak L. Waikar",
+      "Chin Kuan Ho",
+      "Dr. Sivaneasan Bala Krishnan",
+      "Prof. Ts. Dr. Murali Raman",
+      "Dr. Ahmed A. Elngar",
+      "Dr. Hironori Washizaki",
+      "Dr. Supavadee Aramvith"
+    ],
+    "National Advisory Committee": [
+      "Prof. Adarsh Anand",
+      "Prof. (Dr.) Chandra Prakash",
+      "Prof. (Dr.) Sahil",
+      "Prof. T. Poongodi",
+      "Prof. Mayank Pandey",
+      "Prof. Y. K. Prajapati",
+      "Prof. Ela Kumar",
+      "Prof. R.K. Nagaria",
+      "Prof. Arvind Pandey",
+      "Prof. Shashank Srivastava",
+      "Dr. Dushyant Kumar Singh",
+      "Prof. Nidhi Goel",
+      "Prof. S. K. Srivastava",
+      "Prof. Vandana Niranjan",
+      "Prof. SRN Reddy",
+      "Prof. Bhawna Narwal",
+      "Dr. Vimal Kumar Singh Yadav",
+      "Prof. Karuna Kadian",
+      "Dr. Satish Chandra",
+      "Prof. Anil Kumar Sagar",
+      "Professor T. G. Sitharam",
+      "Dr. Sri Niwas Singh",
+      "Dr. J. Ramkumar",
+      "Dr. Rajeev Kumar Singh",
+      "Dr. Varun Kakar",
+      "Dr. Mohammad Rihan",
+      "Dr Bijaya Ketan Panigrahi",
+      "Prof. Asheesh Kumar",
+      "Dr. Brij B. Gupta",
+      "Dr. Vinay Kumar",
+      "Dr. Savita Yadav",
+      "Prof. Anurag Diwedi",
+      "Prof. Deependra Rastogi",
+      "Prof. N.Gayathri",
+      "Prof. S.Rakesh Kumar",
+      "Prof. Anoop Kumar Patel",
+      "Prof. R.P. Yadav",
+      "Prof. (Dr.) S Srinivasan",
+      "Dr. V.D.S. Baghela",
+      "Dr. P.S. Yadav",
+      "Dr. Shailesh Kumar",
+      "Dr. Swapnita Srivastava",
+      "Dr. Vipul Narayan",
+      "Dr. Arvind Kumar",
+      "Prof. V. Krishna Rao Kandanvli",
+      "Prof. P. Karuppanan",
+      "Dr. Dharmendra Dixit",
+      "Dr. Deepak Punetha",
+      "Dr. Arun Kumar Saurabh",
+      "Prof. Navdeep Singh",
+      "Dr. Nirmal Ch Roy",
+      "Prof. Priya Matta",
+      "Prof. Alok Katiyar",
+      "Prof. Dilip Yadav",
+      "Prof. SPS Chauhan",
+      "Prof. Vandana Sharma",
+      "Dr. Rajeev Srivastava",
+      "Prof. Asheesh Kumar Singh",
+      "Dr. Smita",
+      "Dr. Anil Kumar Tripathi",
+      "Dr. Prabhakar Tiwari",
+      "Dr. Rakesh Kumar"
     ]
   };
 
