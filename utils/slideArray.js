@@ -276,900 +276,1103 @@ export const chairs = [
 export default { data, events };
 
 export const cards = [
-
   {
-    name: "Shri Suneel Galgotia",
-    position: "Hon'ble Chancellor",
-    organization: "Galgotias University, India",
-    imgSrc: "/ImportantPersons/suneelSir.png",
+    "name": "Shri Suneel Galgotia",
+    "position": "Hon'ble Chancellor",
+    "organization": "Hon'ble Chancellor, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/suneelSir.png"
   },
   {
-    name: "Shri Suneel Galgotia",
-    position: "Hon'ble Chancellor",
-    organization: "Galgotias University, India",
-    imgSrc: "/ImportantPersons/suneelSir.png",
+    "name": "Dr. Dhruv Galgotia",
+    "position": "CEO",
+    "organization": "CEO, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/dhruvSir 2.png"
   },
-
   {
-    name: "Dr. Dhruv Galgotia",
-    position: "CEO",
-    organization: "Galgotias University India",
-    imgSrc: "/ImportantPersons/dhruvSir 2.png", // Replace with actual image paths
+    "name": "Ms. Aradhana Galgotia",
+    "position": "Director Operations",
+    "organization": "Director Operations, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/aradhna.png"
   },
   {
-    name: "Prof.(Dr.) K.M. Babu",
-    position: "VC",
-    organization: "Galgotias University, India",
-    imgSrc: "/ImportantPersons/mkbabu.png",
+    "name": "Prof. (Dr.) S.N.Singh",
+    "position": "Director",
+    "organization": "Director, ABV-IIITM, Gwalior, India",
+    "imgSrc": "/ImportantPersons/snsingh.png"
   },
   {
-    name: "Ms. Aradhana Galgotia",
-    position: "Director Operations",
-    organization: "Galgotias University, India",
-    imgSrc: "/ImportantPersons/aradhna.png",
+    "name": "Prof. (Dr.) K.M. Babu",
+    "position": "VC",
+    "organization": "Vice-Chancellor, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/mkbabu.png"
   },
   {
-    name: "Dr. S.N.Singh",
-    position: "Director",
-    organization: "IIITM",
-    imgSrc: "/ImportantPersons/snsingh.png",
+    "name": "Prof. (Dr.) Avadhesh Kumar",
+    "position": "Pro-VC, Galgotias University, India ",
+    "organization": "Pro-VC, Galgotias University, Greater Noida, India (Vice Chair, IEEE UP Section)",
+    "imgSrc": "/ImportantPersons/avadhesh.png"
   },
   {
-    name: "Dr. Yogesh S. Chauhan",
-    position: "Professor, IIT Kanpur",
-    organization: "Chair, IEEE UP Section",
-    imgSrc: "/ImportantPersons/yogesh.png",
+    "name": "Prof. (Dr.) Yogesh S. Chauhan",
+    "position": "Professor, IIT Kanpur",
+    "organization": "IIT Kanpur, India (Chair, IEEE UP Section)",
+    "imgSrc": "/ImportantPersons/yogesh.png"
   },
   {
-    name: "Prof.(Dr.) Avadhesh Kumar",
-    position: "Pro-VC, Galgotias University, India ",
-    organization: "Vice Chair, IEEE UP Section",
-    imgSrc: "/ImportantPersons/avadhesh.png",
+    "name": "Prof. (Dr.) Akshay Rathore",
+    "position": "Professor- SIT, Singapore/ IEEE Fellow",
+    "organization": "Singapore Institute of Technology, Singapore",
+    "imgSrc": "/ImportantPersons/akshayrathore.png"
   },
   {
-    name: "Prof.(Dr.) Akshay Rathore",
-    position: "Professor",
-    organization: " Singapore Institute of Technology, Singapore",
-    imgSrc: "/ImportantPersons/akshayrathore.png",
+    "name": "Prof. (Dr.) Ayman EL-Refaie",
+    "position": "IAS President 2025-2026, Professor",
+    "organization": "Marquette University, Milwaukee, WI",
+    "imgSrc": "/ImportantPersons/aer.jpg"
   },
   {
-    name: "Dr. Aanjey M. Tripathi",
-    position: "Professor",
-    organization: "Galgotias University, India",
-    imgSrc: "/ImportantPersons/aanjeymanitripathi.jpg",
+    "name": "Prof. (Dr.) Aanjey M. Tripathi",
+    "position": "Professor",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/aanjeymanitripathi.jpg"
   },
-  // {
-  //   name: "Prof. Prashant Johri",
-  //   position: "Professor",
-  //   organization: "Galgotias University, India",
-  //   imgSrc: "/ImportantPersons/prashant ji.jpeg",
-  // },
   {
-    name: "Dr. Kuldeep S. Kaswan",
-    position: "Professor",
-    organization: "Galgotias University, India",
-    imgSrc: "/ImportantPersons/kuldeepkaswan.png",
+    "name": "Prof. (Dr.) Kuldeep S. Kaswan",
+    "position": "Professor",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/kuldeepkaswan.png"
   },
-  // {
-  //   name: "Dr. Vimal Kumar",
-  //   position: "Professor",
-  //   organization: "MMMUT, Gorakhpur",
-  //   imgSrc: "/ImportantPersons/vimalkumar.png",
-  // },
   {
-    name: "Dr. Abdul Aleem",
-    position: "Professor",
-    organization: "Galgotias University, India",
-    imgSrc: "/ImportantPersons/abdulaleem.jpeg",
+    "name": "Prof. (Dr.) Harish Kumar GR",
+    "position": "Dean, SCSE",
+    "organization": "Dean, SCSE, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/sunita.jpeg"
   },
   {
-    name: "Dr. Gaurav Agarwal",
-    position: "Professor",
-    organization: "Galgotias University, India",
-    imgSrc: "/ImportantPersons/gauravagarwal.jpeg",
+    "name": "Prof. (Dr.) Abdul Aleem",
+    "position": "Professor",
+    "organization": "Associate Dean, DCSE, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/abdulaleem.jpeg"
   },
   {
-    name: "Prof. (Dr.) Harish Kumar GR",
-    position: "Dean, SCSE",
-    organization: "Galgotias University, India",
-    imgSrc: "/ImportantPersons/sunita.jpeg",
+    "name": "Prof. (Dr.) Gaurav Agarwal",
+    "position": "Professor",
+    "organization": "Associate Dean, DAIML, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/gauravagarwal.jpeg"
   },
   {
-    name: "Dr. Dipti Srinivasan",
-    position: "Professor",
-    organization: "National University of Singapore, Singapore",
-    imgSrc: "/ImportantPersons/ds.jpg",
+    "name": "Prof. Manish Kumar",
+    "position": "",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/manish kumar.jpeg"
   },
-
   {
-    name: "Dr. Vineeta Khemchandani",
-    position: "Dean, SCAT",
-    organization: "Galgotias University, India",
-    imgSrc: "/ImportantPersons/khemchandani.webp",
+    "name": "Prof. Arpesh Singh",
+    "position": "Professor",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/arpesh.jpg"
   },
   {
-    name: "Prof. Shraddha Sagar",
-    position: "Professor",
-    organization: "Galgotias University, India",
-    imgSrc: "/ImportantPersons/shraddha.jpg",
+    "name": "Prof. (Dr.) Sunil Bharti",
+    "position": "",
+    "organization": "Galgotias College of Engineering & Technology,  Greater Noida, India",
+    "imgSrc": "/ImportantPersons/Dr Sunil Bharti.jpeg"
   },
   {
-    name: "Dr. Arpesh Singh",
-    position: "Professor",
-    organization: "Galgotias University, India",
-    imgSrc: "/ImportantPersons/arpesh.jpg",
+    "name": "Prof. (Dr.) Vineeta Khemchandani",
+    "position": "Dean, SCAT",
+    "organization": "Dean, SCAT, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/khemchandani.webp"
   },
   {
-    name: "Prof. Ashok K. Yadav",
-    position: "Professor",
-    organization: "Galgotias University, India",
-    imgSrc: "/ImportantPersons/ashokkryadav.jpg",
+    "name": "Prof. (Dr.) Sudhir Kr. Singh",
+    "position": "",
+    "organization": "HoD, DOME, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/sudhirkrsingh.webp"
   },
   {
-    name: "Dr. Anurag Singh",
-    position: "Associate Professor",
-    organization: "NIT Delhi",
-    imgSrc: "/ImportantPersons/anuragsingh.png",
+    "name": "Prof. (Dr.) Deepak Soni",
+    "position": "",
+    "organization": "HoD, DOCE, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/deepaksoni.png"
   },
-  // {
-  //   name: "Dr. Arvind Panwar",
-  //   position: "Professor",
-  //   organization: "Galgotias University, India"
-  // },
-
   {
-    name: "Prof. Meenakshi Awasthi",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Sonia Setia",
+    "position": "Professor",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/sonia.jpg"
   },
   {
-    name: "Prof. Deepak Soni",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Shrddha Sagar",
+    "position": "",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/shraddha.jpg"
   },
   {
-    name: "Prof. Sunil Bharti",
-    organization: "GCET, Greater Noida, India"
+    "name": "Prof. (Dr.) Meenakshi Sharma",
+    "position": "",
+    "organization": "Director, IQAC, Galgotias University, Greater Noida, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Ravi Sharma",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Ravi Sharma",
+    "position": "",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/ravi sharma.jpeg"
   },
   {
-    name: "Prof. Tarun Kumar",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Manish Raj",
+    "position": "",
+    "organization": "Associate Dean, SAI, Galgotias University, Greater Noida, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Manish Kumar",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Ajeet Singh",
+    "position": "",
+    "organization": "Associate Dean, DCYS, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/Ajjet singh.jpeg"
   },
   {
-    name: "Dr. Sonu Jha",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Saurabh Singh",
+    "position": "",
+    "organization": "Associate Dean, DAIDS, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/SAURABH SINGH .webp"
   },
   {
-    name: "Dr. Sunil Kumar",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) K. K. Agrawal",
+    "position": "",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/K,K, AGARWAL.png"
   },
   {
-    name: "Dr. K. K. Agrawal",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Shachi Mall",
+    "position": "",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/Dr. SHACHI MALL.jpg"
   },
   {
-    name: "Dr. Vipin Rai",
-    organization: "Galgotias University, India"
+    "name": "Prof. Arunendra Mani Tripathi",
+    "position": "",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/Arunendra.png"
   },
   {
-    name: "Prof. Arunendra Mani Tripathi",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Pooja Singh",
+    "position": "",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/Pooja singh.png"
   },
   {
-    name: "Prof. Avneesh Kumar",
-    organization: "Galgotias University, India"
+    "name": "Prof. Pragya Tewari",
+    "position": "",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/Pragya tiwari.webp"
   },
   {
-    name: "Prof. Sanjeev K. Singh",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Anupam Baliyan",
+    "position": "",
+    "organization": "Associate Dean (APR), Galgotias University, Greater Noida, India",
+    "imgSrc": null
   },
   {
-    name: "Prof. N. Partheeban",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Trapti Shrivastava",
+    "position": "",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/trapti.jpg"
   },
   {
-    name: "Dr. Shachi Mall",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Shipra Shukla",
+    "position": "Professor",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/shipra.jpg"
   },
   {
-    name: "Dr. Ajeet Singh",
-    organization: "Galgotias University, India"
+    "name": "Prof. Jitendra",
+    "position": "",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/Mr. Jitendra.jpg"
   },
   {
-    name: "Dr. Aditya Nath Bhatt",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Shashi Bhusan",
+    "position": "",
+    "organization": "Associate Dean (GSCALE), SCSE, Galgotias University, Greater Noida, India",
+    "imgSrc": null
   },
   {
-    name: "Prof. Ravi Sharma",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Meenakshi Awasthi",
+    "position": "",
+    "organization": "HoD, DEECE, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/Prof. (Dr.) Meenakshi Awasthi.webp"
   },
   {
-    name: "Prof. Vipul Narayan Srivastava",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Vipin Rai",
+    "position": "",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/Vipin rai.jpg"
   },
   {
-    name: "Dr. Pragya Tewari",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Sanjeev K. Singh",
+    "position": "",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Ambika Gupta",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Jagjit Singh Dhatterwal",
+    "position": "",
+    "organization": "KL University, Guntur, Andhara Pradesh , India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Pooja Singh",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Geeta Sikka",
+    "position": "Professor",
+    "organization": "National Institute of Technology, Delhi, India",
+    "imgSrc": "/ImportantPersons/geeta.webp"
   },
   {
-    name: "Prof. Jagjit Singh Dhatterwal",
-    organization: "KL University, Guntur, Andhara Pradesh , India"
+    "name": "Prof. (Dr.) Abhishek Appaji",
+    "position": "Associate Professor",
+    "organization": "B.M.S. College of Engineering, Bengaluru, India",
+    "imgSrc": "/ImportantPersons/abhishek.jpg"
   },
   {
-    name: "Prof. E. Rajesh",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Harivardhagini Subhadra",
+    "position": "",
+    "organization": "Professor, CVR College of Engineering, Hyderabad, India (IEEE WIE Committee Member)",
+    "imgSrc": "/ImportantPersons/harivardhagini.jpeg"
   },
   {
-    name: "Prof. T. Ganesh Kumar",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Avneesh Kumar",
+    "position": "",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/Dr. Avneesh kumar.jpeg"
   },
   {
-    name: "Prof. Manish Kumar",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Ashok K. Yadav",
+    "position": "Professor",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/ashokkryadav.jpg"
   },
   {
-    name: "Mr. Pankaj Lamba",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Ganesh Kumar",
+    "position": "",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/T ganesh.png"
   },
   {
-    name: "Prof. AR Pandey",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Dinesh Kumar",
+    "position": "",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": null
   },
   {
-    name: "Ms. Trapti Shrivastava",
-    organization: "Galgotias University, India",
-    imgSrc: "/ImportantPersons/trapti.jpg",
+    "name": "Mr. Pankaj Lamba",
+    "position": "",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/Pankaj LAMBA.jpeg"
   },
   {
-    name: "Dr. Shipra Shukla",
-    position: "Professor",
-    organization: "Galgotias University, India",
-    imgSrc: "/ImportantPersons/shipra.jpg"
+    "name": "Mr. Gaurang Pant",
+    "position": "Chair IEEE CS GU",
+    "organization": "Chair IEEE CS GU, Galgotias University, India",
+    "imgSrc": null
   },
   {
-    name: "Prof. (Dr.) Rajiv Mishra",
-    position: "Dean of SOHT",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Neha Jindal",
+    "position": "",
+    "organization": "Dean, SMCS, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/Dr. Neha Jindal.webp"
   },
   {
-    name: "Ms. Monalisha Dash",
-    position: "Associate Professor",
-    organization: "Galgotias University, India"
+    "name": "Prof. (Dr.) Shankar Kumar",
+    "position": "",
+    "organization": "Dean, SOHT, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/Dr Shankar Kumar DEAN SOH.webp"
   },
   {
-    name: "Dr. Liudong Xing",
-    position: "Electrical and Computer Engineering Department",
-    organization: "University of Massachusetts, Dartmouth",
-    imgSrc: "/ImportantPersons/liudong.png",
+    "name": "Prof.(Dr.) Akshay Rathore",
+    "position": "Professor",
+    "organization": " Singapore Institute of Technology, Singapore",
+    "imgSrc": "/ImportantPersons/akshayrathore.png"
   },
   {
-    name: "Dr. LING Tok Wang",
-    position: "Emeritus Professor, Department of Computer Science",
-    organization: "National University of Singapore, Singapore"
+    "name": "Prof. Prashant Johri",
+    "position": "Professor",
+    "organization": "Galgotias University, India",
+    "imgSrc": "/ImportantPersons/prashant ji.jpeg"
   },
   {
-    name: "Dr. Norjihan Abdul Ghani",
-    position: "HoD, Department of Information Systems",
-    organization: "Universiti of MALAYA, Malaysia"
+    "name": "Dr. Vimal Kumar",
+    "position": "Professor",
+    "organization": "MMMUT, Gorakhpur",
+    "imgSrc": "/ImportantPersons/vimalkumar.png"
   },
   {
-    name: "Dr. Norbik Bashah Bin Idris",
-    position: "Professor",
-    organization: "IIUM Gombak Campus, Malaysia"
+    "name": "Dr. Dipti Srinivasan",
+    "position": "Professor",
+    "organization": "National University of Singapore, Singapore",
+    "imgSrc": "/ImportantPersons/ds.jpg"
   },
   {
-    name: "Dr. Maizatul Akmar Ismail",
-    position: "Department of Information Systems",
-    organization: " Universiti of MALAYA, Malaysia"
+    "name": "Prof. Shraddha Sagar",
+    "position": "Professor",
+    "organization": "Galgotias University, India",
+    "imgSrc": "/ImportantPersons/shraddha.jpg"
   },
   {
-    name: "Dr. Suzan Jabbar Obaiys",
-    position: "Multimedia Unit",
-    organization: "Universiti of MALAYA, Malaysia"
+    "name": "Dr. Anurag Singh",
+    "position": "Associate Professor",
+    "organization": "NIT Delhi",
+    "imgSrc": "/ImportantPersons/anuragsingh.png"
   },
   {
-    name: "Dr. Mufti Mahmud",
-    position: "Dept. of Computer Science",
-    organization: "Nottingham Trent University, United Kingdom"
+    "name": "Dr. Arvind Panwar",
+    "position": "Professor",
+    "organization": "Galgotias University, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Deepak K Jain",
-    position: "Dalian University of Technology",
-    organization: "China"
+    "name": "Dr. Ravi Sharma",
+    "position": "",
+    "organization": "Galgotias University, India",
+    "imgSrc": "/ImportantPersons/ravi sharma.jpeg"
   },
   {
-    name: "Dr. Kishore Bingi",
-    position: "Universiti Teknologi PETRONAS",
-    organization: "Malaysia"
+    "name": "Prof. Tarun Kumar",
+    "position": "",
+    "organization": "Galgotias University, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Noor Zaman Jhanjhi",
-    position: "Taylor's University",
-    organization: "Malaysia"
+    "name": "Dr. Manish Kumar",
+    "position": "",
+    "organization": "Galgotias University, India",
+    "imgSrc": "/ImportantPersons/manish kumar.jpeg"
   },
   {
-    name: "Dr. CHAMAN VERMA",
-    organization: "Eotvos Lorand University, Budapest, Hungary"
+    "name": "Dr. Sonu Jha",
+    "position": "",
+    "organization": "Galgotias University, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Manoj Kumar",
-    organization: "University of Wollongong, Dubai, United Arab Emirate"
+    "name": "Dr. Sunil Kumar",
+    "position": "",
+    "organization": "Galgotias University, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Sachidanand Mohanty",
-    organization: "Singdum University, Serbia"
+    "name": "Prof. N. Partheeban",
+    "position": "",
+    "organization": "Galgotias University, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. S.B.Goyal",
-    position: "Director",
-    organization: "Faculty of Information Technology, City University, Malaysia"
+    "name": "Dr. Aditya Nath Bhatt",
+    "position": "",
+    "organization": "Galgotias University, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Nagender Aneja",
-    position: "School of Digital Science",
-    organization: "Universiti Brunei Darussalam, Brunei Darussalam"
+    "name": "Prof. Vipul Narayan Srivastava",
+    "position": "",
+    "organization": "Galgotias University, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Pradeep Kumar",
-    position: "Research Specialist",
-    organization: "UTP Universiti Teknologi PETRONAS, Malaysia"
+    "name": "Dr. Ambika Gupta",
+    "position": "",
+    "organization": "Galgotias University, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Mukesh Prasad",
-    position: "School of Computer Science",
-    organization: "University of Technology Sydney, Australia"
+    "name": "Prof. E. Rajesh",
+    "position": "",
+    "organization": "Galgotias University, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Gavendra Singh",
-    organization: "Haramaya University, Ethiopia"
+    "name": "Prof. T. Ganesh Kumar",
+    "position": "",
+    "organization": "Galgotias University, India",
+    "imgSrc": "/ImportantPersons/T ganesh.png"
   },
   {
-    name: "Dr. Hoang Pham",
-    position: "Professor",
-    organization: "Rutgers University, New Jersey, USA"
+    "name": "Prof. AR Pandey",
+    "position": "",
+    "organization": "Galgotias University, India",
+    "imgSrc": "/ImportantPersons/ap.jpg"
   },
   {
-    name: "Dr. Nitin Kumar Saxena",
-    position: "Visiting Professor",
-    organization: "Electrical and Computer Engineering Department, University of Denver, USA"
+    "name": "Prof. (Dr.) Rajiv Mishra",
+    "position": "Dean of SOHT",
+    "organization": "Galgotias University, India",
+    "imgSrc": null
   },
   {
-    name: "Prof. Utkal Mehta",
-    position: "Electrical and Electronics Engg.",
-    organization: "The University of the South Pacific (USP), Laucala Campus, Suva., Fiji."
+    "name": "Ms. Monalisha Dash",
+    "position": "Associate Professor",
+    "organization": "Galgotias University, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Shafiq Ul Rehman",
-    organization: "Singapore University of Technology and Design (SUTD), Singapore"
+    "name": "Dr. Liudong Xing",
+    "position": "Electrical and Computer Engineering Department",
+    "organization": "University of Massachusetts, Dartmouth",
+    "imgSrc": "/ImportantPersons/liudong.png"
   },
   {
-    name: "Prof. Mohammad Rashid Hussain",
-    organization: "King Khalid University, Abha, Saudi Arabia"
+    "name": "Dr. LING Tok Wang",
+    "position": "Emeritus Professor, Department of Computer Science",
+    "organization": "National University of Singapore, Singapore",
+    "imgSrc": null
   },
   {
-    name: "Prof. Deepak L. Waikar",
-    organization: "Singapore"
+    "name": "Dr. Norjihan Abdul Ghani",
+    "position": "HoD, Department of Information Systems",
+    "organization": "Universiti of MALAYA, Malaysia",
+    "imgSrc": null
   },
   {
-    name: "Prof. Adarsh Anand",
-    organization: "University Of Delhi, Delhi, India"
+    "name": "Dr. Norbik Bashah Bin Idris",
+    "position": "Professor",
+    "organization": "IIUM Gombak Campus, Malaysia",
+    "imgSrc": null
   },
   {
-    name: "Prof. (Dr.) Chandra Prakash",
-    organization: "National Institute of Technology, Delhi, India"
+    "name": "Dr. Maizatul Akmar Ismail",
+    "position": "Department of Information Systems",
+    "organization": " Universiti of MALAYA, Malaysia",
+    "imgSrc": null
   },
   {
-    name: "Prof. (Dr.) Sahil",
-    organization: "National Institute of Technology, Delhi, India"
+    "name": "Dr. Suzan Jabbar Obaiys",
+    "position": "Multimedia Unit",
+    "organization": "Universiti of MALAYA, Malaysia",
+    "imgSrc": null
   },
   {
-    name: "Prof. T. Poongodi",
-    organization: "Dayananda Sagar University, Bangalore, India."
+    "name": "Dr. Mufti Mahmud",
+    "position": "Dept. of Computer Science",
+    "organization": "Nottingham Trent University, United Kingdom",
+    "imgSrc": null
   },
   {
-    name: "Prof. Mayank Pandey",
-    position: "Computer Science & Engg.",
-    organization: "MNNIT, Prayagraj, India"
+    "name": "Dr. Deepak K Jain",
+    "position": "Dalian University of Technology",
+    "organization": "China",
+    "imgSrc": null
   },
   {
-    name: "Prof. Y. K. Prajapati",
-    position: "Electronics & Comm. Engg.",
-    organization: "MNNIT, Prayagraj, India"
+    "name": "Dr. Kishore Bingi",
+    "position": "Universiti Teknologi PETRONAS",
+    "organization": "Malaysia",
+    "imgSrc": null
   },
   {
-    name: "Prof. Ela Kumar",
-    position: "CSE",
-    organization: "IGDTUW, Delhi, India"
+    "name": "Dr. Noor Zaman Jhanjhi",
+    "position": "Taylor's University",
+    "organization": "Malaysia",
+    "imgSrc": null
   },
   {
-    name: "Prof. R.K. Nagaria",
-    position: "ECE",
-    organization: "MNNIT, Prayagraj, India"
+    "name": "Dr. CHAMAN VERMA",
+    "position": "",
+    "organization": "Eotvos Lorand University, Budapest, Hungary",
+    "imgSrc": null
   },
   {
-    name: "Prof. Mayank Pandey",
-    position: "Computer Science & Engg.",
-    organization: "MNNIT, Prayagraj, India"
+    "name": "Dr. Manoj Kumar",
+    "position": "",
+    "organization": "University of Wollongong, Dubai, United Arab Emirate",
+    "imgSrc": null
   },
   {
-    name: "Prof. Arvind Pandey",
-    position: "Director",
-    organization: "BIT, Gorakhpur, India"
+    "name": "Dr. Sachidanand Mohanty",
+    "position": "",
+    "organization": "Singdum University, Serbia",
+    "imgSrc": null
   },
   {
-    name: "Prof. Arvind Pandey",
-    position: "Director",
-    organization: "BIT, Gorakhpur, India"
+    "name": "Dr. S.B.Goyal",
+    "position": "Director",
+    "organization": "Faculty of Information Technology, City University, Malaysia",
+    "imgSrc": null
   },
   {
-    name: "Prof. Shashank Srivastava",
-    position: "BIT",
-    organization: "Gorakhpur, India"
+    "name": "Dr. Nagender Aneja",
+    "position": "School of Digital Science",
+    "organization": "Universiti Brunei Darussalam, Brunei Darussalam",
+    "imgSrc": null
   },
   {
-    name: "Dr. Dushyant Kumar Singh",
-    position: "Associate Professor",
-    organization: "Computer Science & Engg., MNNIT, Prayagraj, India"
+    "name": "Dr. Pradeep Kumar",
+    "position": "Research Specialist",
+    "organization": "UTP Universiti Teknologi PETRONAS, Malaysia",
+    "imgSrc": null
   },
   {
-    name: "Prof. Nidhi Goel",
-    position: "Head of Department",
-    organization: "Electronics & Communication Engineering, IGDTUW, Delhi, India"
+    "name": "Dr. Mukesh Prasad",
+    "position": "School of Computer Science",
+    "organization": "University of Technology Sydney, Australia",
+    "imgSrc": null
   },
   {
-    name: "Prof. S. K. Srivastava",
-    position: "PROFESSOR",
-    organization: "Department of Electrical Engineering, MMMUT, Gorakhpur, India"
+    "name": "Dr. Gavendra Singh",
+    "position": "",
+    "organization": "Haramaya University, Ethiopia",
+    "imgSrc": null
   },
   {
-    name: "Prof. Vandana Niranjan",
-    position: "Professor",
-    organization: "Electronics & Communication Engineering, IGDTUW, Delhi, India"
+    "name": "Dr. Hoang Pham",
+    "position": "Professor",
+    "organization": "Rutgers University, New Jersey, USA",
+    "imgSrc": null
   },
   {
-    name: "Prof. SRN Reddy",
-    position: "COMPUTER SCIENCE AND ENGINEERING",
-    organization: "IGDTUW, Delhi, India"
+    "name": "Dr. Nitin Kumar Saxena",
+    "position": "Visiting Professor",
+    "organization": "Electrical and Computer Engineering Department, University of Denver, USA",
+    "imgSrc": null
   },
   {
-    name: "Prof. Bhawna Narwal",
-    position: "Department of Information Technology",
-    organization: "IGDTUW, Delhi, India"
+    "name": "Prof. Utkal Mehta",
+    "position": "Electrical and Electronics Engg.",
+    "organization": "The University of the South Pacific (USP), Laucala Campus, Suva., Fiji.",
+    "imgSrc": null
   },
   {
-    name: "Dr. Vimal Kumar Singh Yadav",
-    position: "Department of Electronics and Communication Engineering",
-    organization: "MNNIT, Prayagraj, India"
+    "name": "Dr. Shafiq Ul Rehman",
+    "position": "",
+    "organization": "Singapore University of Technology and Design (SUTD), Singapore",
+    "imgSrc": null
   },
   {
-    name: "Prof. (Dr.) Chandra Prakash",
-    position: "National Institute of Technology",
-    organization: "Delhi, India"
-  }
-  ,
+    "name": "Prof. Mohammad Rashid Hussain",
+    "position": "",
+    "organization": "King Khalid University, Abha, Saudi Arabia",
+    "imgSrc": null
+  },
+  {
+    "name": "Prof. Deepak L. Waikar",
+    "position": "",
+    "organization": "Singapore",
+    "imgSrc": null
+  },
+  {
+    "name": "Prof. Adarsh Anand",
+    "position": "",
+    "organization": "University Of Delhi, Delhi, India",
+    "imgSrc": null
+  },
+  {
+    "name": "Prof. (Dr.) Chandra Prakash",
+    "position": "",
+    "organization": "National Institute of Technology, Delhi, India",
+    "imgSrc": null
+  },
+  {
+    "name": "Prof. (Dr.) Sahil",
+    "position": "",
+    "organization": "National Institute of Technology, Delhi, India",
+    "imgSrc": null
+  },
+  {
+    "name": "Prof. T. Poongodi",
+    "position": "",
+    "organization": "Dayananda Sagar University, Bangalore, India.",
+    "imgSrc": null
+  },
+  {
+    "name": "Prof. Mayank Pandey",
+    "position": "Computer Science & Engg.",
+    "organization": "MNNIT, Prayagraj, India",
+    "imgSrc": null
+  },
+  {
+    "name": "Prof. Y. K. Prajapati",
+    "position": "Electronics & Comm. Engg.",
+    "organization": "MNNIT, Prayagraj, India",
+    "imgSrc": null
+  },
+  {
+    "name": "Prof. Ela Kumar",
+    "position": "CSE",
+    "organization": "IGDTUW, Delhi, India",
+    "imgSrc": null
+  },
+  {
+    "name": "Prof. R.K. Nagaria",
+    "position": "ECE",
+    "organization": "MNNIT, Prayagraj, India",
+    "imgSrc": null
+  },
+  {
+    "name": "Prof. Mayank Pandey",
+    "position": "Computer Science & Engg.",
+    "organization": "MNNIT, Prayagraj, India",
+    "imgSrc": null
+  },
+  {
+    "name": "Prof. Arvind Pandey",
+    "position": "Director",
+    "organization": "BIT, Gorakhpur, India",
+    "imgSrc": null
+  },
+  {
+    "name": "Prof. Arvind Pandey",
+    "position": "Director",
+    "organization": "BIT, Gorakhpur, India",
+    "imgSrc": null
+  },
+  {
+    "name": "Prof. Shashank Srivastava",
+    "position": "BIT",
+    "organization": "Gorakhpur, India",
+    "imgSrc": null
+  },
+  {
+    "name": "Dr. Dushyant Kumar Singh",
+    "position": "Associate Professor",
+    "organization": "Computer Science & Engg., MNNIT, Prayagraj, India",
+    "imgSrc": null
+  },
+  {
+    "name": "Prof. Nidhi Goel",
+    "position": "Head of Department",
+    "organization": "Electronics & Communication Engineering, IGDTUW, Delhi, India",
+    "imgSrc": null
+  },
+  {
+    "name": "Prof. S. K. Srivastava",
+    "position": "PROFESSOR",
+    "organization": "Department of Electrical Engineering, MMMUT, Gorakhpur, India",
+    "imgSrc": null
+  },
+  {
+    "name": "Prof. Vandana Niranjan",
+    "position": "Professor",
+    "organization": "Electronics & Communication Engineering, IGDTUW, Delhi, India",
+    "imgSrc": null
+  },
+  {
+    "name": "Prof. SRN Reddy",
+    "position": "COMPUTER SCIENCE AND ENGINEERING",
+    "organization": "IGDTUW, Delhi, India",
+    "imgSrc": null
+  },
+  {
+    "name": "Prof. Bhawna Narwal",
+    "position": "Department of Information Technology",
+    "organization": "IGDTUW, Delhi, India",
+    "imgSrc": null
+  },
+  {
+    "name": "Dr. Vimal Kumar Singh Yadav",
+    "position": "Department of Electronics and Communication Engineering",
+    "organization": "MNNIT, Prayagraj, India",
+    "imgSrc": null
+  },
+  {
+    "name": "Prof. (Dr.) Chandra Prakash",
+    "position": "National Institute of Technology",
+    "organization": "Delhi, India",
+    "imgSrc": null
+  },
+  {
+    "name": "Prof. (Dr.) Sahil",
+    "position": "",
+    "organization": "National Institute of Technology, Delhi, India",
+    "imgSrc": null
+  },
+  {
+    "name": "Prof. Karuna Kadian",
+    "position": "COMPUTER SCIENCE AND ENGINEERING",
+    "organization": "IGDTUW, Delhi, India",
+    "imgSrc": null
+  },
   {
-    name: "Dr. Sonia Setia",
-    position: "Professor",
-    organization: "Galgotias University, India",
-    imgSrc: "/ImportantPersons/sonia.jpg",
+    "name": "Dr. Satish Chandra",
+    "position": "Department of Electronics and Communication Engineering",
+    "organization": "MNNIT, Prayagraj, India",
+    "imgSrc": null
   },
-
   {
-    name: "Prof. (Dr.) Sahil",
-    organization: "National Institute of Technology, Delhi, India"
+    "name": "Prof. Anil Kumar Sagar",
+    "position": "Sharda University",
+    "organization": "Greater Noida, India",
+    "imgSrc": null
   },
-
   {
-    name: "Prof. Karuna Kadian",
-    position: "COMPUTER SCIENCE AND ENGINEERING",
-    organization: "IGDTUW, Delhi, India"
+    "name": "Chin Kuan Ho",
+    "position": "Vice Chanceller",
+    "organization": "Asia Pacific University, Malaysia",
+    "imgSrc": "/ImportantPersons/chin.jpeg"
   },
-
   {
-    name: "Dr. Satish Chandra",
-    position: "Department of Electronics and Communication Engineering",
-    organization: "MNNIT, Prayagraj, India"
+    "name": "Professor T. G. Sitharam",
+    "position": "AICTE chairman",
+    "organization": "",
+    "imgSrc": "/ImportantPersons/tg.webp"
   },
-
   {
-    name: "Prof. Anil Kumar Sagar",
-    position: "Sharda University",
-    organization: "Greater Noida, India"
+    "name": "Dr. Sri Niwas Singh",
+    "position": "Director-IIITM Gwalior/ IEEE Fellow",
+    "organization": "",
+    "imgSrc": "/ImportantPersons/snsingh.png"
   },
   {
-    name: "Chin Kuan Ho",
-    position: "Vice Chanceller",
-    organization: "Asia Pacific University, Malaysia",
-    imgSrc: "/ImportantPersons/chin.jpeg"
+    "name": "Dr. J. Ramkumar",
+    "position": "Dean (Planning)- IIT Kanpur/ IEEE Fellow",
+    "organization": "",
+    "imgSrc": "/ImportantPersons/ramkumar.jpg"
   },
-
   {
-    name: "Professor T. G. Sitharam",
-    position: "AICTE chairman",
-    organization: "",
-    imgSrc: "/ImportantPersons/tg.webp",
+    "name": "Dr. Rajeev Kumar Singh",
+    "position": "Professor-IIT BHU/Secreatary-IEEE UP Section",
+    "organization": "",
+    "imgSrc": "/ImportantPersons/rajeev.jpg"
   },
   {
-    name: "Dr. Sri Niwas Singh",
-    position: "Director-IIITM Gwalior/ IEEE Fellow",
-    organization: "",
-    imgSrc: "/ImportantPersons/snsingh.png",
+    "name": "Dr. Varun Kakar",
+    "position": "Joint Secreatary-IEEE UP Section",
+    "organization": "",
+    "imgSrc": "/ImportantPersons/varunkakar.jpg"
   },
   {
-    name: "Dr. Akshay Rathore",
-    position: "Professor- SIT, Singapore/ IEEE Fellow",
-    organization: "",
-    imgSrc: "/ImportantPersons/akshayrathore.png",
+    "name": "Dr. Mohammad Rihan",
+    "position": "Director- NISE, Gurugram/ Chair Elect-IEEE UP Section",
+    "organization": "",
+    "imgSrc": "/ImportantPersons/mohammadrihan.jpg"
   },
   {
-    name: "Dr. J. Ramkumar",
-    position: "Dean (Planning)- IIT Kanpur/ IEEE Fellow",
-    organization: "",
-    imgSrc: "/ImportantPersons/ramkumar.jpg",
+    "name": "Dr Bijaya Ketan Panigrahi",
+    "position": "Professor, IIT Delhi/ IEEE Fellow",
+    "organization": "",
+    "imgSrc": "/ImportantPersons/bpanigrahi.jpeg"
   },
   {
-    name: "Dr. Rajeev Kumar Singh",
-    position: "Professor-IIT BHU/Secreatary-IEEE UP Section",
-    organization: "",
-    imgSrc: "/ImportantPersons/rajeev.jpg",
+    "name": "Ayman EL-Refaie- Ph.D., FIEEE, FIET, FNAI",
+    "position": "2025-26 IEEE IAS President",
+    "organization": "",
+    "imgSrc": "/ImportantPersons/era.jpg"
   },
   {
-    name: "Dr. Harivardhagini Subhadra",
-    position: "Professor-CVR College of Engineering, Hyderabad /IEEE WIE Committee Member",
-    organization: "",
-    imgSrc: "/ImportantPersons/harivardhagini.jpeg",
+    "name": "Prof. Asheesh Kumar",
+    "position": "Professor Department of Electrical Engineering",
+    "organization": "Motilal Nehru National Institute of Technology Allahabad, Prayagraj, India",
+    "imgSrc": "/ImportantPersons/asheeshsingh.jpg"
   },
   {
-    name: "Dr. Varun Kakar",
-    position: "Joint Secreatary-IEEE UP Section",
-    organization: "",
-    imgSrc: "/ImportantPersons/varunkakar.jpg",
+    "name": "Dr. Brij B. Gupta",
+    "position": "Director, International Center for AI and Cyber Security Research and Innovation",
+    "organization": "",
+    "imgSrc": "/ImportantPersons/brij-gupta.webp"
   },
   {
-    name: "Dr. Mohammad Rihan",
-    position: "Director- NISE, Gurugram/ Chair Elect-IEEE UP Section",
-    organization: "",
-    imgSrc: "/ImportantPersons/mohammadrihan.jpg",
+    "name": "Dr. Hironori Washizaki",
+    "position": "2025-26 IEEE Computer Society President",
+    "organization": "Professor, Waseda University, Tokyo",
+    "imgSrc": "/ImportantPersons/hironori.png"
   },
   {
-    name: "Dr Bijaya Ketan Panigrahi",
-    position: "Professor, IIT Delhi/ IEEE Fellow",
-    organization: "",
-    imgSrc: "/ImportantPersons/bpanigrahi.jpeg",
+    "name": "Dr. Supavadee Aramvith",
+    "position": "Associate Professor Department of Electrical Engineering",
+    "organization": "Chair Elect, IEEE New Initiatives Committee",
+    "imgSrc": "/ImportantPersons/supavadee.jpeg"
   },
   {
-    name: "Ayman EL-Refaie- Ph.D., FIEEE, FIET, FNAI",
-    position: "2025-26 IEEE IAS President",
-    organization: "",
-    imgSrc: "/ImportantPersons/era.jpg",
+    "name": "Dr. Vinay Kumar",
+    "position": "Scientist-F, SIRO, DSIR, India",
+    "organization": "",
+    "imgSrc": "/reshot-icon-user-ZXFJAEQURK.svg"
   },
   {
-    name: "Prof. Asheesh Kumar",
-    position: "Professor Department of Electrical Engineering",
-    organization: "Motilal Nehru National Institute of Technology Allahabad, Prayagraj, India",
-    imgSrc: "/ImportantPersons/asheeshsingh.jpg",
+    "name": "Dr. Savita Yadav",
+    "position": "Netaji Subhas University of Technology",
+    "organization": "Delhi, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Brij B. Gupta",
-    position: "Director, International Center for AI and Cyber Security Research and Innovation",
-    organization: "",
-    imgSrc: "/ImportantPersons/brij-gupta.webp",
+    "name": "Prof. Anurag Diwedi",
+    "position": "",
+    "organization": "BIET, Lucknow, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Hironori Washizaki",
-    position: "2025-26 IEEE Computer Society President",
-    organization: "Professor, Waseda University, Tokyo",
-    imgSrc: "/ImportantPersons/hironori.png",
+    "name": "Prof. Arvind Pandey",
+    "position": "Director",
+    "organization": "BIT, Gorakhpur India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Supavadee Aramvith",
-    position: "Associate Professor Department of Electrical Engineering",
-    organization: "Chair Elect, IEEE New Initiatives Committee",
-    imgSrc: "/ImportantPersons/supavadee.jpeg",
+    "name": "Prof. Shashank Srivastav",
+    "position": "",
+    "organization": "BIT, Gorakhpur, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Vinay Kumar",
-    position: "Scientist-F, SIRO, DSIR, India",
-    organization: "",
-    imgSrc: "/reshot-icon-user-ZXFJAEQURK.svg",
+    "name": "Prof. Deependra Rastogi",
+    "position": "",
+    "organization": "IILM University, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Savita Yadav",
-    position: "Netaji Subhas University of Technology",
-    organization: "Delhi, India"
+    "name": "Prof. N.Gayathri",
+    "position": "",
+    "organization": "GITAM University, Bangalore, India",
+    "imgSrc": null
   },
-
   {
-    name: "Prof. Anurag Diwedi",
-    organization: "BIET, Lucknow, India"
+    "name": "Prof. S.Rakesh Kumar",
+    "position": "",
+    "organization": "GITAM University, Bangalore, India",
+    "imgSrc": "/ImportantPersons/rakeshkumar.jpg"
   },
-
   {
-    name: "Prof. Arvind Pandey",
-    position: "Director",
-    organization: "BIT, Gorakhpur India"
+    "name": "Prof. Anoop Kumar Patel",
+    "position": "",
+    "organization": "NIT Kurukshetra, India",
+    "imgSrc": null
   },
-
   {
-    name: "Prof. Shashank Srivastav",
-    organization: "BIT, Gorakhpur, India"
+    "name": "Prof. R.P. Yadav",
+    "position": "",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": null
   },
-
   {
-    name: "Prof. Deependra Rastogi",
-    organization: "IILM University, India"
+    "name": "Prof. (Dr.) S Srinivasan",
+    "position": "",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": null
   },
-
   {
-    name: "Prof. N.Gayathri",
-    organization: "GITAM University, Bangalore, India"
+    "name": "Dr. V.D.S. Baghela",
+    "position": "",
+    "organization": "Galgotias University, India",
+    "imgSrc": null
   },
-
   {
-    name: "Prof. S.Rakesh Kumar",
-    organization: "GITAM University, Bangalore, India"
+    "name": "Ayush Raj",
+    "position": "Student",
+    "organization": "Galgotias College of Engineering and Technology",
+    "imgSrc": null
   },
-
   {
-    name: "Prof. Anoop Kumar Patel",
-    organization: "NIT Kurukshetra, India"
+    "name": "Shivam Kumar",
+    "position": "Student",
+    "organization": "Galgotias University, India",
+    "imgSrc": null
   },
   {
-    name: "Prof. R.P. Yadav",
-    organization: "Galgotias University, Greater Noida, India"
+    "name": "Hemendra Harsh",
+    "position": "Student",
+    "organization": "",
+    "imgSrc": null
   },
   {
-    name: "Prof. (Dr.) S Srinivasan",
-    organization: "Galgotias University, Greater Noida, India"
+    "name": "Dr. P.S. Yadav",
+    "position": "Board of Technical Education, Uttar Pradesh",
+    "organization": "",
+    "imgSrc": null
   },
   {
-    name: "Dr. V.D.S. Baghela",
-    organization: "Galgotias University, India"
+    "name": "Dr. Shailesh Kumar",
+    "position": "",
+    "organization": "MMMUT, Gorakhpur",
+    "imgSrc": null
   },
   {
-    name: "Ayush Raj",
-    position: "Student",
-    organization: "Galgotias College of Engineering and Technology"
+    "name": "Dr. Swapnita Srivastava",
+    "position": "",
+    "organization": "MMMUT, Gorakhpur",
+    "imgSrc": null
   },
   {
-    name: "Gaurang Pant",
-    position: "Chair IEEE CS GU",
-    organization: "Galgotias University, India"
+    "name": "Dr. Vipul Narayan",
+    "position": "",
+    "organization": "MMMUT, Gorakhpur",
+    "imgSrc": null
   },
   {
-    name: "Shivam Kumar",
-    position: "Student",
-    organization: "Galgotias University, India"
-  }, {
-    name: "Hemendra Harsh",
-    position: "Student"
+    "name": "Dr. Arvind Kumar",
+    "position": "Electronics & Comm. Engg.",
+    "organization": "MNNIT, Prayagraj, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. P.S. Yadav",
-    position: "Board of Technical Education, Uttar Pradesh"
-  }, {
-    name: "Dr. Shailesh Kumar",
-    organization: "MMMUT, Gorakhpur"
+    "name": "Prof. V. Krishna Rao Kandanvli",
+    "position": "Electronics & Comm. Engg.",
+    "organization": "MNNIT, Prayagraj, India",
+    "imgSrc": null
   },
-
   {
-    name: "Dr. Swapnita Srivastava",
-    organization: "MMMUT, Gorakhpur"
+    "name": "Prof. P. Karuppanan",
+    "position": "Electronics & Comm. Engg.",
+    "organization": "MNNIT, Prayagraj, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Vipul Narayan",
-    organization: "MMMUT, Gorakhpur"
+    "name": "Dr. Dharmendra Dixit",
+    "position": "Electronics & Comm. Engg.",
+    "organization": "MNNIT, Prayagraj, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Arvind Kumar",
-    position: "Electronics & Comm. Engg.",
-    organization: "MNNIT, Prayagraj, India"
+    "name": "Dr. Deepak Punetha",
+    "position": "Electronics & Comm. Engg.",
+    "organization": "MNNIT, Prayagraj, India",
+    "imgSrc": null
   },
   {
-    name: "Prof. V. Krishna Rao Kandanvli",
-    position: "Electronics & Comm. Engg.",
-    organization: "MNNIT, Prayagraj, India"
+    "name": "Dr. Arun Kumar Saurabh",
+    "position": "Electronics & Comm. Engg.",
+    "organization": "MNNIT, Prayagraj, India",
+    "imgSrc": null
   },
   {
-    name: "Prof. P. Karuppanan",
-    position: "Electronics & Comm. Engg.",
-    organization: "MNNIT, Prayagraj, India"
+    "name": "Prof. Navdeep Singh",
+    "position": "Department of Electrical Engineering",
+    "organization": "MMMUT, Gorakhpur, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Dharmendra Dixit",
-    position: "Electronics & Comm. Engg.",
-    organization: "MNNIT, Prayagraj, India"
+    "name": "Dr. Nirmal Ch Roy",
+    "position": "Electronics & Comm. Engg.",
+    "organization": "MNNIT, Prayagraj, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Deepak Punetha",
-    position: "Electronics & Comm. Engg.",
-    organization: "MNNIT, Prayagraj, India"
+    "name": "Prof. Priya Matta",
+    "position": "SM-IEEE, Department of CSE",
+    "organization": "Tula's Institute, Dehradun, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Arun Kumar Saurabh",
-    position: "Electronics & Comm. Engg.",
-    organization: "MNNIT, Prayagraj, India"
+    "name": "Prof. Alok Katiyar",
+    "position": "SCSE",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": null
   },
   {
-    name: "Prof. Navdeep Singh",
-    position: "Department of Electrical Engineering",
-    organization: "MMMUT, Gorakhpur, India"
+    "name": "Prof. Dilip Yadav",
+    "position": "",
+    "organization": "Bennett University, Greater Noida, India",
+    "imgSrc": null
   },
   {
-    name: "Dr. Nirmal Ch Roy",
-    position: "Electronics & Comm. Engg.",
-    organization: "MNNIT, Prayagraj, India"
+    "name": "Prof. SPS Chauhan",
+    "position": "",
+    "organization": "",
+    "imgSrc": null
   },
   {
-    name: "Prof. Priya Matta",
-    position: "SM-IEEE, Department of CSE",
-    organization: "Tula's Institute, Dehradun, India"
+    "name": "Prof. Vandana Sharma",
+    "position": "",
+    "organization": "CHRIST University, Greater Noida, India",
+    "imgSrc": null
   },
   {
-    name: "Prof. Alok Katiyar",
-    position: "SCSE",
-    organization: "Galgotias University, Greater Noida, India"
+    "name": "Dr. Hironori Washizaki",
+    "position": "2025-26 IEEE Computer Society President",
+    "organization": "Professor, Waseda University, Tokyo",
+    "imgSrc": "/ImportantPersons/hironori.png"
   },
   {
-    name: "Prof. Dilip Yadav",
-    organization: "Bennett University, Greater Noida, India"
+    "name": "Dr. Ayman EL-Refaie ,Ph.D, FIEEE, FIET, FNAI",
+    "position": "2025-26 IEEE IAS President",
+    "organization": "Werner Endowed Chair in Secure and Sustainable Energy, Marquette University, USA",
+    "imgSrc": "/ImportantPersons/era.jpg"
   },
-
   {
-    name: "Prof. SPS Chauhan",
+    "name": "Dr. Sivaneasan Bala Krishnan",
+    "position": "Associate Professor",
+    "organization": "Singapore Institute of Technology, SIngapore",
+    "imgSrc": "/ImportantPersons/sivaneasan.jpg"
   },
-
   {
-    name: "Prof. Vandana Sharma",
-    organization: "CHRIST University, Greater Noida, India"
+    "name": "Prof. Ts. Dr. Murali Raman",
+    "position": "Deputy Vice Chancellor",
+    "organization": "Asia Pacific University, Malaysia",
+    "imgSrc": null
   },
-
-
-
   {
-    name: "Dr. Hironori Washizaki",
-    position: "2025-26 IEEE Computer Society President",
-    organization: "Professor, Waseda University, Tokyo",
-    imgSrc: "/ImportantPersons/hironori.png",
+    "name": "Dr. Rajeev Srivastava",
+    "position": "Director",
+    "organization": "IIIT Ranchi, Jharkhand, India",
+    "imgSrc": "/ImportantPersons/rajeevsrivastava.png"
   },
   {
-
-    name: "Dr. Ayman EL-Refaie ,Ph.D, FIEEE, FIET, FNAI",
-    position: "2025-26 IEEE IAS President",
-    organization: "Werner Endowed Chair in Secure and Sustainable Energy, Marquette University, USA",
-    imgSrc: "/ImportantPersons/era.jpg",
-
+    "name": "Dr. Ahmed A. Elngar",
+    "position": "Associate Professor",
+    "organization": "Beni-Suef University, Egypt",
+    "imgSrc": "/ImportantPersons/ahmedelngar.png"
   },
   {
-    name: "Dr. Sivaneasan Bala Krishnan",
-    position: "Associate Professor",
-    organization: "Singapore Institute of Technology, SIngapore",
-    imgSrc: "/ImportantPersons/sivaneasan.jpg",
+    "name": "Prof. Asheesh Kumar Singh",
+    "position": "Professor",
+    "organization": "MNNIT Allahabad, India",
+    "imgSrc": "/ImportantPersons/asheeshsingh.jpg"
   },
   {
-    name: "Prof. Ts. Dr. Murali Raman",
-    position: "Deputy Vice Chancellor",
-    organization: "Asia Pacific University, Malaysia",
+    "name": "Prof. J. Ramkumar",
+    "position": "Dean (Planning)",
+    "organization": "IIT Kanpur, India",
+    "imgSrc": "/ImportantPersons/ramkumar.jpg"
   },
   {
-    name: "Dr. Harivardhagini Subhadra",
-    position: "Professor, 2025 IEEE WIE COMMITTEE",
-    organization: "CVRCE, Hyderabad",
-    imgSrc: "/ImportantPersons/harivardhagini.jpeg",
+    "name": "Dr. Hironori Washizaki",
+    "position": "",
+    "organization": "",
+    "imgSrc": null
   },
   {
-    name: "Dr. Rajeev Srivastava",
-    position: "Director",
-    organization: "IIIT Ranchi, Jharkhand, India",
-    imgSrc: "/ImportantPersons/rajeevsrivastava.png",
+    "name": "Dr. Rajeev Srivastava",
+    "position": "",
+    "organization": "",
+    "imgSrc": "/ImportantPersons/rajeevsrivastava.png"
   },
   {
-    name: "Dr. Ahmed A. Elngar",
-    position: "Associate Professor",
-    organization: "Beni-Suef University, Egypt",
-    imgSrc: "/ImportantPersons/ahmedelngar.png",
+    "name": "Dr. Smita",
+    "position": "",
+    "organization": "Galgotias University",
+    "imgSrc": "/ImportantPersons/drsmita.jpg"
   },
   {
-    name: "Prof. Asheesh Kumar Singh",
-    position: "Professor",
-    organization: "MNNIT Allahabad, India",
-    imgSrc: "/ImportantPersons/asheeshsingh.jpg",
+    "name": "Dr. Anil Kumar Tripathi",
+    "position": "Professor",
+    "organization": "IIT BHU, Varanasi, India",
+    "imgSrc": "/ImportantPersons/anilkumartripathi.jpeg"
   },
   {
-    name: "Prof. J. Ramkumar",
-    position: "Dean (Planning)",
-    organization: "IIT Kanpur, India",
-    imgSrc: "/ImportantPersons/ramkumar.jpg",
-  }
-  // ,{
-  //   name: "Dr. Hironori Washizaki"
-  // }
-  , {
-    name: "Dr. Rajeev Srivastava"
+    "name": "Dr. Mohammad Rihan",
+    "position": "Director NISC Gurugram",
+    "organization": "Chair Elect, IEEE UP Section",
+    "imgSrc": "/ImportantPersons/mohammadrihan.jpg"
   },
   {
-    name: "Dr. Smita",
-    organization: "Galgotias University",
-    imgSrc: "/ImportantPersons/drsmita.jpg"
+    "name": "Dr. Rajeev Kumar Singh",
+    "position": "Professor, IIT BHU ",
+    "organization": "Secretary, IEEE UP Section",
+    "imgSrc": "/ImportantPersons/rajeev.jpg"
   },
   {
-    name: "Dr. Shachi Mall",
-    organization: "Galgotias Unviversity"
-  }
-  , {
-    name: "Dr. Anil Kumar Tripathi",
-    position: "Professor",
-    organization: "IIT BHU, Varanasi, India",
-    imgSrc: "/ImportantPersons/anilkumartripathi.jpeg"
-  }
-  , {
-    name: "Dr. Mohammad Rihan",
-    position: "Director NISC Gurugram",
-    organization: "Chair Elect, IEEE UP Section",
-    imgSrc: "/ImportantPersons/mohammadrihan.jpg",
-  }
-  , {
-    name: "Dr. Rajeev Kumar Singh",
-    position: "Professor, IIT BHU ",
-    organization: "Secretary, IEEE UP Section",
-    imgSrc: "/ImportantPersons/rajeev.jpg",
-  }
-  , {
-    name: "Dr. Prabhakar Tiwari",
-    position: "Professor",
-    organization: "MMMUT, Gorakhpur",
-    imgSrc: "/ImportantPersons/prabhakartiwari.jpeg",
-  }
-  , {
-    name: "Ayman EL-Refaie",
-    position: "IAS President 2025-2026, Professor",
-    organization: "Dept. of Electrical and Computer Engineering, Marquette University, Milwaukee, WI",
-    imgSrc: "/ImportantPersons/aer.jpg",
-  }, {
-    name: "Dr. Harivardhagini Subhadra"
+    "name": "Dr. Prabhakar Tiwari",
+    "position": "Professor",
+    "organization": "MMMUT, Gorakhpur",
+    "imgSrc": "/ImportantPersons/prabhakartiwari.jpeg"
   },
   {
-    name: "Abhishek Appaji",
-    position: "Associate Professor",
-    organization: "B.M.S. College of Engineering, Bengaluru, India",
-    imgSrc: "/ImportantPersons/abhishek.jpg",
-  }, {
-    name: "Prof. (Dr.) Geeta Sikka",
-    position: "Professor",
-    organization: "Department of Computer Science & Engineering, NIT Delhi",
-    imgSrc: "/ImportantPersons/geeta.webp",
+    "name": "Dr. Rakesh Kumar",
+    "position": "Professor",
+    "organization": "MMMUT, Gorakhpur",
+    "imgSrc": "/ImportantPersons/rakesh1.jpg"
   },
   {
-    name: "Prof. (Dr.) Harish Kumar GR",
-    position: "Dean, SCSE",
-    organization: "Galgotias University, India",
-    imgSrc: "/ImportantPersons/sunita.jpeg",
-  }
-  , {
-    name: "Dr. Rakesh Kumar",
-    position: "Professor",
-    organization: "MMMUT, Gorakhpur",
-    imgSrc: "/ImportantPersons/rakesh1.jpg",
-  }
-  , {
-    name: "Dr. Varun Kakar",
-    position: "Professor, BTKIT Dwarahat",
-    organization: "Joint Secretary, IEEE UP Section",
-    imgSrc: "/ImportantPersons/varunkakar.jpg",
+    "name": "Dr. Varun Kakar",
+    "position": "Professor, BTKIT Dwarahat",
+    "organization": "Joint Secretary, IEEE UP Section",
+    "imgSrc": "/ImportantPersons/varunkakar.jpg"
   }
 ];
 

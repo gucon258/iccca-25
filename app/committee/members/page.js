@@ -3,193 +3,100 @@ import { cards } from "@/utils/slideArray";
 
 export default function TeamPage() {
   const roles = {
-    "Chief Patron": ["Shri Suneel Galgotia"],
+    "Chief Patron": [
+      "Shri Suneel Galgotia"
+    ],
     "Patrons": [
       "Dr. Dhruv Galgotia",
-      "Dr. S.N.Singh",
-      "Prof.(Dr.) K.M. Babu",
       "Ms. Aradhana Galgotia",
-
+      "Prof. (Dr.) S.N.Singh",
+      "Prof. (Dr.) K.M. Babu"
     ],
     "Conference General Chair": [
-      "Prof.(Dr.) Avadhesh Kumar",
-      "Dr. Yogesh S. Chauhan",
-      "Prof.(Dr.) Akshay Rathore",
-      "Ayman EL-Refaie"
-
+      "Prof. (Dr.) Avadhesh Kumar",
+      "Prof. (Dr.) Yogesh S. Chauhan",
+      "Prof. (Dr.) Akshay Rathore",
+      "Prof. (Dr.) Ayman EL-Refaie"
     ],
     "Conference Chair": [
-      "Dr. Aanjey M. Tripathi",
-      // "Prof. Prashant Johri",
-      "Dr. Kuldeep S. Kaswan"
-      // "Prof. Asheesh Kumar Singh",
-
+      "Prof. (Dr.) Aanjey M. Tripathi",
+      "Prof. (Dr.) Kuldeep S. Kaswan"
     ],
     "Conference Organizing Chair": [
       "Prof. (Dr.) Harish Kumar GR",
-      "Dr. Gaurav Agarwal",
-      "Dr. Abdul Aleem",
+      "Prof. (Dr.) Abdul Aleem",
+      "Prof. (Dr.) Gaurav Agarwal",
       "Prof. Manish Kumar",
-      "Dr. Arpesh Singh"
+      "Prof. Arpesh Singh"
     ],
     "Conference Co-Organizing Chairs": [
-      // "Prof. Meenakshi Awasthi",
-      // "Prof. Deepak Soni",
-      "Prof. Sunil Bharti"
+      "Prof. (Dr.) Sunil Bharti"
     ],
-    "Conference Technical Chair": [
-      "Dr. Sonia Setia",
-      // "Dr. Kuldeep S. Kaswan"
-      "Dr. Vineeta Khemchandani"
-      // "Prof. Manish Kumar"
+    "Technical Program Committee Chairs": [
+      "Prof. (Dr.) Vineeta Khemchandani",
+      "Prof. (Dr.) Sudhir Kr. Singh",
+      "Prof. (Dr.) Deepak Soni",
+      "Prof. (Dr.) Sonia Setia"
     ],
     "Publication Chairs": [
-      "Prof. Shraddha Sagar"
-
-
+      "Prof. (Dr.) Shrddha Sagar"
     ],
     "Publicity Chairs": [
-      "Dr. Ravi Sharma"
+      "Prof. (Dr.) Meenakshi Sharma",
+      "Prof. (Dr.) Ravi Sharma"
     ],
     "Conference Secretaries": [
-      "Dr. K. K. Agrawal",
-      "Dr. Ajeet Singh",
-
-      "Prof. Arunendra Mani Tripathi",
-      // "Prof. Avneesh Kumar",
-      "Dr. Shachi Mall"
+      "Prof. (Dr.) Manish Raj",
+      "Prof. (Dr.) Ajeet Singh",
+      "Prof. (Dr.) Saurabh Singh",
+      "Prof. (Dr.) K. K. Agrawal",
+      "Prof. (Dr.) Shachi Mall",
+      "Prof. Arunendra Mani Tripathi"
     ],
     "Event Organising Chair": [
-
-      "Dr. Pragya Tewari",
-      "Dr. Ambika Gupta",
-      "Dr. Pooja Singh"
+      "Prof. (Dr.) Pooja Singh",
+      "Prof. Pragya Tewari"
     ],
-
     "Conference Technical Co-Chairs": [
-      // "Prof. Ravi Sharma",
-      "Ms. Trapti Shrivastava",
-      "Dr. Shipra Shukla",
-      // "Dr. Manish Kumar",
-      // "Dr. Sonu Jha",
-
+      "Prof. (Dr.) Anupam Baliyan",
+      "Prof. (Dr.) Trapti Shrivastava",
+      "Prof. (Dr.) Shipra Shukla",
+      "Prof. Jitendra"
     ],
     "Publication Co-Chairs": [
-      // "Dr. Shachi Mall",
-      "Dr. Vipin Rai",
-      "Prof. Avneesh Kumar",
-      // "Prof. E. Rajesh"
+      "Prof. (Dr.) Shashi Bhusan",
+      "Prof. (Dr.) Meenakshi Awasthi",
+      "Prof. (Dr.) Vipin Rai"
     ],
-
-
     "International Advisory Chairs": [
-      // "Prof. Sanjeev K. Singh",
-      // // "Prof. N. Partheeban",
-      // "Dr. Aditya Nath Bhatt",
-      //  "Prof. (Dr.) S Srinivasan"
-      "Prof. Sanjeev K. Singh",
-      "Prof. Jagjit Singh Dhatterwal",
-      "Prof.(Dr.) Akshay Rathore"
-
+      "Prof. (Dr.) Akshay Rathore",
+      "Prof. (Dr.) Sanjeev K. Singh",
+      "Prof. (Dr.) Jagjit Singh Dhatterwal"
     ],
     "National Advisory Chair": [
-      "Dr. Harivardhagini Subhadra",
-      "Abhishek Appaji",
       "Prof. (Dr.) Geeta Sikka",
-      "Prof. (Dr.) Harish Kumar GR"
+      "Prof. (Dr.) Abhishek Appaji",
+      "Prof. (Dr.) Harivardhagini Subhadra"
     ],
-
     "Sponsorship & Industry Chairs": [
-      "Prof. Avneesh Kumar",
-      // "Dr. V.D.S. Baghela"
+      "Prof. (Dr.) Avneesh Kumar"
     ],
-
     "Finance Chairs": [
-      "Prof. Ashok K. Yadav"
+      "Prof. (Dr.) Ashok K. Yadav"
     ],
     "Transport Chairs": [
-      "Prof. T. Ganesh Kumar"
+      "Prof. (Dr.) Ganesh Kumar",
+      "Prof. (Dr.) Dinesh Kumar"
     ],
     "Website & Graphics Chairs": [
       "Mr. Pankaj Lamba",
-      "Gaurang Pant",
-      // "Ayush Raj",
-      // "Hemendra Harsh",
-      // "Shivam Kumar"
+      "Mr. Gaurang Pant"
     ],
     "Media Chairs": [
-      "Prof. AR Pandey"
+      "Prof. (Dr.) Neha Jindal"
     ],
     "Hospitality Chairs": [
-      "Prof. (Dr.) Rajiv Mishra",
-      // "Dr. Vandana Beniwal"
-    ],
-
-    "International Advisory Committee": [
-      "Dr. Hironori Washizaki",
-      "Dr. Dipti Srinivasan",
-      "Dr. Liudong Xing",
-      "Ayman EL-Refaie",
-      "Dr. Diane Rover",
-
-    ],
-
-    "National Advisory Committee": [
-      "Prof. Adarsh Anand",
-      "Prof. (Dr.) Chandra Prakash",
-      "Prof. (Dr.) Sahil",
-      "Prof. T. Poongodi",
-      "Prof. Mayank Pandey",
-      "Prof. Y. K. Prajapati",
-      "Prof. Ela Kumar",
-      "Prof. R.K. Nagaria",
-      "Prof. Arvind Pandey",
-      "Prof. Shashank Srivastava",
-      "Dr. Dushyant Kumar Singh",
-      "Prof. Nidhi Goel",
-      "Prof. S. K. Srivastava",
-      "Prof. Vandana Niranjan",
-      "Prof. SRN Reddy",
-      "Prof. Bhawna Narwal",
-      "Dr. Vimal Kumar Singh Yadav",
-      "Prof. Karuna Kadian",
-      "Dr. Satish Chandra",
-      "Prof. (Dr.) Harish Kumar GR",
-      "Dr. Savita Yadav",
-      "Prof. Anurag Diwedi",
-      "Prof. N. Gayathri",
-      "Prof. S. Rakesh Kumar",
-      "Prof. Anoop Kumar Patel",
-      "Dr. P.S. Yadav",
-      "Rajesh Elangovan",
-      "Dr. Gokul Rajan Venkatachalam",
-      "Mr. Vivek Kumar Jaiswal",
-      "Dr. Balamurugan Balusamy",
-      "Dr. Amrendra Singh Yadav",
-      "Dr. Prakash Singh",
-      "Dr. D.P. Vidyarthi",
-      "Dr. Ratneshwer",
-      "Dr. Ankit Jaiswal",
-      "Dr. Chetan Arora",
-      "Dr. Anurag Singh"
-    ],
-    "Technical Program Committee": [
-      "Dr. Arvind Kumar",
-      "Prof. V. Krishna Rao Kandanvli",
-      "Prof. P. Karuppanan",
-      "Dr. Dharmendra Dixit",
-      "Dr. Deepak Punetha",
-      "Dr. Arun Kumar Saurabh",
-      "Prof. Navdeep Singh",
-      "Dr. Nirmal Ch Roy",
-      "Prof. Priya Matta",
-      "Prof. Alok Katiyar",
-      "Prof. Dilip Yadav",
-      "Prof. SPS Chauhan",
-      "Prof. Vandana Sharma",
-      "Dr. Shailesh Kumar",
-      "Dr. Swapnita Srivastava",
-      "Dr. Vipul Narayan"
+      "Prof. (Dr.) Shankar Kumar"
     ]
   };
 
