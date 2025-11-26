@@ -574,7 +574,7 @@ export const cards = [
     "name": "Mr. Gaurang Pant",
     "position": "Chair IEEE CS GU",
     "organization": "Chair IEEE CS GU, Galgotias University, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/gaurang.jpg"
   },
   {
     "name": "Prof. (Dr.) Neha Jindal",
