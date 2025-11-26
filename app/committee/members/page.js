@@ -190,7 +190,6 @@ export default function TeamPage() {
       "Prof. Vandana Sharma",
       "Dr. Rajeev Srivastava",
       "Prof. Asheesh Kumar Singh",
-      "Dr. Smita",
       "Dr. Anil Kumar Tripathi",
       "Dr. Prabhakar Tiwari",
       "Dr. Rakesh Kumar"
