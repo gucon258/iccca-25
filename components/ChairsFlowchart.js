@@ -108,6 +108,9 @@ export default function ChairsFlowchart() {
             <h2 className="text-2xl font-bold text-red-600 text-left mb-4">
               Conference Tracks, Track Chairs and Related Topics
             </h2>
+            <p className="text-gray-700 mb-6 italic">
+              The conference welcomes high-quality submissions in these areas and related domains; contributions are not limited to the topics listed above.
+            </p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">

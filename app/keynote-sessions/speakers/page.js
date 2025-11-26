@@ -2,19 +2,20 @@ import React from "react";
 import { cards } from "@/utils/slideArray";
 
 const speakers = [
+    "Ayman EL-Refaie- Ph.D., FIEEE, FIET, FNAI",
+    "Dr. Hironori Washizaki",
     "Dr. Sri Niwas Singh",
+    "Dr Bijaya Ketan Panigrahi",
+    "Dr. Mohammad Rihan",
+    "Prof. Asheesh Kumar",
     "Dr. J. Ramkumar",
     "Dr. Rajeev Kumar Singh",
-    "Dr. Harivardhagini Subhadra",
-    "Dr. Varun Kakar",
-    "Dr. Mohammad Rihan",
-    "Dr Bijaya Ketan Panigrahi",
-    "Ayman EL-Refaie- Ph.D., FIEEE, FIET, FNAI",
-    "Prof. Asheesh Kumar",
-    "Dr. Brij B. Gupta",
-    "Dr. Hironori Washizaki",
     "Dr. Supavadee Aramvith",
-    "Dr. Vinay Kumar"
+    "Dr. Vinod Kumar",
+    "Dr. Vinay Kumar",
+    "Dr. Brij B. Gupta",
+    "Dr. Harivardhagini Subhadra",
+    "Dr. Varun Kakar"
 ];
 
 

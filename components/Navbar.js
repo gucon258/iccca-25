@@ -14,6 +14,7 @@ const Navbar = () => {
   const [mobileScheduleOpen, setMobileScheduleOpen] = useState(false);
   const [mobilePreviousConferencesOpen, setMobilePreviousConferencesOpen] = useState(false);
   const [mobileAwardsOpen, setMobileAwardsOpen] = useState(false);
+  const [mobileEventsOpen, setMobileEventsOpen] = useState(false);
 
 
   // Desktop Menu State
@@ -78,6 +79,7 @@ const Navbar = () => {
     setMobileScheduleOpen(false);
     setMobilePreviousConferencesOpen(false);
     setMobileAwardsOpen(false);
+    setMobileEventsOpen(false);
 
     setActiveDropdown(null);
   };
@@ -175,11 +177,7 @@ const Navbar = () => {
                         Committee
                       </Link>
                     </li>
-                    <li>
-                      <Link href="/events/wie" onClick={closeMenu} className="block text-lg font-semibold text-gray-800 hover:text-red-600 py-2">
-                        Events
-                      </Link>
-                    </li>
+
 
                     {/* Mobile Dropdowns */}
                     {[
@@ -192,6 +190,15 @@ const Navbar = () => {
                           { label: "Speakers", href: "/keynote-sessions/speakers" }
                         ]
                       },
+                      {
+                        label: "Events",
+                        state: mobileEventsOpen,
+                        setter: setMobileEventsOpen,
+                        items: [
+                          { label: "WIE-Hackerearth 2025", href: "/events/wie" },
+                          { label: "I'CEO", href: "/events/iceo" }
+                        ]
+                      },
 
                       {
                         label: "Schedule",
@@ -200,7 +207,7 @@ const Navbar = () => {
                         items: [
                           { label: "Offline Schedule", href: "/schedule/offline" },
                           { label: "Online Schedule", href: "/schedule/online" },
-                          { label: "Keynote Schedule", href: "/schedule/keynote" }
+                          { label: "Conference Program Schedule", href: "/schedule/keynote" }
                         ]
                       },
                       {
@@ -208,8 +215,7 @@ const Navbar = () => {
                         state: mobileAwardsOpen,
                         setter: setMobileAwardsOpen,
                         items: [
-                          { label: "Best Paper Award", href: "/awards/best-paper" },
-                          { label: "Best Poster Award", href: "/awards/best-poster" }
+                          { label: "Events Award", href: "/awards/best-poster" }
                         ]
                       }
                     ].map((menu) => (
@@ -304,12 +310,7 @@ const Navbar = () => {
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
               </Link>
             </li>
-            <li>
-              <Link href="/events/wie" className={navLinkClasses}>
-                Events
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
-              </Link>
-            </li>
+
 
             {/* Desktop Dropdowns */}
             {[
@@ -318,6 +319,13 @@ const Navbar = () => {
                 items: [
                   { label: "Message from Chairman AICTE", href: "/keynote-sessions/message" },
                   { label: "Speakers", href: "/keynote-sessions/speakers" }
+                ]
+              },
+              {
+                label: "Events",
+                items: [
+                  { label: "WIE-Hackerearth 2025", href: "/events/wie" },
+                  { label: "I'CEO", href: "/events/iceo" }
                 ]
               },
 
@@ -337,14 +345,13 @@ const Navbar = () => {
                 items: [
                   { label: "Offline Schedule", href: "/schedule/offline" },
                   { label: "Online Schedule", href: "/schedule/online" },
-                  { label: "Keynote Schedule", href: "/schedule/keynote" }
+                  { label: "Conference Program Schedule", href: "/schedule/keynote" }
                 ]
               },
               {
                 label: "Awards",
                 items: [
-                  { label: "Best Paper Award", href: "/awards/best-paper" },
-                  { label: "Best Poster Award", href: "/awards/best-poster" }
+                  { label: "Events Award", href: "/awards/best-poster" }
                 ]
               }
             ].map((menu) => (

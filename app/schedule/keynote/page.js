@@ -32,7 +32,7 @@ const ConferenceSchedule = () => {
     { no: 23, event: "Campus Tour & Technical Sessions Visit", time: "12:30 PM" }
   ];
 
-  // Keynote Schedule
+  // Conference Program Schedule
   const keynoteSchedule = [
     { isHeader: true, title: "Day 2: (Saturday, 29th November, 2025)" },
     { no: 1, event: "Keynote Address: Prof. Ayman EL-Refaie, IAS President 2025-2026", time: "10:35 AM" },
@@ -53,18 +53,17 @@ const ConferenceSchedule = () => {
     { no: 2, event: "Felicitation with Bouquets & Shawls", time: "03:05 PM" },
     { no: 3, event: "Address by: Dr. Avadhesh Kumar, PVC, Galgotias University, India", time: "03:15 PM" },
     { no: 4, event: "Address by Chief Guest: Dr. Sri Niwas Singh, Director, ABV-IIITM Gwalior / IEEE Fellow", time: "03:20 PM" },
-    { no: 5, event: "Address by Guest of Honour: Dr. Bijaya Ketan Panigrahi, Professor, IIT Delhi/ IEEE Fellow", time: "03:25 PM" },
-    { no: 6, event: "Address by Guest of Honour: Dr. Vinod Kumar, Director, Promotion Directorate (IN-SPACe)", time: "03:25 PM" },
-    { no: 7, event: "Address by Guest of Honour: Dr. Vinay Kumar, Scientist-F, SIRO, DSIR, India", time: "03:35 PM" },
-    { no: 8, event: "Address by Guest of Honour: Dr. Prabhakar Tiwari, MMMUT, Gorakhpur, India", time: "03:40 PM" },
-    { no: 9, event: "Address by Guest of Honour: Mr. Varun Kakar, Joint Secreatary, IEEE UP Section", time: "03:45 PM" },
-    { no: 10, event: "Presidential Address by Dr. K. M. Babu, Hon'ble Vice Chancellor", time: "03:50 PM" },
-    { no: 11, event: "Token of Honour to Dignitaries (Memento Presentation)", time: "03:55 PM" },
-    { no: 12, event: "Report Reading: Dr. Aanjey Mani Tripathi, Conference Chair", time: "04:00 PM" },
-    { no: 13, event: "Certificate Distribution", time: "04:05 PM" },
-    { no: 14, event: "Vote of Thanks: Dr. Vineeta Khemchandani, Dean, SCAT, Galgotias University, India", time: "04:20 PM" },
-    { no: 15, event: "National Anthem", time: "04:25 PM" },
-    { no: 16, event: "High Tea", time: "04:26 PM", highlight: true }
+    { no: 5, event: "Address by Guest of Honour: Dr. Vinod Kumar, Director, Promotion Directorate (IN-SPACe)", time: "03:25 PM" },
+    { no: 6, event: "Address by Guest of Honour: Dr. Vinay Kumar, Scientist-F, SIRO, DSIR, India", time: "03:35 PM" },
+    { no: 7, event: "Address by Guest of Honour: Dr. Prabhakar Tiwari, MMMUT, Gorakhpur, India", time: "03:40 PM" },
+    { no: 8, event: "Address by Guest of Honour: Mr. Varun Kakar, Joint Secreatary, IEEE UP Section", time: "03:45 PM" },
+    { no: 9, event: "Presidential Address by Dr. K. M. Babu, Hon'ble Vice Chancellor", time: "03:50 PM" },
+    { no: 10, event: "Token of Honour to Dignitaries (Memento Presentation)", time: "03:55 PM" },
+    { no: 11, event: "Report Reading: Dr. Aanjey Mani Tripathi, Conference Chair", time: "04:00 PM" },
+    { no: 12, event: "Certificate Distribution", time: "04:05 PM" },
+    { no: 13, event: "Vote of Thanks: Dr. Vineeta Khemchandani, Dean, SCAT, Galgotias University, India", time: "04:20 PM" },
+    { no: 14, event: "National Anthem", time: "04:25 PM" },
+    { no: 15, event: "High Tea", time: "04:26 PM", highlight: true }
   ];
 
   const renderSchedule = () => {
@@ -78,7 +77,7 @@ const ConferenceSchedule = () => {
       date = "Saturday, 29th November, 2025";
     } else if (activeTab === "keynote") {
       scheduleData = keynoteSchedule;
-      title = "Keynote Schedule";
+      title = "Conference Program Schedule";
       date = ""; // Date is handled within the table for this tab
     } else {
       scheduleData = valedictorySchedule;
@@ -148,7 +147,7 @@ const ConferenceSchedule = () => {
           onClick={() => setActiveTab("keynote")}
           className={`px-4 py-2 rounded-md transition-colors duration-200 ${activeTab === "keynote" ? "bg-blue-600 text-white" : "bg-gray-200 hover:bg-gray-300 text-gray-800"}`}
         >
-          Keynote Schedule
+          Conference Program Schedule
         </button>
         <button
           onClick={() => setActiveTab("valedictory")}
