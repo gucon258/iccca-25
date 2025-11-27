@@ -536,7 +536,7 @@ export const cards = [
     "name": "Prof. (Dr.) Vimal Kumar",
     "position": "Professor",
     "organization": "MMMUT, Gorakhpur, India",
-    "imgSrc": "/ImportantPersons/vimalkumar.png"
+    "imgSrc": "/ImportantPersons/vimal-national-adviosry.jpg"
   },
   {
     "name": "Dr. Dipti Srinivasan",

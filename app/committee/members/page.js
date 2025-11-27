@@ -159,7 +159,7 @@ export default function TeamPage() {
       "Dr. Varun Kakar",
       "Dr. Mohammad Rihan",
       "Dr Bijaya Ketan Panigrahi",
-      "Prof. Asheesh Kumar",
+
       "Dr. Brij B. Gupta",
       "Dr. Vinay Kumar",
       "Dr. Savita Yadav",
