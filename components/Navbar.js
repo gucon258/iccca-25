@@ -332,9 +332,9 @@ const Navbar = () => {
               {
                 label: "Previous Conferences",
                 items: [
-                  { label: "2021", href: "https://ieeexplore.ieee.org/xpl/conhome/9573501/proceeding", external: true },
-                  { label: "2020", href: "https://ieeexplore.ieee.org/xpl/conhome/9230460/proceeding", external: true },
-                  { label: "2018", href: "https://ieeexplore.ieee.org/xpl/conhome/8671767/proceeding", external: true },
+                  { label: "2021", href: "https://ieeexplore.ieee.org/xpl/conhome/9666052/proceeding", external: true },
+                  { label: "2020", href: "https://ieeexplore.ieee.org/xpl/conhome/9250743/proceeding", external: true },
+                  { label: "2018", href: "https://ieeexplore.ieee.org/xpl/conhome/8766336/proceeding", external: true },
                   { label: "2017", href: "https://ieeexplore.ieee.org/xpl/conhome/8168800/proceeding", external: true },
                   { label: "2016", href: "https://ieeexplore.ieee.org/xpl/conhome/7795276/proceeding", external: true },
                   { label: "2015", href: "https://ieeexplore.ieee.org/xpl/conhome/7126877/proceeding", external: true }
