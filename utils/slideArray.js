@@ -144,130 +144,64 @@ export const categories = [
 
 export const chairs = [
   {
-    "title": " Main Track : ICCCA2025",
+    "title": "Main Track : ICCCA2025",
     "chairpersons": []
   },
   {
-    "title": "Industry 5.0 and 6.0 applications that integrate human-centric design, intelligent automation, and sustainability",
+    "title": "Track 1: Industry 5.0 Applications for Sustainability",
     "chairpersons": []
   },
   {
-    "title": "AI and ML techniques applied to power electronics, smart grids, and advanced power supply systems",
+    "title": "Track 2: Applications of AI and ML in Power Electronics",
     "chairpersons": []
   },
   {
-    "title": "Emerging solutions for data centre power systems, telecom infrastructure, and autonomous platforms",
+    "title": "Track 3: Power Supplies for Datacenters, Telecom & Autonomous Systems",
     "chairpersons": []
   },
   {
-    "title": "Artificial intelligence and soft computing innovations across power, energy, communication, and security systems",
+    "title": "Track 4: Artificial Intelligence and Soft Computing in Power, Energy, Communication, and Security Systems ; Special Sessions/Tracks",
     "chairpersons": []
   },
   {
-    "title": "AI-driven sustainable analytics and intelligent frameworks for next-generation industrial ecosystems",
-    "chairpersons": [
-      "Dr Manisha Sharma ",
-      "Dr Neha Verma ",
-      "Dr. Shanu Sharma "
-    ]
+    "title": "Track 5: Applications of AI & ML Techniques in Sustainable Analytics for Industry 6.0 Applications",
+    "chairpersons": []
   },
   {
-    "title": "EdgeAI approaches for secure mobility, action recognition, and behavioral understanding",
-    "chairpersons": [
-      "Dr. Ajay Kumar Gupta - University of Allahabad, Praygraj",
-      "Dr. Pratik Shrivastava - Jaypee Institute of Information Technology, Noida",
-      "Dr. Suryabhan Pratap Singh - Deen Dayal Upadhyaya Gorakhpur University"
-    ]
+    "title": "Track 6: EdgeAI for Secure Mobility, Action Recognition, and Behavioral Retrieval",
+    "chairpersons": []
   },
   {
-    "title": "Human-centric intelligent systems including NLP, trustworthy interfaces, and blockchain-supported applications",
-    "chairpersons": [
-      "Dr. Gunjan Chhabra - School of Science and Technology, Swami Rama Himalayan University",
-      "Dr. Keshav Kaushik - School of Computer Science & Engineering, Sharda University, Greater Noida"
-    ]
+    "title": "Track 7: AI-Powered Human-Centric Systems",
+    "chairpersons": []
   },
   {
-    "title": "AI-powered cloud resource allocation, optimization, and intelligent service management",
-    "chairpersons": [
-      "Dr Payal Bansal - Poornima Institute of Engineering & Technology, Jaipur, Rajasthan",
-      "Dr Amit Tiwari - Poornima Institute of Engineering & Technology, Jaipur, Rajasthan",
-      "Dr Rajeev Kumar - Poornima Institute of Engineering & Technology, Jaipur, Rajasthan"
-    ]
+    "title": "Track 8: AI-Powered Cloud Resource Allocation and Optimization",
+    "chairpersons": []
   },
   {
-    "title": "Breakthroughs in innovative and disruptive technologies shaping future digital landscapes",
-    "chairpersons": [
-      "Dr. Bhanu Sharma - Chitkara University, Punjab",
-      "Dr. Nitin Goyal - Chandigarh University"
-    ]
+    "title": "Track 9: Innovative and Disruptive Technologies",
+    "chairpersons": []
   },
   {
-    "title": "Advances in information security, cybersecurity, and digital defense strategies",
-    "chairpersons": [
-      "Dr. Amanpreet Kaur - Chitkara University, Punjab"
-    ]
+    "title": "Track 10: Innovations in Information Security, Cybersecurity, and Digital Defense",
+    "chairpersons": []
   },
   {
-    "title": "Generative AI models and their influence on future architectures and intelligent systems",
-    "chairpersons": [
-      "Dr P Privietha - Sathyabama Institute of Science and Technology, Chennai, TN, India",
-      "Dr T Ganesh Kumar - Galgotias University, Greater Noida, Delhi NCR",
-      "Dr Priti Rishi - SRM Institute of Engineering and Technology, Vadapalani Campus",
-      "JAWAHIR BINTI CHE MUSTAPHA - Universiti Kuala Lumpur, Malaysian Institute of Information Technology, Kuala Lumpur"
-    ]
+    "title": "Track 11: From Data to Imagination",
+    "chairpersons": []
   },
   {
-    "title": "Progress in artificial intelligence, soft computing, and engineering systems across disciplines",
-    "chairpersons": [
-      "Dr. Anurag Dwivedi - Echelon Institute of Technology (EIT), Faridabad, India",
-      "Dr. Saurabh Kumar - Institute of Engineering and Rural Technology (IERT), Prayagraj, India",
-      "Dr. Stuti Saxena - Echelon Institute of Technology (EIT), Faridabad, India"
-    ]
+    "title": "Track 12: Advancements in Artificial Intelligence, Soft Computing, and Engineering Systems",
+    "chairpersons": []
   },
   {
-    "title": "Smart and sustainable systems enhanced by advanced machine learning techniques",
-    "chairpersons": [
-      "Dr. Varun Malik - Chitkara University, Punjab",
-      "Dr. Kiran Malik - GL Bajaj Institute of Technology & Management, Greater Noida, India",
-      "Dr. Jagjit Singh Dhatterwal - SR University, Warangal, Telangana, India"
-    ]
+    "title": "Track 13: Smart and Sustainable Systems with Advanced Machine Learning",
+    "chairpersons": []
   },
   {
-    "title": "Trustworthy AI applications for social good in healthcare, agriculture, education, and smart cities",
-    "chairpersons": [
-      "Dr. Kushagra Agrawal - Manav Rachna International Institute of Research & Studies (Deemed to be University), Faridabad",
-      "Dr. Ganga Sharma - Manav Rachna University, Faridabad"
-    ]
-  },
-  {
-    "title": "AI-driven cybersecurity for intelligent transportation and connected mobility",
-    "chairpersons": [
-      "Aryan Chaudhary - Director & Chief Scientific Advisor, BioTech Sphere Research, India | Unit of NeoNexus Healthcare Pvt Ltd",
-      "Dr. Sakshi Gupta - Associate Professor, Department of Mathematics, Applied Sciences and Humanities, Dronacharya College of Engineering, Gurugram, Haryana, India"
-    ]
-  },
-  {
-    "title": "AI-enhanced sensors, drones, and autonomous systems with a focus on edge intelligence and generative autonomy",
-    "chairpersons": [
-      "Dr. Salil Bharany - Postdoctoral Researcher, Université de Moncton, Moncton, NB E1A 3E9, Canada",
-      "Prof. Rupali Gill - Chitkara University, Rajpura, Punjab, India",
-      "Dr. Ateeq Ur Rehman - School of Computing, Gachon University, Seongnam-si, 13120, Republic of Korea"
-    ]
-  },
-  {
-    "title": "Convergence of AI, blockchain, and 6G technologies for secure next-generation networks",
-    "chairpersons": [
-      "Dr. Renu Mishra - Sharda University, India",
-      "Dr. Vimal Dwivedi - Ulster University, UK"
-    ]
-  },
-  {
-    "title": "Adaptive cybersecurity solutions powered by generative AI and machine learning",
-    "chairpersons": [
-      "Dr. Sunil Kumar - Guru Jambheshwar University of Science & Technology, Hisar",
-      "Dr. Aparna Kumari - Nirma University, Ahmedabad, Gujarat, India",
-      "Dr. Narendra Kumar - Guru Jambheshwar University of Science & Technology, Hisar"
-    ]
+    "title": "Track 14: Advancing Social Good Through Trustworthy AI",
+    "chairpersons": []
   }
 ];
 
@@ -488,7 +422,7 @@ export const cards = [
     "name": "Prof. Jitendra",
     "position": "",
     "organization": "Galgotias University, Greater Noida, India",
-    "imgSrc": "/ImportantPersons/Mr. Jitendra.jpg"
+    "imgSrc": "/ImportantPersons/jitendra.jpg"
   },
   {
     "name": "Prof. (Dr.) Shashi Bhusan",
