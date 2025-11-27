@@ -533,9 +533,9 @@ export const cards = [
     "imgSrc": "/ImportantPersons/prashant ji.jpeg"
   },
   {
-    "name": "Dr. Vimal Kumar",
+    "name": "Prof. (Dr.) Vimal Kumar",
     "position": "Professor",
-    "organization": "MMMUT, Gorakhpur",
+    "organization": "MMMUT, Gorakhpur, India",
     "imgSrc": "/ImportantPersons/vimalkumar.png"
   },
   {

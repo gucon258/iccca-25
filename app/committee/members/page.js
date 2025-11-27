@@ -144,6 +144,7 @@ export default function TeamPage() {
       "Dr. Dushyant Kumar Singh",
       "Prof. Nidhi Goel",
       "Prof. S. K. Srivastava",
+      "Prof. (Dr.) Vimal Kumar",
       "Prof. Vandana Niranjan",
       "Prof. SRN Reddy",
       "Prof. Bhawna Narwal",
