@@ -45,8 +45,34 @@ export default function ConferenceDetails() {
           <div className="flex-1 bg-white rounded-lg shadow-md md:p-4">
             <h2 className="text-xl lg:text-2xl font-bold text-[#BE2727] mb-4">Conference Topics</h2>
             <div className="space-y-4">
-              <div className="bg-gray-50 rounded-lg shadow p-4 text-center">
-                <p className="text-gray-600 text-lg">To be listed soon</p>
+              <ul className="list-disc pl-5 space-y-2 text-gray-700">
+                {[
+                  "Industry 5.0 and 6.0 applications that integrate human-centric design, intelligent automation, and sustainability.",
+                  "AI and ML techniques applied to power electronics, smart grids, and advanced power supply systems.",
+                  "Emerging solutions for data centre power systems, telecom infrastructure, and autonomous platforms.",
+                  "Artificial intelligence and soft computing innovations across power, energy, communication, and security systems.",
+                  "AI-driven sustainable analytics and intelligent frameworks for next-generation industrial ecosystems.",
+                  "EdgeAI approaches for secure mobility, action recognition, and behavioral understanding.",
+                  "Human-centric intelligent systems including NLP, trustworthy interfaces, and blockchain-supported applications.",
+                  "AI-powered cloud resource allocation, optimization, and intelligent service management.",
+                  "Breakthroughs in innovative and disruptive technologies shaping future digital landscapes.",
+                  "Advances in information security, cybersecurity, and digital defense strategies.",
+                  "Generative AI models and their influence on future architectures and intelligent systems.",
+                  "Progress in artificial intelligence, soft computing, and engineering systems across disciplines.",
+                  "Smart and sustainable systems enhanced by advanced machine learning techniques.",
+                  "Trustworthy AI applications for social good in healthcare, agriculture, education, and smart cities.",
+                  "AI-driven cybersecurity for intelligent transportation and connected mobility.",
+                  "AI-enhanced sensors, drones, and autonomous systems with a focus on edge intelligence and generative autonomy.",
+                  "Convergence of AI, blockchain, and 6G technologies for secure next-generation networks.",
+                  "Adaptive cybersecurity solutions powered by generative AI and machine learning."
+                ].map((topic, index) => (
+                  <li key={index}>{topic}</li>
+                ))}
+              </ul>
+              <div className="mt-4 p-4 bg-blue-50 rounded-lg border border-blue-100">
+                <p className="text-sm text-gray-800 font-semibold italic">
+                  "The conference welcomes high-quality submissions in these areas and related domains; contributions are not limited to the topics listed above."
+                </p>
               </div>
             </div>
           </div>
@@ -77,7 +103,7 @@ export default function ConferenceDetails() {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Conference Location</h2>
               <iframe
                 title="Galgotias University Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.7338524564702!2d77.53646888722264!3d28.3668950337376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc7365a740e65%3A0xd0d60a62e55ab171!2sGalgotias%20University!5e0!3m2!1sen!2sin!4v1742921443772!5m2!1sen!2sin" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.7338524564702!2d77.53646888722264!3d28.3668950337376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc7365a740e65%3A0xd0d60a62e55ab171!2sGalgotias%20University!5e0!3m2!1sen!2sin!4v1742921443772!5m2!1sen!2sin"
                 width="100%"
                 height="400"
                 className="rounded-lg shadow-md"
