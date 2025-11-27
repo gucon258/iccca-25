@@ -65,7 +65,6 @@ export default function TeamPage() {
     ],
     "Publication Co-Chair": [
       "Prof. (Dr.) Shashi Bhusan",
-      "Prof. (Dr.) Meenakshi Awasthi",
       "Prof. (Dr.) Vipin Rai"
     ],
     "International Advisory Chair": [
@@ -192,7 +191,8 @@ export default function TeamPage() {
       "Prof. Asheesh Kumar Singh",
       "Dr. Anil Kumar Tripathi",
       "Dr. Prabhakar Tiwari",
-      "Dr. Rakesh Kumar"
+      "Dr. Rakesh Kumar",
+      "Prof. (Dr.) Meenakshi Awasthi"
     ]
   };
 

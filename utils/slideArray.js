@@ -692,7 +692,7 @@ export const cards = [
     "name": "Dr. Deepak K Jain",
     "position": "Dalian University of Technology",
     "organization": "China",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Dr. Deepak K Jain.jpg"
   },
   {
     "name": "Dr. Kishore Bingi",
@@ -902,7 +902,7 @@ export const cards = [
     "name": "Dr. Vimal Kumar Singh Yadav",
     "position": "Department of Electronics and Communication Engineering",
     "organization": "MNNIT, Prayagraj, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Dr. Vimal Kumar Singh Yadav.jpg"
   },
   {
     "name": "Prof. (Dr.) Chandra Prakash",
@@ -1064,25 +1064,25 @@ export const cards = [
     "name": "Prof. Anoop Kumar Patel",
     "position": "",
     "organization": "NIT Kurukshetra, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Anoop Kumar Patel.jpg"
   },
   {
     "name": "Prof. R.P. Yadav",
     "position": "",
     "organization": "Galgotias University, Greater Noida, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. R.P. Yadav.jpg"
   },
   {
     "name": "Prof. (Dr.) S Srinivasan",
     "position": "",
-    "organization": "Galgotias University, Greater Noida, India",
-    "imgSrc": null
+    "organization": "IILM University, Greater Noida",
+    "imgSrc": "/ImportantPersons/Prof. (Dr.) S Srinivasan.jpg"
   },
   {
     "name": "Dr. V.D.S. Baghela",
     "position": "",
     "organization": "Galgotias University, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Dr. V.D.S. Baghela.jpg"
   },
   {
     "name": "Ayush Raj",
@@ -1106,19 +1106,19 @@ export const cards = [
     "name": "Dr. P.S. Yadav",
     "position": "Board of Technical Education, Uttar Pradesh",
     "organization": "",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Dr. P.S. Yadav.jpg"
   },
   {
     "name": "Dr. Shailesh Kumar",
     "position": "",
     "organization": "MMMUT, Gorakhpur",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Shailesh Kumar.jpg"
   },
   {
     "name": "Dr. Swapnita Srivastava",
     "position": "",
     "organization": "MMMUT, Gorakhpur",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/swapnita.jpg"
   },
   {
     "name": "Dr. Vipul Narayan",
@@ -1136,7 +1136,7 @@ export const cards = [
     "name": "Prof. V. Krishna Rao Kandanvli",
     "position": "Electronics & Comm. Engg.",
     "organization": "MNNIT, Prayagraj, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. V. Krishna Rao Kandanvli.jpg"
   },
   {
     "name": "Prof. P. Karuppanan",
@@ -1154,7 +1154,7 @@ export const cards = [
     "name": "Dr. Deepak Punetha",
     "position": "Electronics & Comm. Engg.",
     "organization": "MNNIT, Prayagraj, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Dr. Deepak Punetha.jpg"
   },
   {
     "name": "Dr. Arun Kumar Saurabh",
@@ -1166,7 +1166,7 @@ export const cards = [
     "name": "Prof. Navdeep Singh",
     "position": "Department of Electrical Engineering",
     "organization": "MMMUT, Gorakhpur, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Navdeep Singh.jpg"
   },
   {
     "name": "Dr. Nirmal Ch Roy",
@@ -1178,31 +1178,31 @@ export const cards = [
     "name": "Prof. Priya Matta",
     "position": "SM-IEEE, Department of CSE",
     "organization": "Tula's Institute, Dehradun, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Priya Matta.jpg"
   },
   {
     "name": "Prof. Alok Katiyar",
     "position": "SCSE",
     "organization": "Galgotias University, Greater Noida, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Alok Katiyar.jpg"
   },
   {
     "name": "Prof. Dilip Yadav",
     "position": "",
     "organization": "Bennett University, Greater Noida, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Dilip Yadav.jpg"
   },
   {
     "name": "Prof. SPS Chauhan",
     "position": "",
     "organization": "",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. SPS Chauhan.jpg"
   },
   {
     "name": "Prof. Vandana Sharma",
     "position": "",
     "organization": "CHRIST University, Greater Noida, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Vandana Sharma.jpg"
   },
   {
     "name": "Dr. Hironori Washizaki",
