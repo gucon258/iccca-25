@@ -470,7 +470,7 @@ export const cards = [
     "name": "Prof. (Dr.) Anupam Baliyan",
     "position": "",
     "organization": "Associate Dean (APR), Galgotias University, Greater Noida, India",
-    "imgSrc": "/ImportantPersons/anupambaliyan.jpg"
+    "imgSrc": "/ImportantPersons/Prof. (Dr.) ANUPAM BALIYAN.jpg"
   },
   {
     "name": "Prof. (Dr.) Trapti Shrivastava",
@@ -494,7 +494,7 @@ export const cards = [
     "name": "Prof. (Dr.) Shashi Bhusan",
     "position": "",
     "organization": "Associate Dean (GSCALE), SCSE, Galgotias University, Greater Noida, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/DR. SHASHI BHUSHAN.jpg"
   },
   {
     "name": "Prof. (Dr.) Meenakshi Awasthi",
@@ -518,7 +518,7 @@ export const cards = [
     "name": "Prof. (Dr.) Jagjit Singh Dhatterwal",
     "position": "",
     "organization": "SR University, Warangal, Telangana, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Jagjit Singh Dhatterwal.jpeg"
   },
   {
     "name": "Prof. (Dr.) Geeta Sikka",
@@ -560,7 +560,7 @@ export const cards = [
     "name": "Prof. (Dr.) Dinesh Kumar",
     "position": "",
     "organization": "Galgotias University, Greater Noida, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/DINESH KUMAR.jpeg"
   },
   {
     "name": "Mr. Pankaj Lamba",
@@ -722,37 +722,37 @@ export const cards = [
     "name": "Dr. LING Tok Wang",
     "position": "Emeritus Professor, Department of Computer Science",
     "organization": "National University of Singapore, Singapore",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/LING Tok Wang.jpg"
   },
   {
     "name": "Dr. Norjihan Abdul Ghani",
     "position": "HoD, Department of Information Systems",
     "organization": "Universiti of MALAYA, Malaysia",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Norjihan Abdul Ghani.jpg"
   },
   {
     "name": "Dr. Norbik Bashah Bin Idris",
     "position": "Professor",
     "organization": "IIUM Gombak Campus, Malaysia",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Norbik Bashah Bin Idris.jpg"
   },
   {
     "name": "Dr. Maizatul Akmar Ismail",
     "position": "Department of Information Systems",
     "organization": " Universiti of MALAYA, Malaysia",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Maizatul Akmar Ismail.jpg"
   },
   {
     "name": "Dr. Suzan Jabbar Obaiys",
     "position": "Multimedia Unit",
     "organization": "Universiti of MALAYA, Malaysia",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Suzan Jabbar Obaiys.jpg"
   },
   {
     "name": "Dr. Mufti Mahmud",
     "position": "Dept. of Computer Science",
     "organization": "Nottingham Trent University, United Kingdom",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Mufti Mahmud.jpg"
   },
   {
     "name": "Dr. Deepak K Jain",
@@ -764,19 +764,19 @@ export const cards = [
     "name": "Dr. Kishore Bingi",
     "position": "Universiti Teknologi PETRONAS",
     "organization": "Malaysia",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Dr. Kishore Bingi.jpg"
   },
   {
     "name": "Dr. Noor Zaman Jhanjhi",
     "position": "Taylor's University",
     "organization": "Malaysia",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Dr. Noor Zaman Jhanjhi.jpg"
   },
   {
     "name": "Dr. CHAMAN VERMA",
     "position": "",
     "organization": "Eotvos Lorand University, Budapest, Hungary",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Dr. CHAMAN VERMA.jpg"
   },
   {
     "name": "Dr. Manoj Kumar",
@@ -788,7 +788,7 @@ export const cards = [
     "name": "Dr. Sachidanand Mohanty",
     "position": "",
     "organization": "Singdum University, Serbia",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Dr. Sachidanand Mohanty.jpg"
   },
   {
     "name": "Dr. S.B.Goyal",
@@ -1376,7 +1376,7 @@ export const cards = [
     "name": "Dr. Vinod Kumar",
     "position": "Director, Promotion Directorate (IN-SPACe)",
     "organization": "",
-    "imgSrc": "/ImportantPersons/vinodk.jpeg"
+    "imgSrc": "/ImportantPersons/VINOD SIR INSPACE.jpeg"
   }
 ];
 
