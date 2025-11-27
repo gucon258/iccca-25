@@ -517,7 +517,7 @@ export const cards = [
   {
     "name": "Prof. (Dr.) Jagjit Singh Dhatterwal",
     "position": "",
-    "organization": "KL University, Guntur, Andhara Pradesh , India",
+    "organization": "SR University, Warangal, Telangana, India",
     "imgSrc": null
   },
   {
@@ -1376,7 +1376,7 @@ export const cards = [
     "name": "Dr. Vinod Kumar",
     "position": "Director, Promotion Directorate (IN-SPACe)",
     "organization": "",
-    "imgSrc": "/ImportantPersons/Vinod_KU.jpg"
+    "imgSrc": "/ImportantPersons/vinodk.jpeg"
   }
 ];
 

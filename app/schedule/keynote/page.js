@@ -147,7 +147,7 @@ const ConferenceSchedule = () => {
           onClick={() => setActiveTab("keynote")}
           className={`px-4 py-2 rounded-md transition-colors duration-200 ${activeTab === "keynote" ? "bg-blue-600 text-white" : "bg-gray-200 hover:bg-gray-300 text-gray-800"}`}
         >
-          Conference Program Schedule
+          Keynote Schedule
         </button>
         <button
           onClick={() => setActiveTab("valedictory")}
