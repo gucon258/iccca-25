@@ -8,7 +8,7 @@ const WiePage = () => {
     <MaxWidthWrapper className="py-20">
       <div className="flex flex-col items-center justify-center text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-          Women In Engineering Events
+          WIE-HACKEARTH 2025
         </h1>
         <div className="w-24 h-1 bg-accent mb-8 rounded-full"></div>
       </div>
