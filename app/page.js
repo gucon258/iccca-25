@@ -15,6 +15,8 @@ import IEEEPublicationDetails from "@/components/IEEEPublicationDetails";
 import StudentSupport from "@/components/StudentSupport";
 import AcknowledgementComponent from "@/components/Acknowledgement";
 
+import ConferenceTopics from "@/components/ConferenceTopics";
+
 export default function Home() {
   return (
     <>
@@ -22,6 +24,7 @@ export default function Home() {
       <Timeline />
       <Banner />
       <Hero />
+      <ConferenceTopics />
       <ChairsFlowchart />
       <SpecialTracks />
       <PersonSlider />
