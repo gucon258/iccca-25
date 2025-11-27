@@ -716,7 +716,7 @@ export const cards = [
     "name": "Dr. Manoj Kumar",
     "position": "",
     "organization": "University of Wollongong, Dubai, United Arab Emirate",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/dr-manoj.jpg"
   },
   {
     "name": "Dr. Sachidanand Mohanty",
