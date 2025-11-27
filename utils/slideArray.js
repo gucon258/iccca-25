@@ -144,63 +144,63 @@ export const categories = [
 
 export const chairs = [
   {
-    "title": "Main Track : ICCCA2025",
+    "title": "ICCCA2025",
     "chairpersons": []
   },
   {
-    "title": "Track 1: Industry 5.0 Applications for Sustainability",
+    "title": "Industry 5.0 Applications for Sustainability",
     "chairpersons": []
   },
   {
-    "title": "Track 2: Applications of AI and ML in Power Electronics",
+    "title": "Applications of AI and ML in Power Electronics",
     "chairpersons": []
   },
   {
-    "title": "Track 3: Power Supplies for Datacenters, Telecom & Autonomous Systems",
+    "title": "Power Supplies for Datacenters, Telecom & Autonomous Systems",
     "chairpersons": []
   },
   {
-    "title": "Track 4: Artificial Intelligence and Soft Computing in Power, Energy, Communication, and Security Systems ; Special Sessions/Tracks",
+    "title": "Artificial Intelligence and Soft Computing in Power, Energy, Communication, and Security Systems",
     "chairpersons": []
   },
   {
-    "title": "Track 5: Applications of AI & ML Techniques in Sustainable Analytics for Industry 6.0 Applications",
+    "title": "Applications of AI & ML Techniques in Sustainable Analytics for Industry 6.0 Applications",
     "chairpersons": []
   },
   {
-    "title": "Track 6: EdgeAI for Secure Mobility, Action Recognition, and Behavioral Retrieval",
+    "title": "EdgeAI for Secure Mobility, Action Recognition, and Behavioral Retrieval",
     "chairpersons": []
   },
   {
-    "title": "Track 7: AI-Powered Human-Centric Systems",
+    "title": "AI-Powered Human-Centric Systems",
     "chairpersons": []
   },
   {
-    "title": "Track 8: AI-Powered Cloud Resource Allocation and Optimization",
+    "title": "AI-Powered Cloud Resource Allocation and Optimization",
     "chairpersons": []
   },
   {
-    "title": "Track 9: Innovative and Disruptive Technologies",
+    "title": "Innovative and Disruptive Technologies",
     "chairpersons": []
   },
   {
-    "title": "Track 10: Innovations in Information Security, Cybersecurity, and Digital Defense",
+    "title": "Innovations in Information Security, Cybersecurity, and Digital Defense",
     "chairpersons": []
   },
   {
-    "title": "Track 11: From Data to Imagination",
+    "title": "From Data to Imagination",
     "chairpersons": []
   },
   {
-    "title": "Track 12: Advancements in Artificial Intelligence, Soft Computing, and Engineering Systems",
+    "title": "Advancements in Artificial Intelligence, Soft Computing, and Engineering Systems",
     "chairpersons": []
   },
   {
-    "title": "Track 13: Smart and Sustainable Systems with Advanced Machine Learning",
+    "title": "Smart and Sustainable Systems with Advanced Machine Learning",
     "chairpersons": []
   },
   {
-    "title": "Track 14: Advancing Social Good Through Trustworthy AI",
+    "title": "Advancing Social Good Through Trustworthy AI",
     "chairpersons": []
   }
 ];
@@ -728,25 +728,25 @@ export const cards = [
     "name": "Dr. S.B.Goyal",
     "position": "Director",
     "organization": "Faculty of Information Technology, City University, Malaysia",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/S-B-Goyal-2.webp"
   },
   {
     "name": "Dr. Nagender Aneja",
     "position": "School of Digital Science",
     "organization": "Universiti Brunei Darussalam, Brunei Darussalam",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Dr. Nagender Aneja.jpg"
   },
   {
     "name": "Dr. Pradeep Kumar",
     "position": "Research Specialist",
     "organization": "UTP Universiti Teknologi PETRONAS, Malaysia",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Pradeep-Kumar-Singa.webp"
   },
   {
     "name": "Dr. Mukesh Prasad",
     "position": "School of Computer Science",
     "organization": "University of Technology Sydney, Australia",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Dr. Mukesh Prasad.jpg"
   },
   {
     "name": "Dr. Gavendra Singh",
@@ -758,145 +758,145 @@ export const cards = [
     "name": "Dr. Hoang Pham",
     "position": "Professor",
     "organization": "Rutgers University, New Jersey, USA",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Dr. Hoang Pham.jpg"
   },
   {
     "name": "Dr. Nitin Kumar Saxena",
     "position": "Visiting Professor",
     "organization": "Electrical and Computer Engineering Department, University of Denver, USA",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Dr. Nitin Kumar Saxena.jpg"
   },
   {
     "name": "Prof. Utkal Mehta",
     "position": "Electrical and Electronics Engg.",
     "organization": "The University of the South Pacific (USP), Laucala Campus, Suva., Fiji.",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Utkal Mehta.jpg"
   },
   {
     "name": "Dr. Shafiq Ul Rehman",
     "position": "",
     "organization": "Singapore University of Technology and Design (SUTD), Singapore",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Dr. Shafiq Ul Rehman.jpg"
   },
   {
     "name": "Prof. Mohammad Rashid Hussain",
     "position": "",
     "organization": "King Khalid University, Abha, Saudi Arabia",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Mohammad Rashid Hussain.jpg"
   },
   {
     "name": "Prof. Deepak L. Waikar",
     "position": "",
     "organization": "Singapore",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Deepak L. Waikar.jpg"
   },
   {
     "name": "Prof. Adarsh Anand",
     "position": "",
     "organization": "University Of Delhi, Delhi, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Adarsh Anand.jpg"
   },
   {
     "name": "Prof. (Dr.) Chandra Prakash",
     "position": "",
     "organization": "National Institute of Technology, Delhi, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. (Dr.) Chandra Prakash.jpg"
   },
   {
     "name": "Prof. (Dr.) Sahil",
     "position": "",
     "organization": "National Institute of Technology, Delhi, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. (Dr.) Sahil.jpg"
   },
   {
     "name": "Prof. T. Poongodi",
     "position": "",
     "organization": "Dayananda Sagar University, Bangalore, India.",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. T. Poongodi.jpg"
   },
   {
     "name": "Prof. Mayank Pandey",
     "position": "Computer Science & Engg.",
     "organization": "MNNIT, Prayagraj, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Mayank Pandey.jpg"
   },
   {
     "name": "Prof. Y. K. Prajapati",
     "position": "Electronics & Comm. Engg.",
     "organization": "MNNIT, Prayagraj, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Y. K. Prajapati.jpg"
   },
   {
     "name": "Prof. Ela Kumar",
     "position": "CSE",
     "organization": "IGDTUW, Delhi, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Ela Kumar.jpg"
   },
   {
     "name": "Prof. R.K. Nagaria",
     "position": "ECE",
     "organization": "MNNIT, Prayagraj, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. R.K. Nagaria.jpg"
   },
   {
     "name": "Prof. Mayank Pandey",
     "position": "Computer Science & Engg.",
     "organization": "MNNIT, Prayagraj, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Mayank Pandey.jpg"
   },
   {
     "name": "Prof. Arvind Pandey",
     "position": "Director",
     "organization": "BIT, Gorakhpur, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Arvind Pandey.jpg"
   },
   {
     "name": "Prof. Arvind Pandey",
     "position": "Director",
     "organization": "BIT, Gorakhpur, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Arvind Pandey.jpg"
   },
   {
     "name": "Prof. Shashank Srivastava",
     "position": "BIT",
     "organization": "Gorakhpur, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Shashank Srivastava.jpg"
   },
   {
     "name": "Dr. Dushyant Kumar Singh",
     "position": "Associate Professor",
     "organization": "Computer Science & Engg., MNNIT, Prayagraj, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Dr. Dushyant Kumar Singh.jpg"
   },
   {
     "name": "Prof. Nidhi Goel",
     "position": "Head of Department",
     "organization": "Electronics & Communication Engineering, IGDTUW, Delhi, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Nidhi Goel.jpg"
   },
   {
     "name": "Prof. S. K. Srivastava",
     "position": "PROFESSOR",
     "organization": "Department of Electrical Engineering, MMMUT, Gorakhpur, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. S. K. Srivastava.jpg"
   },
   {
     "name": "Prof. Vandana Niranjan",
     "position": "Professor",
     "organization": "Electronics & Communication Engineering, IGDTUW, Delhi, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Vandana Niranjan.jpg"
   },
   {
     "name": "Prof. SRN Reddy",
     "position": "COMPUTER SCIENCE AND ENGINEERING",
     "organization": "IGDTUW, Delhi, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. SRN Reddy.jpg"
   },
   {
     "name": "Prof. Bhawna Narwal",
     "position": "Department of Information Technology",
     "organization": "IGDTUW, Delhi, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Bhawna Narwal.jpg"
   },
   {
     "name": "Dr. Vimal Kumar Singh Yadav",
@@ -908,31 +908,31 @@ export const cards = [
     "name": "Prof. (Dr.) Chandra Prakash",
     "position": "National Institute of Technology",
     "organization": "Delhi, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. (Dr.) Chandra Prakash.jpg"
   },
   {
     "name": "Prof. (Dr.) Sahil",
     "position": "",
     "organization": "National Institute of Technology, Delhi, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. (Dr.) Sahil.jpg"
   },
   {
     "name": "Prof. Karuna Kadian",
     "position": "COMPUTER SCIENCE AND ENGINEERING",
     "organization": "IGDTUW, Delhi, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Karuna Kadian.jpg"
   },
   {
     "name": "Dr. Satish Chandra",
     "position": "Department of Electronics and Communication Engineering",
     "organization": "MNNIT, Prayagraj, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Dr. Satish Chandra.jpg"
   },
   {
     "name": "Prof. Anil Kumar Sagar",
     "position": "Sharda University",
     "organization": "Greater Noida, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Anil Kumar Sagar.jpg"
   },
   {
     "name": "Chin Kuan Ho",
@@ -1022,37 +1022,37 @@ export const cards = [
     "name": "Dr. Savita Yadav",
     "position": "Netaji Subhas University of Technology",
     "organization": "Delhi, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Dr. Savita Yadav.jpg"
   },
   {
     "name": "Prof. Anurag Diwedi",
     "position": "",
     "organization": "BIET, Lucknow, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Anurag Diwedi.jpg"
   },
   {
     "name": "Prof. Arvind Pandey",
     "position": "Director",
     "organization": "BIT, Gorakhpur India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Arvind Pandey.jpg"
   },
   {
     "name": "Prof. Shashank Srivastav",
     "position": "",
     "organization": "BIT, Gorakhpur, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Shashank Srivastava.jpg"
   },
   {
     "name": "Prof. Deependra Rastogi",
     "position": "",
     "organization": "IILM University, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Deependra Rastogi.jpg"
   },
   {
     "name": "Prof. N.Gayathri",
     "position": "",
     "organization": "GITAM University, Bangalore, India",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. N.Gayathri.jpg"
   },
   {
     "name": "Prof. S.Rakesh Kumar",
@@ -1226,7 +1226,7 @@ export const cards = [
     "name": "Prof. Ts. Dr. Murali Raman",
     "position": "Deputy Vice Chancellor",
     "organization": "Asia Pacific University, Malaysia",
-    "imgSrc": null
+    "imgSrc": "/ImportantPersons/Prof. Ts. Dr. Murali Raman.jpg"
   },
   {
     "name": "Dr. Rajeev Srivastava",

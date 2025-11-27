@@ -39,8 +39,9 @@ export default function ChairsFlowchart() {
       <div className="space-y-3">
         {tracks.map((category, index) => {
           const globalIndex = startIndex + index;
-          let trackLabel = "";
+          const hasChairs = Array.isArray(category.chairpersons) && category.chairpersons.length > 0;
 
+          let trackLabel = "";
           if (sectionTitle === "Regular Tracks") {
             if (index === 0) {
               trackLabel = "Main Track: ";
@@ -53,29 +54,34 @@ export default function ChairsFlowchart() {
 
           return (
             <div key={globalIndex} className="bg-white rounded-lg shadow-sm">
-              <button
-                className="w-full flex justify-between items-center p-3 text-sm md:text-base font-medium text-left text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 hover:bg-gray-50 transition-colors"
-                onClick={() => toggleChair(globalIndex)}
-              >
-                <span className="flex-1 pr-2">
+              {hasChairs ? (
+                <>
+                  <button
+                    className="w-full flex justify-between items-center p-3 text-sm md:text-base font-medium text-left text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 hover:bg-gray-50 transition-colors"
+                    onClick={() => toggleChair(globalIndex)}
+                  >
+                    <span className="flex-1 pr-2">
+                      <span className="font-bold text-[#024CAD] mr-2">{trackLabel}</span>
+                      {category.title}
+                    </span>
+                    <span className="flex-shrink-0">
+                      {openChair === globalIndex ? '-' : <ChevronDown className="w-4 h-4" />}
+                    </span>
+                  </button>
+                  {openChair === globalIndex && (
+                    <div className="p-3 border-t border-gray-200 bg-gray-50">
+                      <ul className="list-disc pl-6 space-y-2">
+                        {category.chairpersons.map((chair, i) => (
+                          <li key={i} className="text-gray-600 text-sm">{chair}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </>
+              ) : (
+                <div className="w-full p-3 text-sm md:text-base font-medium text-left text-gray-700">
                   <span className="font-bold text-[#024CAD] mr-2">{trackLabel}</span>
                   {category.title}
-                </span>
-                <span className="flex-shrink-0">
-                  {openChair === globalIndex ? '-' : <ChevronDown className="w-4 h-4" />}
-                </span>
-              </button>
-              {openChair === globalIndex && (
-                <div className="p-3 border-t border-gray-200 bg-gray-50">
-                  <ul className="list-disc pl-6 space-y-2">
-                    {Array.isArray(category.chairpersons) && category.chairpersons.length > 0 ? (
-                      category.chairpersons.map((chair, i) => (
-                        <li key={i} className="text-gray-600 text-sm">{chair}</li>
-                      ))
-                    ) : (
-                      <li className="text-gray-500 italic text-sm">Chairs not listed</li>
-                    )}
-                  </ul>
                 </div>
               )}
             </div>
