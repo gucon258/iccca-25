@@ -6,7 +6,7 @@ const OfflineSchedule = () => {
   return (
     <div className="w-full h-screen">
       <iframe
-        src="/schedules/offline-schedule.pdf"
+        src="/schedules/Technical_Session_Offline.pdf"
         className="w-full h-full border-0"
         title="Offline Technical Session Schedule"
         style={{ minHeight: "100vh" }}
